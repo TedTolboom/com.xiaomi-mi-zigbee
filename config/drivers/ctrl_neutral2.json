@@ -1,0 +1,30 @@
+{
+	"id": "ctrl_neutral2",
+	"name": {
+		"en": "Wireless light control double",
+		"nl": "Wireless light control double"
+	},
+	"class": "light",
+	"capabilities": [
+		"onoff"
+	],
+	"zigbee": {
+		"manufacturerName": "LUMI",
+		"productId": ["lumi.ctrl_neutral2"],
+		"deviceId": 6,
+		"profileId": 260,
+		"learnmode": {
+			"image": "/drivers/ctrl_neutral2/assets/learn.svg",
+			"instruction": {
+				"en": "Long press any power button to open more than 5 seconds until the blue light flashes three times after release",
+				"nl": "Long press any power button to open more than 5 seconds until the blue light flashes three times after release"
+			}
+		}
+	},
+	"images": {
+		"large": "/drivers/ctrl_neutral2/assets/images/large.png",
+		"small": "/drivers/ctrl_neutral2/assets/images/small.png"
+	},
+	"settings": [
+	]
+}

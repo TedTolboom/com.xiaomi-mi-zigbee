@@ -1,0 +1,33 @@
+{
+	"id": "sens",
+	"name": {
+		"en": "Temperature Humidity sensor",
+		"nl": "Temperature Humidity sensor"
+	},
+	"class": "sensor",
+	"capabilities": [
+		"measure_temperature",
+		"measure_humidity",
+		"measure_battery",
+		"alarm_battery"
+	],
+	"zigbee": {
+		"manufacturerName": "LUMI",
+		"productId": ["lumi.sens"],
+		"deviceId": [24321],
+		"profileId": 260,
+		"learnmode": {
+			"image": "/drivers/sens/assets/learn_temp.svg",
+			"instruction": {
+				"en": "Long press the button on top of the sensor to open more than 5 seconds until the blue light flashes three times after release",
+				"nl": "Long press the button on top of the sensor to open more than 5 seconds until the blue light flashes three times after release"
+			}
+		}
+	},
+	"images": {
+		"large": "/drivers/sens/assets/images/large.png",
+		"small": "/drivers/sens/assets/images/small.png"
+	},
+	"settings": [
+	]
+}

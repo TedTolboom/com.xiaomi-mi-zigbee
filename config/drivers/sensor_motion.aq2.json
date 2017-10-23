@@ -1,0 +1,32 @@
+{
+	"id": "sensor_motion.aq2",
+	"name": {
+		"en": "Aqara Human body sensor"
+	},
+	"class": "sensor",
+	"capabilities": [
+		"alarm_motion",
+		"measure_luminance",
+		"alarm_battery",
+		"measure_battery"
+	],
+	"zigbee": {
+		"manufacturerName": "LUMI",
+		"productId": "lumi.sensor_motion.aq2",
+		"deviceId": 260,
+		"profileId": 260,
+		"learnmode": {
+			"image": "/drivers/sensor_motion.aq2/assets/learn_human_body.svg",
+			"instruction": {
+				"en": "Long press the reset button to open more than 3 seconds until the blue light flashes three times after release",
+				"nl": "Long press the reset button to open more than 3 seconds until the blue light flashes three times after release"
+			}
+		}
+	},
+	"images": {
+		"large": "/drivers/sensor_motion.aq2/assets/images/large.png",
+		"small": "/drivers/sensor_motion.aq2/assets/images/small.png"
+	},
+	"settings": [
+	]
+}

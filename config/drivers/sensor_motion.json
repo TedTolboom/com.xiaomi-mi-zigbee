@@ -1,0 +1,32 @@
+{
+	"id": "sensor_motion",
+	"name": {
+		"en": "Motion sensor",
+		"nl": "Motion sensor"
+	},
+	"class": "sensor",
+	"capabilities": [
+		"alarm_motion",
+		"alarm_battery",
+		"measure_battery"
+	],
+	"zigbee": {
+		"manufacturerName": "LUMI",
+		"productId": "lumi.sensor_motion",
+		"deviceId": 260,
+		"profileId": 260,
+		"learnmode": {
+			"image": "/drivers/sensor_motion/assets/learn_human_body.svg",
+			"instruction": {
+				"en": "Long press the reset button to open more than 3 seconds until the blue light flashes three times after release",
+				"nl": "Long press the reset button to open more than 3 seconds until the blue light flashes three times after release"
+			}
+		}
+	},
+	"images": {
+		"large": "/drivers/sensor_motion/assets/images/large.png",
+		"small": "/drivers/sensor_motion/assets/images/small.png"
+	},
+	"settings": [
+	]
+}

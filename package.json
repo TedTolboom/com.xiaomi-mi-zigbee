@@ -1,11 +1,11 @@
 {
 	"name": "com.xiaomi-mi-zigbee",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "This app allows you to connect your Xiaomi-mi Zigbee Devices directly to Homey",
 	"main": "app.js",
 	"dependencies": {
 		"homey-log": "^1.0.3",
-		"homey-zigbeedriver": "git+https://git@github.com/athombv/node-homey-zigbeedriver.git"
+		"homey-meshdriver": "^1.2.4"
 	},
 	"devDependencies": {},
 	"scripts": {
@@ -14,12 +14,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/athombv/com.ikea.tradfri.git"
+		"url": "git+https://github.com/TedTolboom/com.xiaomi-mi-zigbee.git"
 	},
-	"author": "",
+	"author": "Ted Tolboom",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/athombv/com.ikea.tradfri/issues"
+		"url": "https://github.com/TedTolboom/com.xiaomi-mi-zigbee/issues"
 	},
-	"homepage": "https://github.com/athombv/com.ikea.tradfri#readme"
+	"homepage": "https://github.com/TedTolboom/com.xiaomi-mi-zigbee#readme"
 }

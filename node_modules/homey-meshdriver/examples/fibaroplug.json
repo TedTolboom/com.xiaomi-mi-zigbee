@@ -1,0 +1,40 @@
+{
+	"id": "fibaroplug",
+	"capabilities": [ "onoff" ],
+	"zwave": {
+		"manufacturerId": 271,
+		"productTypeId": 1536,
+		"productId": 4096,
+		"associationGroups": [ 1, 3 ]
+	},
+	"settings": [
+		
+		{
+			"id": "always_on",
+			"type": "checkbox",
+			"zwave": {
+				"index": 1,
+				"size": 1
+			},
+			"label": {
+				"en": "Always on",
+				"nl": "Altijd aan"
+			},
+			"value": false,
+			"hint": {
+				"en": "Once activated, will keep a connected device constantly on, will stop reacting to alarm frames and B-button push",
+				"nl": "Wanneer geactiveerd zal de plug constant aan zijn, en niet meer reageren op de B-knop en alarm frames"
+			}
+		},
+		
+		{
+			"id": "poll_interval",
+			"type": "number",
+			"label": {
+				"en": "Poll Interval"
+			},
+			"value": 3000
+		}
+		
+	]
+}

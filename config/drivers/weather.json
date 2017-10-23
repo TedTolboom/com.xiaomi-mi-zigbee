@@ -1,0 +1,32 @@
+{
+	"id": "weather",
+	"name": {
+		"en": "Aqara Weather sensor",
+		"nl": "Aqara Weather sensor"
+	},
+	"class": "sensor",
+	"capabilities": [
+		"measure_temperature",
+		"measure_pressure",
+		"measure_humidity"
+],
+	"zigbee": {
+		"manufacturerName": "LUMI",
+		"productId": ["lumi.weather"],
+		"deviceId": [770, 24321],
+		"profileId": 260,
+		"learnmode": {
+			"image": "/drivers/weather/assets/learn_temp.svg",
+			"instruction": {
+				"en": "Long press the button on top of the sensor to open more than 5 seconds until the blue light flashes three times after release",
+				"nl": "Long press the button on top of the sensor to open more than 5 seconds until the blue light flashes three times after release"
+			}
+		}
+	},
+	"images": {
+		"large": "/drivers/weather/assets/images/large.png",
+		"small": "/drivers/weather/assets/images/small.png"
+	},
+	"settings": [
+]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "dimmable_bulb",
+  "name": {
+    "en": "Dimmable Bulb",
+    "nl": "Dimbare Lamp"
+  },
+  "class": "light",
+  "capabilities": [
+    "onoff",
+    "dim"
+  ],
+  "zigbee": {
+    "manufacturerName": "IKEA of Sweden",
+    "productId": "TRADFRI bulb E27 opal 1000lm",
+    "deviceId": 256,
+    "profileId": 260,
+    "learnmode": {
+      "image": "/drivers/dimmable_bulb/assets/icon.svg",
+      "instruction": {
+        "en": "Turn the device on and off 6 times",
+        "nl": "Zet het apparaat 6 keer aan en uit"
+      }
+    }
+  },
+  "images": {
+    "large": "/drivers/dimmable_bulb/assets/images/large.png",
+    "small": "/drivers/dimmable_bulb/assets/images/small.png"
+  },
+  "settings": [
+    {
+      "id": "transtime",
+      "type": "number",
+      "label": {
+        "nl": "Transitie tijd in seconden",
+        "en": "Transition time in seconds"
+      },
+      "value": 1,
+      "attr": {
+        "min": 0,
+        "max": 20
+      }
+    }
+  ]
+}

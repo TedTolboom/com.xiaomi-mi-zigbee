@@ -1,0 +1,30 @@
+{
+	"id": "sensor_86sw2Un",
+	"name": {
+		"en": "Wireless light switch double",
+		"nl": "Wireless light switch double"
+	},
+	"class": "socket",
+	"capabilities": [
+		"onoff"
+	],
+	"zigbee": {
+		"manufacturerName": "LUMI",
+		"productId": ["lumi.sensor_86sw2Un"],
+		"deviceId": 24321,
+		"profileId": 260,
+		"learnmode": {
+			"image": "/drivers/sensor_86sw2Un/assets/learn.svg",
+			"instruction": {
+				"en": "Long press any power button to open more than 5 seconds until the blue light flashes three times after release",
+				"nl": "Long press any power button to open more than 5 seconds until the blue light flashes three times after release"
+			}
+		}
+	},
+	"images": {
+		"large": "/drivers/sensor_86sw2Un/assets/images/large.png",
+		"small": "/drivers/sensor_86sw2Un/assets/images/small.png"
+	},
+	"settings": [
+	]
+}
