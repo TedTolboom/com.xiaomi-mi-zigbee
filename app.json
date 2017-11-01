@@ -280,6 +280,20 @@
       },
       "settings": [
         {
+<<<<<<< HEAD
+          "id": "motion_timeout",
+          "value": 30,
+          "type": "number",
+          "attr": {
+            "min": 1,
+            "max": 3600
+          },
+          "label": {
+            "en": "Motion alarm cancellation delay (seconds)"
+          },
+          "hint": {
+            "en": "The time, in seconds after last detection, after which the motion alarm will be cancelled. \nRange: 1 - 3600\nDefault = 30"
+=======
           "id": "alarm_motion_reset_window",
           "type": "number",
           "label": {
@@ -294,6 +308,7 @@
           "attr": {
             "min": 1,
             "max": 86400
+>>>>>>> 248aeb91efc200d2de926617141ec9d407482aa9
           }
         }
       ]
@@ -431,7 +446,7 @@
       },
       "class": "button",
       "capabilities": [
-        "onoff"
+        "button"
       ],
       "zigbee": {
         "manufacturerName": "LUMI",

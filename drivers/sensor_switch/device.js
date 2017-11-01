@@ -71,7 +71,7 @@ class XiaomiWirelessSwitch extends ZigBeeDevice {
 
 		this.registerAttrReportListener('genOnOff', 'onOff', 1, 60, 1, data => {
 			this.log('genOnOff - onOff', data, data === 1);
-			this.setCapabilityValue('onoff', data === 1);
+			this.setCapabilityValue('button', data === 1);
 		}, 0);
 
 		this.registerReportListener('genOnOff', 'onOff', report => {
