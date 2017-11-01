@@ -6,7 +6,7 @@
 	},
 	"class": "button",
 	"capabilities": [
-		"onoff"
+		"button"
 	],
 	"zigbee": {
 		"manufacturerName": "LUMI",
