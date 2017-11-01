@@ -1,4 +1,4 @@
-# Xiaomi-mi Smart Home (Zigbee)
+# Xiaomi-mi Smart Home (Zigbee) - DEVELOPMENT BRANCH
 
 This app allows you to connect your Xiaomi-mi Smart Home Devices directly via Zigbee to Homey
 

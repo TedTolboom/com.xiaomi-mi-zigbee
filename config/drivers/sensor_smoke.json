@@ -1,8 +1,8 @@
 {
 	"id": "sensor_smoke",
 	"name": {
-		"en": "Smoke sensor",
-		"nl": "Smoke sensor"
+		"en": "Smoke detector",
+		"nl": "Smoke detector"
 	},
 	"class": "sensor",
 	"capabilities": [

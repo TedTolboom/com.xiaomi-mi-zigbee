@@ -1,49 +1,49 @@
 {
-  "id": "sensor_motion.aq2",
-  "name": {
-    "en": "Aqara Human Body Sensor"
-  },
-  "class": "sensor",
-  "capabilities": [
+	"id": "sensor_motion.aq2",
+	"name": {
+		"en": "Aqara Human Body Sensor"
+	},
+	"class": "sensor",
+	"capabilities": [
     "alarm_motion",
     "measure_luminance",
     "alarm_battery",
     "measure_battery"
   ],
-  "zigbee": {
-    "manufacturerName": "LUMI",
-    "productId": "lumi.sensor_motion.aq2",
-    "deviceId": 260,
-    "profileId": 260,
-    "learnmode": {
-      "image": "/drivers/sensor_motion.aq2/assets/learn_human_body.svg",
-      "instruction": {
-        "en": "Long press the reset button to open more than 3 seconds until the blue light flashes three times after release",
-        "nl": "Long press the reset button to open more than 3 seconds until the blue light flashes three times after release"
-      }
-    }
-  },
-  "images": {
-    "large": "/drivers/sensor_motion.aq2/assets/images/large.png",
-    "small": "/drivers/sensor_motion.aq2/assets/images/small.png"
-  },
-  "settings": [
-    {
-      "id": "alarm_motion_reset_window",
-      "type": "number",
-      "label": {
-        "en": "Disable motion alarm after",
-        "nl": "Schakel bewegingsalarm uit na"
-      },
-      "hint": {
-        "en": "This setting will disable the motion alarm after the given time (in seconds) has expired. Every time motion is observed by the device it will reset this timeout.",
-        "nl": "Deze instelling zal het bewegingsalarm uitschakelen na de tijd (in seconden) is verstreken. Elke keer dat opnieuw beweging wordt gedetecteerd wordt deze timer herstart."
-      },
-      "value": 300,
-      "attr": {
-        "min": 1,
-        "max": 86400
-      }
+	"zigbee": {
+		"manufacturerName": "LUMI",
+		"productId": "lumi.sensor_motion.aq2",
+		"deviceId": 260,
+		"profileId": 260,
+		"learnmode": {
+			"image": "/drivers/sensor_motion.aq2/assets/learn_human_body.svg",
+			"instruction": {
+				"en": "Long press the reset button for more than 3 seconds until the blue light flashes three times",
+				"nl": "Houd de reset knop ingedrukt voor meer dan 3 seconden totdat de blauwe led drie keer knippert"
+			}
+		}
+	},
+	"images": {
+		"large": "/drivers/sensor_motion.aq2/assets/images/large.png",
+		"small": "/drivers/sensor_motion.aq2/assets/images/small.png"
+	},
+	"settings": [
+		{
+			"id": "alarm_motion_reset_window",
+			"type": "number",
+			"label": {
+				"en": "Disable motion alarm after",
+				"nl": "Schakel bewegingsalarm uit na"
+			},
+			"hint": {
+				"en": "This setting will disable the motion alarm after the given time (in seconds) has expired. Every time motion is observed by the device it will reset this timeout.",
+				"nl": "Deze instelling zal het bewegingsalarm uitschakelen na de tijd (in seconden) is verstreken. Elke keer dat opnieuw beweging wordt gedetecteerd wordt deze timer herstart."
+			},
+			"value": 300,
+			"attr": {
+				"min": 1,
+				"max": 86400
+			}
     }
   ]
 }

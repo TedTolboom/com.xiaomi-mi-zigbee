@@ -1,28 +1,29 @@
 {
-  "id": "sensor_magnet.aq2",
-  "name": {
-    "en": "Aqara Window/Door Sensor"
-  },
-  "class": "sensor",
-  "capabilities": [
+	"id": "sensor_magnet.aq2",
+	"name": {
+		"en": "Aqara Window/Door Sensor"
+	},
+	"class": "sensor",
+	"capabilities": [
     "alarm_contact"
   ],
-  "zigbee": {
-    "manufacturerName": "LUMI",
-    "productId": [
+	"zigbee": {
+		"manufacturerName": "LUMI",
+		"productId": [
       "lumi.sensor_magnet.aq2"
     ],
-    "deviceId": 24321,
-    "profileId": 260,
-    "learnmode": {
-      "image": "/drivers/sensor_magnet.aq2/assets/learn_door.svg",
-      "instruction": {
-        "en": "Long press the reset button to open more than 3 seconds until the blue light flashes three times after release"
-      }
-    }
-  },
-  "images": {
-    "large": "/drivers/sensor_magnet.aq2/assets/images/large.png",
-    "small": "/drivers/sensor_magnet.aq2/assets/images/small.png"
-  }
+		"deviceId": 24321,
+		"profileId": 260,
+		"learnmode": {
+			"image": "/drivers/sensor_magnet.aq2/assets/learn_door.svg",
+			"instruction": {
+				"en": "Long press the reset button for more than 3 seconds until the blue light flashes three times",
+				"nl": "Houd de reset knop ingedrukt voor meer dan 3 seconden totdat de blauwe led drie keer knippert"
+			}
+		}
+	},
+	"images": {
+		"large": "/drivers/sensor_magnet.aq2/assets/images/large.png",
+		"small": "/drivers/sensor_magnet.aq2/assets/images/small.png"
+	}
 }

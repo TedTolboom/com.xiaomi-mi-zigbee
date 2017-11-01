@@ -1,8 +1,8 @@
 {
 	"id": "sensor_wleak.aq1",
 	"name": {
-		"en": "Leak sensor",
-		"nl": "Leak sensor"
+		"en": "Aqara Water sensor",
+		"nl": "Aqara Water sensor"
 	},
 	"class": "sensor",
 	"capabilities": [

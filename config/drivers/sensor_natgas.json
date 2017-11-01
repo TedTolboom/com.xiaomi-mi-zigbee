@@ -1,8 +1,8 @@
 {
 	"id": "sensor_natgas",
 	"name": {
-		"en": "Gas sensor",
-		"nl": "Gas sensor"
+		"en": "Gas Leak detector",
+		"nl": "Gas Leak detector"
 	},
 	"class": "sensor",
 	"capabilities": [

@@ -16,11 +16,6 @@ class AqaraDoorWindowSensor extends ZigBeeDevice {
 module.exports = AqaraDoorWindowSensor;
 
 // MCCGQ11LM_sensor_magnet
-// https://github.com/bspranger/Xiaomi/blob/master/devicetypes/a4refillpad/xiaomi-aqara-door-window-sensor.src/xiaomi-aqara-door-window-sensor.groovy
-//  fingerprint profileId: "0104", deviceId: "0104",
-// inClusters: "0000, 0003",
-// outClusters: "0000, 0004",
-// manufacturer: "LUMI", model: "lumi.sensor_magnet.aq2", deviceJoinName: "Xiaomi Aqara Door Sensor"
 /*
 2017-09-14 20:48:16 [log] [ManagerDrivers] [aqara_door_window_sensor] [0] ------------------------------------------
 2017-09-14 20:48:16 [log] [ManagerDrivers] [aqara_door_window_sensor] [0] Node: e827ed2c-c8ec-4cba-9072-97131017da00
