@@ -21,6 +21,14 @@
     "large": "/assets/images/large.png",
     "small": "/assets/images/small.png"
   },
+  "contributors": {
+    "developers": [
+      {
+        "name": "Sprut",
+        "email": "sprut.1@me.com"
+      }
+    ]
+  },
   "flow": {},
   "drivers": [
     {
@@ -51,6 +59,35 @@
       "images": {
         "large": "/drivers/ctrl_neutral2/assets/images/large.png",
         "small": "/drivers/ctrl_neutral2/assets/images/small.png"
+      },
+      "settings": []
+    },
+    {
+      "id": "curtain",
+      "name": {
+        "en": "Curtain",
+        "nl": "Curtain"
+      },
+      "class": "windowcoverings",
+      "capabilities": [
+        "onoff"
+      ],
+      "zigbee": {
+        "manufacturerName": "LUMI",
+        "productId": "lumi.curtain",
+        "deviceId": 514,
+        "profileId": 260,
+        "learnmode": {
+          "image": "/drivers/curtain/assets/learn.svg",
+          "instruction": {
+            "en": "Press 3 times quickly to hear the device ring 3 times",
+            "nl": "Press 3 times quickly to hear the device ring 3 times"
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/curtain/assets/images/large.png",
+        "small": "/drivers/curtain/assets/images/small.png"
       },
       "settings": []
     },
@@ -127,7 +164,7 @@
         "en": "Wireless light switch double",
         "nl": "Wireless light switch double"
       },
-      "class": "light",
+      "class": "button",
       "capabilities": [
         "onoff"
       ],
@@ -293,6 +330,69 @@
       "settings": []
     },
     {
+      "id": "sensor_natgas",
+      "name": {
+        "en": "Gas sensor",
+        "nl": "Gas sensor"
+      },
+      "class": "sensor",
+      "capabilities": [
+        "alarm_co",
+        "measure_temperature",
+        "alarm_battery",
+        "measure_battery"
+      ],
+      "zigbee": {
+        "manufacturerName": "LUMI",
+        "productId": "lumi.sensor_natgas",
+        "deviceId": 257,
+        "profileId": 260,
+        "learnmode": {
+          "image": "/drivers/sensor_natgas/assets/learn.svg",
+          "instruction": {
+            "en": "Press 3 times quickly to hear the device ring 3 times",
+            "nl": "Press 3 times quickly to hear the device ring 3 times"
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/sensor_natgas/assets/images/large.png",
+        "small": "/drivers/sensor_natgas/assets/images/small.png"
+      },
+      "settings": []
+    },
+    {
+      "id": "sensor_smoke",
+      "name": {
+        "en": "Smoke sensor",
+        "nl": "Smoke sensor"
+      },
+      "class": "sensor",
+      "capabilities": [
+        "alarm_smoke",
+        "alarm_battery",
+        "measure_battery"
+      ],
+      "zigbee": {
+        "manufacturerName": "LUMI",
+        "productId": "lumi.sensor_smoke",
+        "deviceId": 1026,
+        "profileId": 260,
+        "learnmode": {
+          "image": "/drivers/sensor_smoke/assets/learn.svg",
+          "instruction": {
+            "en": "Press 3 times quickly to hear the device ring 3 times",
+            "nl": "Press 3 times quickly to hear the device ring 3 times"
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/sensor_smoke/assets/images/large.png",
+        "small": "/drivers/sensor_smoke/assets/images/small.png"
+      },
+      "settings": []
+    },
+    {
       "id": "sensor_switch.aq2",
       "name": {
         "en": "Aqara Wireless switch",
@@ -351,6 +451,37 @@
       "images": {
         "large": "/drivers/sensor_switch/assets/images/large.png",
         "small": "/drivers/sensor_switch/assets/images/small.png"
+      },
+      "settings": []
+    },
+    {
+      "id": "sensor_wleak.aq1",
+      "name": {
+        "en": "Leak sensor",
+        "nl": "Leak sensor"
+      },
+      "class": "sensor",
+      "capabilities": [
+        "alarm_water",
+        "alarm_battery",
+        "measure_battery"
+      ],
+      "zigbee": {
+        "manufacturerName": "LUMI",
+        "productId": "lumi.sensor_wleak.aq1",
+        "deviceId": 1026,
+        "profileId": 260,
+        "learnmode": {
+          "image": "/drivers/sensor_wleak.aq1/assets/learn.svg",
+          "instruction": {
+            "en": "Pinch the sensor for 5 seconds until the blue light flashes continuously",
+            "nl": "Pinch the sensor for 5 seconds until the blue light flashes continuously"
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/sensor_wleak.aq1/assets/images/large.png",
+        "small": "/drivers/sensor_wleak.aq1/assets/images/small.png"
       },
       "settings": []
     },
