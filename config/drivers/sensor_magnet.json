@@ -1,5 +1,6 @@
 {
 	"id": "sensor_magnet",
+	"branch": "beta",
 	"name": {
 		"en": "Door/Window sensor",
 		"nl": "Door/Window sensor"
