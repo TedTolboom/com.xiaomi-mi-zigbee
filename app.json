@@ -45,6 +45,14 @@
     "large": "/assets/images/large.png",
     "small": "/assets/images/small.png"
   },
+  "contributors": {
+    "developers": [
+      {
+        "name": "Sprut",
+        "email": "sprut.1@me.com"
+      }
+    ]
+  },
   "flow": {},
   "drivers": [
     {
@@ -85,8 +93,8 @@
     {
       "id": "curtain",
       "name": {
-        "en": "Curtain Controller",
-        "nl": "Curtain Controller"
+        "en": "Curtain",
+        "nl": "Curtain"
       },
       "class": "windowcoverings",
       "capabilities": [
@@ -187,7 +195,7 @@
         "en": "Aqara Wireless Remote Switch Double",
         "nl": "Aqara Wireless Remote Switch Double"
       },
-      "class": "socket",
+      "class": "button",
       "capabilities": [
         "onoff"
       ],
@@ -357,8 +365,8 @@
     {
       "id": "sensor_natgas",
       "name": {
-        "en": "Gas Leak detector",
-        "nl": "Gas Leak detector"
+        "en": "Gas sensor",
+        "nl": "Gas sensor"
       },
       "class": "sensor",
       "capabilities": [
@@ -389,8 +397,8 @@
     {
       "id": "sensor_smoke",
       "name": {
-        "en": "Smoke detector",
-        "nl": "Smoke detector"
+        "en": "Smoke sensor",
+        "nl": "Smoke sensor"
       },
       "class": "sensor",
       "capabilities": [
@@ -482,8 +490,8 @@
     {
       "id": "sensor_wleak.aq1",
       "name": {
-        "en": "Aqara Water sensor",
-        "nl": "Aqara Water sensor"
+        "en": "Leak sensor",
+        "nl": "Leak sensor"
       },
       "class": "sensor",
       "capabilities": [

@@ -4,6 +4,7 @@
 	"description": "This app allows you to connect your Xiaomi-mi Zigbee Devices directly to Homey",
 	"main": "app.js",
 	"dependencies": {
+		"git-branch": "^1.0.0",
 		"homey-log": "^1.0.3",
 		"homey-meshdriver": "^1.2.4"
 	},

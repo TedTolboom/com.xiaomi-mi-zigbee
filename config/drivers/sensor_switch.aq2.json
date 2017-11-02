@@ -4,7 +4,7 @@
 		"en": "Aqara Wireless switch",
 		"nl": "Aqara Wireless switch"
 	},
-	"class": "socket",
+	"class": "button",
 	"capabilities": [
 		"onoff"
 	],
