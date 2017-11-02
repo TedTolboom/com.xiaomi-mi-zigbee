@@ -23,7 +23,7 @@ class AqaraHumanBodySensor extends ZigBeeDevice {
 		this.motionTimeout = setTimeout(() => {
 			this.log('manual alarm_motion reset');
 			this.setCapabilityValue('alarm_motion', false);
-		}, (this.getSetting('alarm_motion_reset_window') * 1000) || 300);
+		}, (this.getSetting('alarm_motion_reset_window') || 60) * 1000);
 
 		// Update capability value
 		this.setCapabilityValue('alarm_motion', value === 1);
