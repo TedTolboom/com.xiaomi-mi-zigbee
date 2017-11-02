@@ -26,7 +26,7 @@ class AqaraWeatherSensor extends ZigBeeDevice {
 		const repChangePres = this.getSetting('repChangePres') || 100; // note: 1 = 0.01 [%]
 
 		// Register the AttributeReportListener
-		this.registerAttrReportListener('msPressureMeasurement', 'measuredValue', minIntPres, maxIntPres, repChangePres,
+		this.registerAttrReportListener('msPressureMeasurement', '16', minIntPres, maxIntPres, repChangePres,
 			this.onPressureReport.bind(this));
 	}
 
@@ -43,7 +43,7 @@ class AqaraWeatherSensor extends ZigBeeDevice {
 	}
 
 	onPressureReport(value) {
-		const parsedValue = Math.round((value / 100) * 10) / 10;
+		const parsedValue = Math.round((value / 100) * 10);
 		this.log('measure_pressure', parsedValue);
 		this.setCapabilityValue('measure_pressure', parsedValue);
 	}
@@ -52,10 +52,6 @@ class AqaraWeatherSensor extends ZigBeeDevice {
 module.exports = AqaraWeatherSensor;
 
 // WSDCGQ11LM_weather
-// https://github.com/bspranger/Xiaomi/blob/master/devicetypes/a4refillpad/xiaomi-aqara-temperature-humidity-sensor.src/xiaomi-aqara-temperature-humidity-sensor.groovy
-// fingerprint profileId: "0104", deviceId: "0302",
-// inClusters: "0000, 0003, FFFF, 0402, 0403, 0405", outClusters: "0000, 0004, FFFF",
-// manufacturer: "LUMI", model: "lumi.weather", deviceJoinName: "Xiaomi Aqara Temp Sensor"
 
 /*
 2017-09-09 18:54:06 [log] [ManagerDrivers] [temperature_humidity_pressure_sensor] [0] - Battery: false

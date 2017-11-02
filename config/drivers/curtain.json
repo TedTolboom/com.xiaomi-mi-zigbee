@@ -1,8 +1,8 @@
 {
 	"id": "curtain",
 	"name": {
-		"en": "Curtain",
-		"nl": "Curtain"
+		"en": "Curtain Controller",
+		"nl": "Curtain Controller"
 	},
 	"class": "windowcoverings",
 	"capabilities": [

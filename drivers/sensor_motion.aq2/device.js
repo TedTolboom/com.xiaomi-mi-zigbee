@@ -3,8 +3,13 @@
 const ZigBeeDevice = require('homey-meshdriver').ZigBeeDevice;
 
 class AqaraHumanBodySensor extends ZigBeeDevice {
-
 	onMeshInit() {
+
+		// enable debugging
+		this.enableDebug();
+
+		// print the node's info to the console
+		this.printNode();
 
 		// Register attribute listener for occupancy
 		this.registerAttrReportListener('msOccupancySensing', 'occupancy', 1, 3600, 1,
@@ -38,10 +43,6 @@ class AqaraHumanBodySensor extends ZigBeeDevice {
 module.exports = AqaraHumanBodySensor;
 
 // RTCGQ11LM_sensor_motion
-// fingerprint profileId: "0104", deviceId: "0104",
-// inClusters: "0000, 0003, FFFF, 0019",
-// outClusters: "0000, 0004, 0003, 0006, 0008, 0005, 0019",
-// manufacturer: "LUMI", model: "lumi.sensor_motion.aq2", deviceJoinName: "Xiaomi Motion"
 
 /*
 2017-09-14 20:29:21 [log] [ManagerDrivers] [aqara_human_body_sensor] [0] ZigBeeDevice has been inited

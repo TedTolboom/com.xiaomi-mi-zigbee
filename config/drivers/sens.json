@@ -1,8 +1,8 @@
 {
 	"id": "sens",
 	"name": {
-		"en": "Temperature Humidity sensor",
-		"nl": "Temperature Humidity sensor"
+		"en": "Temperature/Humidity sensor",
+		"nl": "Temperature/Humidity sensor"
 	},
 	"class": "sensor",
 	"capabilities": [

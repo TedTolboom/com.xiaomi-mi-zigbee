@@ -1,17 +1,8 @@
 'use strict';
 
-const Homey = require('homey');
-
 const ZigBeeDevice = require('homey-meshdriver').ZigBeeDevice;
 
-// https://github.com/bspranger/Xiaomi/blob/master/devicetypes/a4refillpad/xiaomi-aqara-door-window-sensor.src/xiaomi-aqara-door-window-sensor.groovy
-//  fingerprint profileId: "0104", deviceId: "0104",
-// inClusters: "0000, 0003",
-// outClusters: "0000, 0004",
-// manufacturer: "LUMI", model: "lumi.sensor_magnet.aq2", deviceJoinName: "Xiaomi Aqara Door Sensor"
-
-class AqaraWaterSensor extends ZigBeeDevice
-{
+class AqaraWaterSensor extends ZigBeeDevice {
 	onMeshInit() {
 
 		// enable debugging
@@ -36,3 +27,25 @@ class AqaraWaterSensor extends ZigBeeDevice
 }
 
 module.exports = AqaraWaterSensor;
+
+/*
+2017-10-29 19:03:00 [log] [ManagerDrivers] [sensor_wleak.aq1] [0] ------------------------------------------
+2017-10-29 19:03:00 [log] [ManagerDrivers] [sensor_wleak.aq1] [0] Node: ccdc2a0a-a438-42d3-a3d7-4de0de5e21e4
+2017-10-29 19:03:00 [log] [ManagerDrivers] [sensor_wleak.aq1] [0] - Battery: false
+2017-10-29 19:03:00 [log] [ManagerDrivers] [sensor_wleak.aq1] [0] - Endpoints: 0
+2017-10-29 19:03:00 [log] [ManagerDrivers] [sensor_wleak.aq1] [0] -- Clusters:
+2017-10-29 19:03:00 [log] [ManagerDrivers] [sensor_wleak.aq1] [0] --- zapp
+2017-10-29 19:03:00 [log] [ManagerDrivers] [sensor_wleak.aq1] [0] --- genBasic
+2017-10-29 19:03:00 [log] [ManagerDrivers] [sensor_wleak.aq1] [0] ---- cid : genBasic
+2017-10-29 19:03:00 [log] [ManagerDrivers] [sensor_wleak.aq1] [0] ---- sid : attrs
+2017-10-29 19:03:00 [log] [ManagerDrivers] [sensor_wleak.aq1] [0] --- genPowerCfg
+2017-10-29 19:03:00 [log] [ManagerDrivers] [sensor_wleak.aq1] [0] ---- cid : genPowerCfg
+2017-10-29 19:03:00 [log] [ManagerDrivers] [sensor_wleak.aq1] [0] ---- sid : attrs
+2017-10-29 19:03:00 [log] [ManagerDrivers] [sensor_wleak.aq1] [0] --- genIdentify
+2017-10-29 19:03:00 [log] [ManagerDrivers] [sensor_wleak.aq1] [0] ---- cid : genIdentify
+2017-10-29 19:03:00 [log] [ManagerDrivers] [sensor_wleak.aq1] [0] ---- sid : attrs
+2017-10-29 19:03:00 [log] [ManagerDrivers] [sensor_wleak.aq1] [0] --- genOta
+2017-10-29 19:03:00 [log] [ManagerDrivers] [sensor_wleak.aq1] [0] ---- cid : genOta
+2017-10-29 19:03:00 [log] [ManagerDrivers] [sensor_wleak.aq1] [0] ---- sid : attrs
+2017-10-29 19:03:00 [log] [ManagerDrivers] [sensor_wleak.aq1] [0] ------------------------------------------
+*/

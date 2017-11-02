@@ -1,8 +1,8 @@
 {
 	"id": "plug",
 	"name": {
-		"en": "Smart plug",
-		"nl": "Smart plug"
+		"en": "Smart socket plug",
+		"nl": "Smart socket plug"
 	},
 	"class": "socket",
 	"capabilities": [
