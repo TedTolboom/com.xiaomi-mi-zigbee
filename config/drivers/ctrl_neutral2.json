@@ -1,8 +1,8 @@
 {
 	"id": "ctrl_neutral2",
 	"name": {
-		"en": "Wireless light control double",
-		"nl": "Wireless light control double"
+		"en": "Aqara Wall Switch Double",
+		"nl": "Aqara Wall Switch Double"
 	},
 	"class": "light",
 	"capabilities": [

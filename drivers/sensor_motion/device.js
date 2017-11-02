@@ -1,8 +1,37 @@
 'use strict';
 
-const Homey = require('homey');
-
 const ZigBeeDevice = require('homey-meshdriver').ZigBeeDevice;
+
+class XiaomiHumanBodySensor extends ZigBeeDevice {
+	onMeshInit() {
+
+		// enable debugging
+		this.enableDebug();
+
+		// print the node's info to the console
+		this.printNode();
+
+		// Register attribute listener for occupancy
+		this.registerAttrReportListener('msOccupancySensing', 'occupancy', 1, 3600, 1,
+			this.onOccupancyReport.bind(this));
+	}
+
+	onOccupancyReport(value) {
+		this.log('alarm_motion', value === 1);
+
+		// Set and clear motion timeout
+		clearTimeout(this.motionTimeout);
+		this.motionTimeout = setTimeout(() => {
+			this.log('manual alarm_motion reset');
+			this.setCapabilityValue('alarm_motion', false);
+		}, (this.getSetting('alarm_motion_reset_window') || 300) * 1000);
+
+		// Update capability value
+		this.setCapabilityValue('alarm_motion', value === 1);
+	}
+}
+
+module.exports = XiaomiHumanBodySensor;
 
 // RTCGQ01LM_sensor_motion
 /*
@@ -41,57 +70,3 @@ const ZigBeeDevice = require('homey-meshdriver').ZigBeeDevice;
 2017-11-01 20:09:28 [log] [ManagerDrivers] [sensor_motion] [0] ---- sid : attrs
 2017-11-01 20:09:28 [log] [ManagerDrivers] [sensor_motion] [0] ------------------------------------------
 */
-
-
-class XiaomiHumanBodySensor extends ZigBeeDevice {
-	onMeshInit() {
-
-		// enable debugging
-		this.enableDebug();
-
-		// print the node's info to the console
-		this.printNode();
-
-		// Occupancy Cluster
-		// Register alarm_motion capability
-		this.log('Initializing Occupancy (0x0401) Cluster');
-		// The minimal reporting interval in seconds (e.g. 10 (seconds)):
-		this.minIntMot = this.getSetting('minIntMot') || 1;
-		// The maximal reporting interval in seconds (e.g. 300 (seconds))
-		this.maxIntMot = this.getSetting('maxIntMot') || 600; // 600 = 60 seconds
-
-		// The maximal reporting interval in seconds (e.g. 300 (seconds))
-		this.IntCanMot = this.getSetting('IntCanMot') || 60;
-
-		// Register the AttributeReportListener
-		this.registerAttrReportListener(
-				'msOccupancySensing', // Cluster
-				'0x0000', // Attr
-				this.minIntMot,
-				this.maxIntMot,
-				1,
-				this.onMotionReport.bind(this), // Callback with value
-				0) // The endpoint index
-			.then(() => {
-				// Registering attr reporting succeeded
-				this.log('registered attr report listener');
-			})
-			.catch(err => {
-				// Registering attr reporting failed
-				this.error('failed to register attr report listener', err);
-			});
-		// Not useful in this case, but using registerReportListener you can subscribe to incoming reports
-		this.registerReportListener('msOccupancySensing', 'occupancy', report => {
-			console.log('reportListener', report);
-		});
-
-	}
-	onMotionReport(value) {
-		this.log('msOccupancySensing - occupancy', value === 1);
-		this.setCapabilityValue('alarm_motion', value === 1);
-
-	}
-
-}
-
-module.exports = XiaomiHumanBodySensor;

@@ -1,8 +1,8 @@
 {
 	"id": "sensor_motion",
 	"name": {
-		"en": "Motion sensor",
-		"nl": "Motion sensor"
+		"en": "Occupancy sensor",
+		"nl": "Occupancy sensor"
 	},
 	"class": "sensor",
 	"capabilities": [
@@ -18,8 +18,8 @@
 		"learnmode": {
 			"image": "/drivers/sensor_motion/assets/learn_human_body.svg",
 			"instruction": {
-				"en": "Long press the reset button to open more than 3 seconds until the blue light flashes three times after release",
-				"nl": "Long press the reset button to open more than 3 seconds until the blue light flashes three times after release"
+				"en": "Long press the reset button for more than 3 seconds until the blue light flashes three times",
+				"nl": "Houd de reset knop ingedrukt voor meer dan 3 seconden totdat de blauwe led drie keer knippert"
 			}
 		}
 	},

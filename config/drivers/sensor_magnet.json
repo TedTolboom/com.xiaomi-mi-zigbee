@@ -21,7 +21,8 @@
 		"learnmode": {
 			"image": "/drivers/sensor_magnet/assets/learn_door.svg",
 			"instruction": {
-				"en": "Long press the reset button to open more than 3 seconds until the blue light flashes three times after release"
+				"en": "Long press the reset button for more than 3 seconds until the blue light flashes three times\nNote: keep pressing the reset button every 5 seconds to keep the sensor awake during the inclusion",
+				"nl": "Houd de reset knop ingedrukt voor meer dan 3 seconden totdat de blauwe led drie keer knippert\nNote: blijf de reset knop iedere 5 seconden indrukken om de sensor wakker te houden tijden het toevoegen"
 			}
 		}
 	},
