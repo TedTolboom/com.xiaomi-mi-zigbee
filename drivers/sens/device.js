@@ -6,41 +6,42 @@ class XiaomiTempSensor extends ZigBeeDevice {
 	onMeshInit() {
 
 		// enable debugging
-		this.enableDebug();
+		// this.enableDebug();
 
 		// print the node's info to the console
-		this.printNode();
+		// this.printNode();
 
 		const minIntTemp = this.getSetting('minIntTemp') || 60;
 		const maxIntTemp = this.getSetting('maxIntTemp') || 3600;
 		const repChangeTemp = this.getSetting('repChangeTemp') || 50; // note: 1 = 0.01 [°C]
 
+        // It appears we cannot configure reporting for this device, so just pretend we did so already
+        this.configureReportInProcess = true;
+        
 		// Register the AttributeReportListener
-		this.registerAttrReportListener('msTemperatureMeasurement', 'measuredValue', minIntTemp, maxIntTemp, repChangeTemp,
-			this.onTemperatureReport.bind(this));
-
-		const minIntHum = this.getSetting('minIntHum') || 60;
-		const maxIntHum = this.getSetting('maxIntHum') || 3600;
-		const repChangeHum = this.getSetting('repChangeHum') || 100; // note: 1 = 0.01 [%]
-
-		// Register the AttributeReportListener
-		this.registerAttrReportListener('msRelativeHumidity', 'measuredValue', minIntHum, maxIntHum, repChangeHum,
-			this.onHumidityReport.bind(this));
-
+		this.registerAttrReportListener('genBasic', '65281', minIntTemp, maxIntTemp, repChangeTemp,
+			this.onTemperatureHumidityReport.bind(this));
 	}
 
-	onTemperatureReport(value) {
-		const parsedValue = Math.round((value / 100) * 10) / 10;
-		this.log('measure_temperature', parsedValue);
-		this.setCapabilityValue('measure_temperature', parsedValue);
+	onTemperatureHumidityReport(value) {
+	    if(value.length != 31) {
+	        this.log('Unknown report');
+	    } else {
+	        const bytes = new Buffer(value, 'ascii')
+	        // this.log('vals', bytes[21], bytes[22], bytes[25], bytes[26])
+            
+            var tempRaw = (bytes[21] + (bytes[22] << 8));
+            if((tempRaw & 0x8000) != 0) tempRaw -= 0x10000;
+            const temp = tempRaw / 100.0;
+            
+            const hum = (bytes[25] + (bytes[26] << 8)) / 100.0;
+            this.log('measure_temperature', temp);
+            this.log('measure_humidity', hum);
+            // this.log('raw', value + " -- " + bytes.toString('hex'));
+            this.setCapabilityValue('measure_temperature', temp);
+            this.setCapabilityValue('measure_humidity', hum);
+	    }
 	}
-
-	onHumidityReport(value) {
-		const parsedValue = Math.round((value / 100) * 10) / 10;
-		this.log('measure_humidity', parsedValue);
-		this.setCapabilityValue('measure_humidity', parsedValue);
-	}
-
 }
 
 module.exports = XiaomiTempSensor;
