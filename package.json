@@ -6,7 +6,7 @@
 	"dependencies": {
 		"git-branch": "^1.0.0",
 		"homey-log": "^1.0.3",
-		"homey-meshdriver": "^1.2.7"
+		"homey-meshdriver": "^1.2.12"
 	},
 	"devDependencies": {},
 	"scripts": {
@@ -18,7 +18,7 @@
 		"url": "git+https://github.com/TedTolboom/com.xiaomi-mi-zigbee.git"
 	},
 	"author": "Ted Tolboom",
-	"license": "ISC",
+	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/TedTolboom/com.xiaomi-mi-zigbee/issues"
 	},

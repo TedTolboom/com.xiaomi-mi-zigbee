@@ -7,16 +7,18 @@ const ZigBeeDevice = require('homey-meshdriver').ZigBeeDevice;
 class AqaraLightSwitchSingle extends ZigBeeDevice {
 
 	onMeshInit() {
-		// define and register FlowCardTriggers
-		this.triggerButton1_scene = new Homey.FlowCardTriggerDevice('button1_scene');
-		this.triggerButton1_scene
-			.register()
-			.registerRunListener((args, state) => {
-				return Promise.resolve(args.scene === state.scene);
-			});
-		this.triggerButton1_button = new Homey.FlowCardTriggerDevice('button1_button');
-		this.triggerButton1_button
-			.register();
+
+		// enable debugging
+		// this.enableDebug();
+
+		// print the node's info to the console
+		// this.printNode();
+
+		this.sceneMap = {
+			0: {
+				scene: 'Key Pressed 1 time'
+			},
+		};
 
 		this._attrReportListeners['0_genOnOff'] = this._attrReportListeners['0_genOnOff'] || {};
 		this._attrReportListeners['0_genOnOff']['onOff'] = this.onOnOffListener.bind(this);
@@ -24,28 +26,54 @@ class AqaraLightSwitchSingle extends ZigBeeDevice {
 		this._attrReportListeners['0_genBasic'] = this._attrReportListeners['0_genBasic'] || {};
 		this._attrReportListeners['0_genBasic']['65281'] = this.onLifelineReport.bind(this);
 
-		// Register the AttributeReportListener - Lifeline
-		this.registerAttrReportListener('genBasic', '65281', 1, 60, null,
-				this.onLifelineReport.bind(this), 0)
-			.then(() => {
-				// Registering attr reporting succeeded
-				this.log('registered attr report listener - genBasic - Lifeline');
-			})
-			.catch(err => {
-				// Registering attr reporting failed
-				this.error('failed to register attr report listener - genBasic - Lifeline', err);
+		// define and register FlowCardTriggers
+		this.onSceneAutocomplete = this.onSceneAutocomplete.bind(this);
+
+		this.triggerButton1_button = new Homey.FlowCardTriggerDevice('button1_button');
+		this.triggerButton1_button
+			.register();
+
+		// DEPRECATED flowCardTrigger for scene
+		this.triggerButton1_scene = new Homey.FlowCardTriggerDevice('button1_scene');
+		this.triggerButton1_scene
+			.register()
+			.registerRunListener((args, state) => {
+				return Promise.resolve(args.scene === state.scene);
 			});
+
 	}
 
-	onOnOffListener(data) {
-		this.log('genOnOff - onOff', data);
-		const remoteValue = {
-			scene: 'Key Pressed 1 time',
-		};
-		// Trigger the trigger card with 1 dropdown option
-		this.triggerButton1_scene.trigger(this, this.triggerButton1_scene.getArgumentValues, remoteValue);
-		// Trigger the trigger card with tokens
-		this.triggerButton1_button.trigger(this, remoteValue, null);
+	onOnOffListener(repScene) {
+		this.log('genOnOff - onOff', repScene);
+
+		if (Object.keys(this.sceneMap).includes(repScene.toString())) {
+			const remoteValue = {
+				scene: this.sceneMap[repScene].scene,
+			};
+			// Trigger the trigger card with 1 dropdown option
+			Homey.app.triggerButton1_scene.trigger(this, null, remoteValue);
+			// Trigger the trigger card with tokens
+			this.triggerButton1_button.trigger(this, remoteValue, null);
+
+			// DEPRECATED Trigger the trigger card with 1 dropdown option
+			this.triggerButton1_scene.trigger(this, null, remoteValue);
+		}
+	}
+
+	onSceneAutocomplete(query, args, callback) {
+		let resultArray = [];
+		for (let sceneID in this.sceneMap) {
+			resultArray.push({
+				id: this.sceneMap[sceneID].scene,
+				name: Homey.__(this.sceneMap[sceneID].scene),
+			})
+		}
+		// filter for query
+		resultArray = resultArray.filter(result => {
+			return result.name.toLowerCase().indexOf(query.toLowerCase()) > -1;
+		});
+		this.log(resultArray);
+		return Promise.resolve(resultArray);
 	}
 
 	onLifelineReport(value) {

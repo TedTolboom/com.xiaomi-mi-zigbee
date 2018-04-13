@@ -27,7 +27,8 @@ Please file Pull Requests on the *development* branch of this repository and wit
 * [Aqara Temperature and Humidity Sensor](https://xiaomi-mi.com/sockets-and-sensors/aqara-human-body-sensor/) (temperature, relative humidity, atmospheric pressure)
 * [Aqara Smart Light Wall Switch Single](https://xiaomi-mi.com/sockets-and-sensors/aqara-smart-light-wall-switch-zigbee-version-single-key/) / [Double](https://xiaomi-mi.com/sockets-and-sensors/aqara-smart-light-wall-switch-zigbee-version-double-key/) (onoff)
 * [Aqara Smart Socket ZigBee Version](https://xiaomi-mi.com/sockets-and-sensors/aqara-smart-socket-zigbee-version/) (onoff, measure_power)
-* [Aqara Wireless switch](https://xiaomi-mi.com/sockets-and-sensors/xiaomi-aqara-smart-wireless-switch/) (1x - 4x click)   
+* [Aqara Wireless switch (WXKG11LM)](https://xiaomi-mi.com/sockets-and-sensors/xiaomi-aqara-smart-wireless-switch/) (1x - 4x click)   
+[Aqara Wireless switch with Gyro (WXKG12LM)](https://xiaomi-mi.com/sockets-and-sensors/xiaomi-aqara-smart-wireless-switch/) (1x, 2x click, key held, key released, Shaken)
 * [Aqara Wireless Remote Switch Single](https://xiaomi-mi.com/sockets-and-sensors/aqara-smart-light-wall-switch-single-key/) / [Double](https://xiaomi-mi.com/sockets-and-sensors/remote-switch-for-aqara-smart-light-wall-switch-double-key/) (1x click for each button and combined)     
 
 **Notes:**
@@ -58,6 +59,17 @@ Any requests please post them in the [Xiaomi-mi Zigbee topic on the Athom Forum]
 Please report issues at the [issues section on Github](https://github.com/TedTolboom/com.xiaomi-mi-zigbee/issues) otherwise in the above mentioned topic.     
 
 ## Change Log:
+### v 0.3.0
+* Add support for Aqara Wireless switch with Gyro (product type no: WXKG12LM)   
+**Note:** Switches with this type no. that were included before will need to be re-included in order to work properly   
+* Replaced old scene trigger cards with autocomplete cards to fix reported issues   
+**Note:** The old (marked DEPRECATED) cards will be removed in a next release; please rebuild your flows based on the new cards  
+* Update ZigBee meshdriver to 1.2.12   
+
+### v 0.2.5
+* Add temperature offset correction setting for the Xiaomi temperature & humidity sensor and the Aqara temperature & humidity sensor   
+* Fix typo in Xiaomi Cube flow trigger card
+
 ### v 0.2.4
 * Fix issue where Aqara Wireless Remote Switch Single init results in app crash, issue [#46](https://github.com/TedTolboom/com.xiaomi-mi-zigbee/issues/46)   
 
@@ -75,7 +87,7 @@ Please report issues at the [issues section on Github](https://github.com/TedTol
 
 ### v 0.2.1
 * Add support for Xiaomi Cube (Slide, Shake, Double Tap, Rotate (action, not angle yet), Flip 90°, Flip 180°).   
-*note:* Cubes included based on previous development builds need to be re-included   
+**note:** Cubes included based on previous development builds need to be re-included   
 
 ### v 0.2.0
 * Add support for Smart socket plug ZigBee edition (onoff, measure_power)   

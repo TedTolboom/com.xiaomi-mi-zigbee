@@ -1,0 +1,50 @@
+[
+	{
+		"id": "trigger_button1_scene",
+		"title": {
+			"en": "A scene has been activated",
+			"nl": "Een scene is geactiveerd"
+		},
+		"hint": {
+			"en": "This card will only get triggered if the scene matches the state of the dropdown fields.",
+			"nl": "Deze kaart wordt alleen geactiveerd wanneer de scene overeenkomt met de toestand van de gekozen opties."
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=sensor_switch|sensor_switch.aq2|sensor_switch.aq3|sensor_86sw1lu"
+		},
+			{
+				"name": "scene",
+				"type": "autocomplete"
+			}
+		]
+	},
+	{
+		"id": "trigger_button2_scene",
+		"title": {
+			"en": "A scene has been activated",
+			"nl": "Een scene is geactiveerd"
+		},
+		"hint": {
+			"en": "This card will only get triggered if the scene matches the state of the dropdown fields.",
+			"nl": "Deze kaart wordt alleen geactiveerd wanneer de scene overeenkomt met de toestand van de gekozen opties."
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=sensor_86sw2Un"
+			},
+			{
+				"name": "button",
+				"type": "autocomplete"
+				},
+			{
+				"name": "scene",
+				"type": "autocomplete"
+				}
+			]
+		}
+]

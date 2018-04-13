@@ -1,0 +1,91 @@
+{
+
+	"Rate Type": {
+		"0": "Reserved",
+		"1": "Import",
+		"2": "Export",
+		"3": "Reserved"
+	},
+
+	"Meter Scale": {
+		"Electric meter": {
+			"0": "kWh",
+			"1": "kVARh",
+			"2": "%",
+			"3": "Pulse count",
+			"4": "kVAR",
+			"5": "Voltage (V)",
+			"6": "Amperes (A)",
+			"7": "kW"
+		},
+		"Gas and water meter": {
+			"0": "Cubic meter",
+			"1": "Cubic feet",
+			"2": "US gallon",
+			"3": "Pulse count",
+			"4": "IMP gallon",
+			"5": "Liter",
+			"6": "kPa",
+			"7": "Centum cubic feet",
+			"8": "Cubic meter per hour",
+			"9": "Liter per hour",
+			"10": "kWh",
+			"11": "MWh",
+			"12": "KW",
+			"13": "Hours"
+		},
+		"Heating and Cooling Meter": {
+			"0": "Cubic meter (m3)",
+			"1": "Metric Ton (tonne) (t)",
+			"2": "Cubic meter per hour (m3/h)",
+			"3": "Liter per hour (l/h)",
+			"4": "kW",
+			"5": "MW",
+			"6": "kWh",
+			"7": "MWh",
+			"8": "Giga Joule (GJ)",
+			"9": "Giga Calorie (Gcal)",
+			"10": "Celsius (Co)",
+			"11": "Fahrenheit (oF)",
+			"12": "Hours"
+		},
+		"Electric Sub-Meter": {
+			"0": "kWh",
+			"1": "kVAh",
+			"2": "W",
+			"3": "Pulse Count",
+			"4": "V",
+			"5": "A",
+			"6": "Power Factor (%)"
+		}
+	},
+
+	"Meter Type": {
+		"1": "Single-E electric meter",
+		"2": "Gas meter",
+		"3": "Water meter",
+		"4": "Twin-E electric meter",
+		"5": "3P Single Direct electric meter",
+		"6": "3P Single ECT electric meter",
+		"7": "1 Phase Direct Electricity Meter",
+		"8": "Heating meter",
+		"9": "Cooling meter",
+		"10": "Combined Heating and Cooling Meter",
+		"11": "Electric Sub-Meter"
+	},
+
+	"Meter Type Scale Map": {
+		"Single-E electric meter": "Electric meter",
+		"Gas meter": "Gas and water meter",
+		"Water meter": "Gas and water meter",
+		"Twin-E electric meter": "Electric meter",
+		"3P Single Direct electric meter": "Electric meter",
+		"3P Single ECT electric meter": "Electric meter",
+		"1 Phase Direct Electricity Meter": "Electric meter",
+		"Heating meter": "Heating and Cooling Meter",
+		"Cooling meter": "Heating and Cooling Meter",
+		"Combined Heating and Cooling Meter": "Heating and Cooling Meter",
+		"Electric Sub-Meter": "Electric Sub-Meter"
+	}
+
+}

@@ -8,5 +8,15 @@
       "nl": "Keer rolluik beweging om"
     },
     "value": false
+  },
+  {
+    "id": "invertWindowCoveringsTiltDirection",
+    "zwaveDevice": "ZwaveWindowCoveringsDevice",
+    "type": "checkbox",
+    "label": {
+      "en": "Invert slats tilt direction",
+      "nl": "Draai lamelrichting om"
+    },
+    "value": false
   }
 ]

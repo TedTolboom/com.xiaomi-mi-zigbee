@@ -10,7 +10,7 @@
   "category": [
     "lights"
   ],
-  "version": "0.2.4",
+  "version": "0.3.0",
   "compatibility": ">=1.5.7",
   "athomForumDiscussionId": 4120,
   "sdk": 2,
@@ -178,12 +178,12 @@
       {
         "id": "button1_scene",
         "title": {
-          "en": "A scene has been activated",
-          "nl": "Een scene is geactiveerd"
+          "en": "DEPRECATED A scene has been activated",
+          "nl": "VEROUDERD Een scene is geactiveerd"
         },
         "hint": {
-          "en": "This card will only get triggered if the scene matches the state of the dropdown fields.",
-          "nl": "Deze kaart wordt alleen geactiveerd wanneer de scene overeenkomt met de toestand van de gekozen opties."
+          "en": "THIS CARD WILL BE REMOVED IN THE NEXT UPDATE!\nThis card will only get triggered if the scene matches the state of the dropdown fields.",
+          "nl": "DEZE TRIGGER WORDT IN EEN VOLGENDE UPDATE VERWIJDERD!\nDeze kaart wordt alleen geactiveerd wanneer de scene overeenkomt met de toestand van de gekozen opties."
         },
         "args": [
           {
@@ -230,12 +230,12 @@
       {
         "id": "button1_scene",
         "title": {
-          "en": "A scene has been activated",
-          "nl": "Een scene is geactiveerd"
+          "en": "DEPRECATED A scene has been activated",
+          "nl": "VEROUDERD Een scene is geactiveerd"
         },
         "hint": {
-          "en": "This card will only get triggered if the scene matches the state of the dropdown fields.",
-          "nl": "Deze kaart wordt alleen geactiveerd wanneer de scene overeenkomt met de toestand van de gekozen opties."
+          "en": "THIS CARD WILL BE REMOVED IN THE NEXT UPDATE!\nThis card will only get triggered if the scene matches the state of the dropdown fields.",
+          "nl": "DEZE TRIGGER WORDT IN EEN VOLGENDE UPDATE VERWIJDERD!\nDeze kaart wordt alleen geactiveerd wanneer de scene overeenkomt met de toestand van de gekozen opties."
         },
         "args": [
           {
@@ -261,12 +261,12 @@
       {
         "id": "button1_scene_held",
         "title": {
-          "en": "A scene has been activated",
-          "nl": "Een scene is geactiveerd"
+          "en": "DEPRECATED A scene has been activated",
+          "nl": "VEROUDERD Een scene is geactiveerd"
         },
         "hint": {
-          "en": "This card will only get triggered if the scene matches the state of the dropdown fields.",
-          "nl": "Deze kaart wordt alleen geactiveerd wanneer de scene overeenkomt met de toestand van de gekozen opties."
+          "en": "THIS CARD WILL BE REMOVED IN THE NEXT UPDATE!\nThis card will only get triggered if the scene matches the state of the dropdown fields.",
+          "nl": "DEZE TRIGGER WORDT IN EEN VOLGENDE UPDATE VERWIJDERD!\nDeze kaart wordt alleen geactiveerd wanneer de scene overeenkomt met de toestand van de gekozen opties."
         },
         "args": [
           {
@@ -338,7 +338,7 @@
           {
             "name": "device",
             "type": "device",
-            "filter": "driver_id=sensor_switch|sensor_switch.aq2|sensor_86sw1lu"
+            "filter": "driver_id=sensor_switch|sensor_switch.aq2|sensor_switch.aq3|sensor_86sw1lu"
           }
         ],
         "tokens": [
@@ -358,8 +358,8 @@
       {
         "id": "button2_scene",
         "title": {
-          "en": "A scene has been activated",
-          "nl": "Een scene is geactiveerd"
+          "en": "DEPRECATED A scene has been activated",
+          "nl": "VEROUDERD Een scene is geactiveerd"
         },
         "hint": {
           "en": "This card will only get triggered if the scene matches the state of the dropdown fields.",
@@ -452,6 +452,54 @@
             "example": {
               "en": "Button pressed (test)"
             }
+          }
+        ]
+      },
+      {
+        "id": "trigger_button1_scene",
+        "title": {
+          "en": "A scene has been activated",
+          "nl": "Een scene is geactiveerd"
+        },
+        "hint": {
+          "en": "This card will only get triggered if the scene matches the state of the dropdown fields.",
+          "nl": "Deze kaart wordt alleen geactiveerd wanneer de scene overeenkomt met de toestand van de gekozen opties."
+        },
+        "args": [
+          {
+            "name": "device",
+            "type": "device",
+            "filter": "driver_id=sensor_switch|sensor_switch.aq2|sensor_switch.aq3|sensor_86sw1lu"
+          },
+          {
+            "name": "scene",
+            "type": "autocomplete"
+          }
+        ]
+      },
+      {
+        "id": "trigger_button2_scene",
+        "title": {
+          "en": "A scene has been activated",
+          "nl": "Een scene is geactiveerd"
+        },
+        "hint": {
+          "en": "This card will only get triggered if the scene matches the state of the dropdown fields.",
+          "nl": "Deze kaart wordt alleen geactiveerd wanneer de scene overeenkomt met de toestand van de gekozen opties."
+        },
+        "args": [
+          {
+            "name": "device",
+            "type": "device",
+            "filter": "driver_id=sensor_86sw2Un"
+          },
+          {
+            "name": "button",
+            "type": "autocomplete"
+          },
+          {
+            "name": "scene",
+            "type": "autocomplete"
           }
         ]
       },
@@ -582,7 +630,7 @@
                 "id": "5",
                 "label": {
                   "en": "side 5 up",
-                  "nl": "side 5 boven"
+                  "nl": "zijde 5 boven"
                 }
               },
               {
@@ -1379,6 +1427,24 @@
       },
       "settings": [
         {
+          "id": "temperature_offset",
+          "type": "number",
+          "label": {
+            "en": "Temperature offset (°C)",
+            "nl": "Temperatuur compensatie (°C)"
+          },
+          "hint": {
+            "en": "Set a correction to compensate a temperature offset.\nRange: -10 - 10, step size 0.1, \ndefault: 0 [°C]",
+            "nl": "Stel een correctiewaarde in om een temperature verschil te compenseren.\nBereik: -10 - 10, stap grootte 0.1, \nstandaard: 0 [°C]"
+          },
+          "value": 0,
+          "attr": {
+            "min": -10,
+            "max": 10,
+            "step": 0.1
+          }
+        },
+        {
           "id": "battery_threshold",
           "type": "number",
           "label": {
@@ -1670,8 +1736,7 @@
       "zigbee": {
         "manufacturerName": "LUMI",
         "productId": [
-          "lumi.sensor_switch.aq2",
-          "lumi.sensor_swit"
+          "lumi.sensor_switch.aq2"
         ],
         "deviceId": 24321,
         "profileId": 260,
@@ -1686,6 +1751,57 @@
       "images": {
         "large": "/drivers/sensor_switch.aq2/assets/images/large.png",
         "small": "/drivers/sensor_switch.aq2/assets/images/small.png"
+      },
+      "settings": [
+        {
+          "id": "battery_threshold",
+          "type": "number",
+          "label": {
+            "en": "Battery alarm threshold (%)",
+            "nl": "Batterij alarm waarde (%)"
+          },
+          "hint": {
+            "en": "Battery level (%) below which the battery alarm will be activated.\nRange: 1 - 90, \ndefault: 20 [%]",
+            "nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]"
+          },
+          "value": 20,
+          "attr": {
+            "min": 1,
+            "max": 90
+          }
+        }
+      ]
+    },
+    {
+      "id": "sensor_switch.aq3",
+      "name": {
+        "en": "Aqara Wireless switch (Gyro)",
+        "nl": "Aqara Wireless switch (Gyro)"
+      },
+      "class": "sensor",
+      "capabilities": [
+        "alarm_battery",
+        "measure_battery"
+      ],
+      "zigbee": {
+        "manufacturerName": "LUMI",
+        "productId": [
+          "lumi.sensor_switch.aq3",
+          "lumi.sensor_swit"
+        ],
+        "deviceId": 24321,
+        "profileId": 260,
+        "learnmode": {
+          "image": "/drivers/sensor_switch.aq3/assets/learn_switch.svg",
+          "instruction": {
+            "en": "Hold the wireless switch during inclusion in close proximity of Homey\nLong press the reset button for more than 3 seconds until the blue light flashes three times",
+            "nl": "Houd tijdens het toevoegen de knop in de buurt van Homey\nHoud de reset knop ingedrukt voor meer dan 3 seconden totdat de blauwe led drie keer knippert"
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/sensor_switch.aq3/assets/images/large.png",
+        "small": "/drivers/sensor_switch.aq3/assets/images/small.png"
       },
       "settings": [
         {
@@ -1791,6 +1907,24 @@
         "small": "/drivers/weather/assets/images/small.png"
       },
       "settings": [
+        {
+          "id": "temperature_offset",
+          "type": "number",
+          "label": {
+            "en": "Temperature offset (°C)",
+            "nl": "Temperatuur compensatie (°C)"
+          },
+          "hint": {
+            "en": "Set a correction to compensate a temperature offset.\nRange: -10 - 10, step size 0.1, \ndefault: 0 [°C]",
+            "nl": "Stel een correctiewaarde in om een temperature verschil te compenseren.\nBereik: -10 - 10, stap grootte 0.1, \nstandaard: 0 [°C]"
+          },
+          "value": 0,
+          "attr": {
+            "min": -10,
+            "max": 10,
+            "step": 0.1
+          }
+        },
         {
           "id": "battery_threshold",
           "type": "number",

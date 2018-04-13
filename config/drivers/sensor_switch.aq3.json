@@ -1,0 +1,49 @@
+{
+	"id": "sensor_switch.aq3",
+	"branch": "master",
+	"name": {
+		"en": "Aqara Wireless switch (Gyro)",
+		"nl": "Aqara Wireless switch (Gyro)"
+	},
+	"class": "sensor",
+	"capabilities": [
+		"alarm_battery",
+	  "measure_battery"
+	],
+	"zigbee": {
+		"manufacturerName": "LUMI",
+		"productId": ["lumi.sensor_switch.aq3", "lumi.sensor_swit"],
+		"deviceId": 24321,
+		"profileId": 260,
+		"learnmode": {
+			"image": "/drivers/sensor_switch.aq3/assets/learn_switch.svg",
+			"instruction": {
+				"en": "Hold the wireless switch during inclusion in close proximity of Homey\nLong press the reset button for more than 3 seconds until the blue light flashes three times",
+				"nl": "Houd tijdens het toevoegen de knop in de buurt van Homey\nHoud de reset knop ingedrukt voor meer dan 3 seconden totdat de blauwe led drie keer knippert"
+			}
+		}
+	},
+	"images": {
+		"large": "/drivers/sensor_switch.aq3/assets/images/large.png",
+		"small": "/drivers/sensor_switch.aq3/assets/images/small.png"
+	},
+	"settings": [
+		{
+			"id": "battery_threshold",
+			"type": "number",
+			"label": {
+				"en": "Battery alarm threshold (%)",
+				"nl": "Batterij alarm waarde (%)"
+			},
+			"hint": {
+				"en": "Battery level (%) below which the battery alarm will be activated.\nRange: 1 - 90, \ndefault: 20 [%]",
+				"nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]"
+			},
+			"value": 20,
+			"attr": {
+				"min": 1,
+				"max": 90
+			}
+		}
+	]
+}

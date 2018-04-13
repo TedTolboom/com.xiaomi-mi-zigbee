@@ -1,12 +1,12 @@
 [{
 		"id": "button1_scene",
 		"title": {
-			"en": "A scene has been activated",
-			"nl": "Een scene is geactiveerd"
+			"en": "DEPRECATED A scene has been activated",
+			"nl": "VEROUDERD Een scene is geactiveerd"
 		},
 		"hint": {
-			"en": "This card will only get triggered if the scene matches the state of the dropdown fields.",
-			"nl": "Deze kaart wordt alleen geactiveerd wanneer de scene overeenkomt met de toestand van de gekozen opties."
+			"en": "THIS CARD WILL BE REMOVED IN THE NEXT UPDATE!\nThis card will only get triggered if the scene matches the state of the dropdown fields.",
+			"nl": "DEZE TRIGGER WORDT IN EEN VOLGENDE UPDATE VERWIJDERD!\nDeze kaart wordt alleen geactiveerd wanneer de scene overeenkomt met de toestand van de gekozen opties."
 		},
 		"args": [
 			{
@@ -53,12 +53,12 @@
 	{
 		"id": "button1_scene",
 		"title": {
-			"en": "A scene has been activated",
-			"nl": "Een scene is geactiveerd"
+			"en": "DEPRECATED A scene has been activated",
+			"nl": "VEROUDERD Een scene is geactiveerd"
 		},
 		"hint": {
-			"en": "This card will only get triggered if the scene matches the state of the dropdown fields.",
-			"nl": "Deze kaart wordt alleen geactiveerd wanneer de scene overeenkomt met de toestand van de gekozen opties."
+			"en": "THIS CARD WILL BE REMOVED IN THE NEXT UPDATE!\nThis card will only get triggered if the scene matches the state of the dropdown fields.",
+			"nl": "DEZE TRIGGER WORDT IN EEN VOLGENDE UPDATE VERWIJDERD!\nDeze kaart wordt alleen geactiveerd wanneer de scene overeenkomt met de toestand van de gekozen opties."
 		},
 		"args": [
 			{
@@ -84,12 +84,12 @@
 	{
 		"id": "button1_scene_held",
 		"title": {
-			"en": "A scene has been activated",
-			"nl": "Een scene is geactiveerd"
+			"en": "DEPRECATED A scene has been activated",
+			"nl": "VEROUDERD Een scene is geactiveerd"
 		},
 		"hint": {
-			"en": "This card will only get triggered if the scene matches the state of the dropdown fields.",
-			"nl": "Deze kaart wordt alleen geactiveerd wanneer de scene overeenkomt met de toestand van de gekozen opties."
+			"en": "THIS CARD WILL BE REMOVED IN THE NEXT UPDATE!\nThis card will only get triggered if the scene matches the state of the dropdown fields.",
+			"nl": "DEZE TRIGGER WORDT IN EEN VOLGENDE UPDATE VERWIJDERD!\nDeze kaart wordt alleen geactiveerd wanneer de scene overeenkomt met de toestand van de gekozen opties."
 		},
 		"args": [
 			{
@@ -161,7 +161,7 @@
 			{
 				"name": "device",
 				"type": "device",
-				"filter": "driver_id=sensor_switch|sensor_switch.aq2|sensor_86sw1lu"
+				"filter": "driver_id=sensor_switch|sensor_switch.aq2|sensor_switch.aq3|sensor_86sw1lu"
 				}
 			],
 		"tokens": [

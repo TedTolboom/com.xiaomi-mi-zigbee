@@ -1,0 +1,624 @@
+{
+	"1": {
+		"0": {
+			"push": "Event inactive",
+			"pull": "Previous Events cleared",
+			"version": 4
+		},
+		"1": {
+			"name": "Smoke detected",
+			"version": "2"
+		},
+		"2": {
+			"name": "Smoke detected, Unknown Location",
+			"version": 2
+		},
+		"3": {
+			"name": "Smoke Alarm Test",
+			"version": 3
+		},
+		"4": {
+			"name": "Replacement Required",
+			"version": 5
+		},
+		"254": {
+			"name": "Unknown Event",
+			"version": 2
+		}
+	},
+	"2": {
+		"0": {
+			"push": "Event inactive",
+			"pull": "Previous Events cleared",
+			"version": 4
+		},
+		"1": {
+			"name": "Carbon monoxide detected",
+			"version": 2
+		},
+		"2": {
+			"name": "Carbon monoxide detected, Unknown Location",
+			"version": 2
+		},
+		"3": {
+			"name": "Carbon monoxide Test",
+			"version": 5
+		},
+		"4": {
+			"name": "Replacement Required",
+			"version": 5
+		},
+		"254": {
+			"name": "Unknown Event",
+			"version": 2
+		}
+	},
+	"3": {
+		"0": {
+			"push": "Event inactive",
+			"pull": "Previous Events cleared",
+			"version": 4
+		},
+		"1": {
+			"name": "Carbon dioxide detected",
+			"version": 2
+		},
+		"2": {
+			"name": "Carbon dioxide detected, Unknown Location",
+			"version": 2
+		},
+		"3": {
+			"name": "Carbon dioxide Test",
+			"version": 5
+		},
+		"4": {
+			"name": "Replacement Required",
+			"version": 5
+		},
+		"254": {
+			"name": "Unknown Event",
+			"version": 2
+		}
+	},
+	"4": {
+		"0": {
+			"push": "Event inactive",
+			"pull": "Previous Events cleared",
+			"version": 4
+		},
+		"1": {
+			"name": "Overheat detected",
+			"version": 2
+		},
+		"2": {
+			"name": "Overheat detected, Unknown Location",
+			"version": 2
+		},
+		"3": {
+			"name": "Rapid Temperature Rise",
+			"version": 2
+		},
+		"4": {
+			"name": "Rapid Temperature Rise, Unknown Location",
+			"version": 2
+		},
+		"5": {
+			"name": "Under heat detected",
+			"version": 2
+		},
+		"6": {
+			"name": "Under heat detected, Unknown Location",
+			"version": 2
+		},
+		"254": {
+			"name": "Unknown Event",
+			"version": 2
+		}
+	},
+	"5": {
+		"0": {
+			"push": "Event inactive",
+			"pull": "Previous Events cleared",
+			"version": 4
+		},
+		"1": {
+			"name": "Water Leak detected",
+			"version": 2
+		},
+		"2": {
+			"name": "Water Leak detected, Unknown Location",
+			"version": 2
+		},
+		"3": {
+			"name": "Water Level Dropped",
+			"version": 2
+		},
+		"4": {
+			"name": "Water Level Dropped, Unknown Location",
+			"version": 2
+		},
+		"5": {
+			"name": "Replace Water Filter",
+			"version": 2
+		},
+		"254": {
+			"name": "Unknown Event",
+			"version": 2
+		}
+	},
+	"6": {
+		"0": {
+			"push": "Event inactive",
+			"pull": "Previous Events cleared",
+			"version": 4
+		},
+		"1": {
+			"name": "Manual Lock Operation",
+			"version": 2
+		},
+		"2": {
+			"name": "Manual Unlock Operation",
+			"version": 2
+		},
+		"3": {
+			"name": "RF Lock Operation",
+			"version": 2
+		},
+		"4": {
+			"name": "RF Unlock Operation",
+			"version": 2
+		},
+		"5": {
+			"name": "Keypad Lock Operation",
+			"version": 2
+		},
+		"6": {
+			"name": "Keypad Unlock Operation",
+			"version": 2
+		},
+		"7": {
+			"name": "Manual Not Fully Locked Operation",
+			"version": 3
+		},
+		"8": {
+			"name": "RF Not Fully Locked Operation",
+			"version": 3
+		},
+		"9": {
+			"name": "Auto Lock Locked Operation",
+			"version": 3
+		},
+		"10": {
+			"name": "Auto Lock Not Fully Operation",
+			"version": 3
+		},
+		"11": {
+			"name": "Lock Jammed",
+			"version": 3
+		},
+		"12": {
+			"name": "All user codes deleted",
+			"version": 3
+		},
+		"13": {
+			"name": "Single user code deleted",
+			"version": 3
+		},
+		"14": {
+			"name": "New user code deleted",
+			"version": 3
+		},
+		"15": {
+			"name": "New user code not added due to duplicate code",
+			"version": 3
+		},
+		"16": {
+			"name": "Keypad temporary disabled",
+			"version": 3
+		},
+		"17": {
+			"name": "Keypad busy",
+			"version": 3
+		},
+		"18": {
+			"name": "New Program code Entered - Unique code for lock configuration",
+			"version": 3
+		},
+		"19": {
+			"name": "Manually Enter user Access code exceeds code limit",
+			"version": 3
+		},
+		"20": {
+			"name": "Unlock By RF with invalid user code",
+			"version": 3
+		},
+		"21": {
+			"name": "Locked By RF with invalid user codes",
+			"version": 3
+		},
+		"22": {
+			"name": "Window/Door is open",
+			"version": 3
+		},
+		"23": {
+			"name": "Window/Door is closed",
+			"version": 3
+		},
+		"64": {
+			"name": "Barrier performing Initialization process",
+			"version": 4
+		},
+		"65": {
+			"name": "Barrier Operation (Open / Close) force has been exceeded",
+			"version": 4
+		},
+		"66": {
+			"name": "Barrier motor has exceeded manufacturer's operational time limit",
+			"version": 4
+		},
+		"67": {
+			"name": "Barrier operation has exceeded physical mechanical limits",
+			"version": 4
+		},
+		"68": {
+			"name": "Barrier unable to perform requested operation due to UL requirements",
+			"version": 4
+		},
+		"68": {
+			"name": "Barrier Unattended operation has been disabled per UL requirements",
+			"version": 4
+		},
+		"69": {
+			"name": "Barrier failed to perform Requested operation, device malfunction",
+			"version": 4
+		},
+		"70": {
+			"name": "Barrier Vacation Mode",
+			"version": 4
+		},
+		"71": {
+			"name": "Barrier Safety Beam Obstacle",
+			"version": 4
+		},
+		"72": {
+			"name": "Barrier Sensor Not Detected / Supervisory Error",
+			"version": 4
+		},
+		"73": {
+			"name": "Barrier Sensor Low Battery Warning",
+			"version": 4
+		},
+		"74": {
+			"name": "Barrier detected short in Wall Station wires",
+			"version": 4
+		},
+		"75": {
+			"name": "Barrier associated with non-Z-wave remote control",
+			"version": 4
+		},
+		"254": {
+			"name": "Unknown Event",
+			"version": 2
+		}
+	},
+
+	"7": {
+		"0": {
+			"push": "Event inactive",
+			"pull": "Previous Events cleared",
+			"version": 4
+		},
+		"1": {
+			"name": "Intrusion",
+			"version": 2
+		},
+		"2": {
+			"name": "Intrusion, Unknown Location",
+			"version": 2
+		},
+		"3": {
+			"name": "Tampering, Product covering removed",
+			"version": 2
+		},
+		"4": {
+			"name": "Tampering, Invalid Code",
+			"version": 2
+		},
+		"5": {
+			"name": "Glass Breakage",
+			"version": 2
+		},
+		"6": {
+			"name": "Glass Breakage, Unknown Location",
+			"version": 2
+		},
+		"7": {
+			"name": "Motion Detection",
+			"version": 2
+		},
+		"8": {
+			"name": "Motion Detection, Unknown Location",
+			"version": 4
+		},
+		"254": {
+			"name": "Unknown Event",
+			"version": 2
+		}
+	},
+
+	"8": {
+		"0": {
+			"push": "Event inactive",
+			"pull": "Previous Events cleared",
+			"version": 4
+		},
+		"1": {
+			"name": "Power has been applied",
+			"version": 2
+		},
+		"2": {
+			"name": "AC mains disconnected",
+			"version": 2
+		},
+		"3": {
+			"name": "AC mains reconnected",
+			"version": 2
+		},
+		"4": {
+			"name": "Surge detected",
+			"version": 2
+		},
+		"5": {
+			"name": "Voltage Drop/Drift",
+			"version": 2
+		},
+		"6": {
+			"name": "Over-current detected",
+			"version": 3
+		},
+		"7": {
+			"name": "Over-voltage detected",
+			"version": 3
+		},
+		"8": {
+			"name": "Over-load detected",
+			"version": 3
+		},
+		"9": {
+			"name": "Load error",
+			"version": 3
+		},
+		"10": {
+			"name": "Replace battery soon",
+			"version": 3
+		},
+		"11": {
+			"name": "Replace battery now",
+			"version": 3
+		},
+		"12": {
+			"name": "Battery is charging",
+			"version": 4
+		},
+		"13": {
+			"name": "Battery is fully charged",
+			"version": 4
+		},
+		"14": {
+			"name": "Charge battery soon",
+			"version": 4
+		},
+		"15": {
+			"name": "Charge battery now!",
+			"version": 4
+		},
+		"254": {
+			"name": "Unknown Event",
+			"version": 2
+		}
+	},
+	"9": {
+		"0": {
+			"push": "Event inactive",
+			"pull": "Previous Events cleared",
+			"version": 4
+		},
+		"1": {
+			"name": "System hardware failure",
+			"version": 2
+		},
+		"2": {
+			"name": "System software failure",
+			"version": 2
+		},
+		"3": {
+			"name": "System hardware failure with manufacturer proprietary failure code",
+			"version": 3
+		},
+		"4": {
+			"name": "System software failure with manufacturer proprietary failure code",
+			"version": 3
+		},
+		"254": {
+			"name": "Unknown Event",
+			"version": 2
+		}
+	},
+	"10": {
+		"0": {
+			"push": "Event inactive",
+			"pull": "Previous Events cleared",
+			"version": 4
+		},
+		"1": {
+			"name": "Contact Police",
+			"version": 2
+		},
+		"2": {
+			"name": "Contact Fire Service",
+			"version": 2
+		},
+		"3": {
+			"name": "Contact Medical Service",
+			"version": 2
+		},
+		"254": {
+			"name": "Unknown Event",
+			"version": 2
+		}
+	},
+	"11": {
+		"0": {
+			"push": "Event inactive",
+			"pull": "Previous Events cleared",
+			"version": 4
+		},
+		"1": {
+			"name": "Wake Up Alert",
+			"version": 2
+		},
+		"2": {
+			"name": "Timer Ended",
+			"version": 3
+		},
+		"3": {
+			"name": "Time remaining",
+			"version": 4
+		},
+		"254": {
+			"name": "Unknown Event",
+			"version": 2
+		}
+	},
+	"12": {
+		"0": {
+			"push": "Event inactive",
+			"pull": "Previous Events cleared",
+			"version": 4
+		},
+		"1": {
+			"name": "Program Started",
+			"version": 4
+		},
+		"2": {
+			"name": "Program in progress",
+			"version": 4
+		},
+		"3": {
+			"name": "Program completed",
+			"version": 4
+		},
+		"4": {
+			"name": "Replace main filter",
+			"version": 4
+		},
+		"5": {
+			"name": "Failure to set target temperature",
+			"version": 4
+		},
+		"6": {
+			"name": "Supplying water",
+			"version": 4
+		},
+		"7": {
+			"name": "Water supply failure",
+			"version": 4
+		},
+		"8": {
+			"name": "Boiling",
+			"version": 4
+		},
+		"9": {
+			"name": "Boiling failure",
+			"version": 4
+		},
+		"10": {
+			"name": "Washing",
+			"version": 4
+		},
+		"11": {
+			"name": "Washing failure",
+			"version": 4
+		},
+		"12": {
+			"name": "Rinsing",
+			"version": 4
+		},
+		"13": {
+			"name": "Rinsing failure",
+			"version": 4
+		},
+		"14": {
+			"name": "Draining",
+			"version": 4
+		},
+		"15": {
+			"name": "Draining failure",
+			"version": 4
+		},
+		"16": {
+			"name": "Spinning",
+			"version": 4
+		},
+		"17": {
+			"name": "Spinning failure",
+			"version": 4
+		},
+		"18": {
+			"name": "Drying",
+			"version": 4
+		},
+		"19": {
+			"name": "Drying failure",
+			"version": 4
+		},
+		"20": {
+			"name": "Fan failure",
+			"version": 4
+		},
+		"21": {
+			"name": "Compressor failure",
+			"version": 4
+		},
+		"254": {
+			"name": "Unknown Event",
+			"version": 4
+		}
+	},
+	"13": {
+		"0": {
+			"push": "Event inactive",
+			"pull": "Previous Events cleared",
+			"version": 4
+		},
+		"1": {
+			"name": "Leaving Bed",
+			"version": 4
+		},
+		"2": {
+			"name": "Sitting on bed",
+			"version": 4
+		},
+		"3": {
+			"name": "Lying on bed",
+			"version": 4
+		},
+		"4": {
+			"name": "Posture changed",
+			"version": 4
+		},
+		"5": {
+			"name": "Sitting on edge of bed",
+			"version": 4
+		},
+		"6": {
+			"name": "Volatile Organic Compound level",
+			"version": 4
+		},
+		"254": {
+			"name": "Unknown Event",
+			"version": 4
+		}
+	}
+
+}

@@ -12,7 +12,7 @@
 	],
 	"zigbee": {
 		"manufacturerName": "LUMI",
-		"productId": ["lumi.sensor_switch.aq2", "lumi.sensor_swit"],
+		"productId": ["lumi.sensor_switch.aq2"],
 		"deviceId": 24321,
 		"profileId": 260,
 		"learnmode": {

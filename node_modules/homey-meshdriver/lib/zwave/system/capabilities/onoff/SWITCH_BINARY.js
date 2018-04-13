@@ -7,6 +7,9 @@ const FACTORY_DEFAULT_DIMMING_DURATION = 'Default';
 module.exports = {
 	get: 'SWITCH_BINARY_GET',
 	set: 'SWITCH_BINARY_SET',
+	getOpts: {
+		getOnStart: true,
+	},
 	setParserV1: value => ({
 		'Switch Value': (value) ? 'on/enable' : 'off/disable',
 	}),

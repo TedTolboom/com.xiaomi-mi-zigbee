@@ -8,6 +8,42 @@ class AqaraLightSwitchDouble extends ZigBeeDevice {
 
 	onMeshInit() {
 
+		// enable debugging
+		// this.enableDebug();
+
+		// print the node's info to the console
+		// this.printNode();
+
+		this.buttonMap = {
+			Left: {
+				button: 'Left button',
+			},
+			Right: {
+				button: 'Right button',
+			},
+			Both: {
+				button: 'Both buttons',
+			},
+		};
+
+		this.sceneMap = {
+			0: {
+				scene: 'Key Pressed 1 time',
+			},
+		};
+		// >>>> possible to use this.onOnOffListener.bind(this, 'Left') ???
+		this._attrReportListeners['0_genOnOff'] = this._attrReportListeners['0_genOnOff'] || {};
+		this._attrReportListeners['0_genOnOff']['onOff'] = this.onOnOffListener.bind(this, 'Left');
+
+		this._attrReportListeners['1_genOnOff'] = this._attrReportListeners['1_genOnOff'] || {};
+		this._attrReportListeners['1_genOnOff']['onOff'] = this.onOnOffListener.bind(this, 'Right');
+
+		this._attrReportListeners['2_genOnOff'] = this._attrReportListeners['2_genOnOff'] || {};
+		this._attrReportListeners['2_genOnOff']['onOff'] = this.onOnOffListener.bind(this, 'Both');
+
+		this._attrReportListeners['0_genBasic'] = this._attrReportListeners['0_genBasic'] || {};
+		this._attrReportListeners['0_genBasic']['65281'] = this.onLifelineReport.bind(this);
+
 		// define and register FlowCardTriggers
 		this.triggerButton2_scene = new Homey.FlowCardTriggerDevice('button2_scene');
 		this.triggerButton2_scene
@@ -20,69 +56,55 @@ class AqaraLightSwitchDouble extends ZigBeeDevice {
 		this.triggerButton2_button
 			.register();
 
-		this._attrReportListeners['0_genOnOff'] = this._attrReportListeners['0_genOnOff'] || {};
-		this._attrReportListeners['0_genOnOff']['onOff'] = this.onOnOffListener.bind(this);
+	}
+	onOnOffListener(repButton, repScene) {
+		this.log('genOnOff - onOff', repScene, repButton, 'button');
+		if (Object.keys(this.sceneMap).includes(repScene.toString())) {
+			const remoteValue = {
+				button: this.buttonMap[repButton].button,
+				scene: this.sceneMap[repScene].scene,
+			};
+			this.log('genOnOff - onOff', remoteValue);
+			// Trigger the trigger card with 2 autocomplete options
+			Homey.app.triggerButton2_scene.trigger(this, null, remoteValue);
+			// Trigger the trigger card with tokens
+			this.triggerButton2_button.trigger(this, remoteValue, null);
+			// DEPRECATED Trigger the trigger card with 2 dropdown options
+			this.triggerButton2_scene.trigger(this, null, remoteValue);
+		}
+	}
 
-		this._attrReportListeners['1_genOnOff'] = this._attrReportListeners['1_genOnOff'] || {};
-		this._attrReportListeners['1_genOnOff']['onOff'] = this.onOnOffListener2.bind(this);
-
-		this._attrReportListeners['2_genOnOff'] = this._attrReportListeners['2_genOnOff'] || {};
-		this._attrReportListeners['2_genOnOff']['onOff'] = this.onOnOffListener3.bind(this);
-
-		this._attrReportListeners['0_genBasic'] = this._attrReportListeners['0_genBasic'] || {};
-		this._attrReportListeners['0_genBasic']['65281'] = this.onLifelineReport.bind(this);
-
-		// Register the AttributeReportListener - Lifeline
-		this.registerAttrReportListener('genBasic', '65281', 1, 60, null,
-				this.onLifelineReport.bind(this), 0)
-			.then(() => {
-				// Registering attr reporting succeeded
-				this.log('registered attr report listener - genBasic - Lifeline');
-			})
-			.catch(err => {
-				// Registering attr reporting failed
-				this.error('failed to register attr report listener - genBasic - Lifeline', err);
+	onSceneAutocomplete(query, args, callback) {
+		let resultArray = [];
+		for (let sceneID in this.sceneMap) {
+			resultArray.push({
+				id: this.sceneMap[sceneID].scene,
+				name: Homey.__(this.sceneMap[sceneID].scene),
 			});
+		}
+		// filter for query
+		resultArray = resultArray.filter(result => {
+			return result.name.toLowerCase().indexOf(query.toLowerCase()) > -1;
+		});
+		this.log(resultArray);
+		return Promise.resolve(resultArray);
+	}
 
-	}
-	onOnOffListener(data) {
-		this.log('genOnOff - onOff', data, 'Left button');
-		if (data === 0) {
-			const remoteValue = {
-				button: 'Left button',
-				scene: 'Key Pressed 1 time',
-			};
-			// Trigger the trigger card with 1 dropdown option
-			this.triggerButton2_scene.trigger(this, this.triggerButton2_scene.getArgumentValues, remoteValue);
-			// Trigger the trigger card with tokens
-			this.triggerButton2_button.trigger(this, remoteValue, null);
+	onButtonAutocomplete(query, args, callback) {
+		let resultArray = [];
+		for (let sceneID in this.buttonMap) {
+			resultArray.push({
+				id: this.buttonMap[sceneID].button,
+				name: Homey.__(this.buttonMap[sceneID].button),
+			});
 		}
-	}
-	onOnOffListener2(data) {
-		this.log('genOnOff - onOff', data, 'Right button');
-		if (data === 0) {
-			const remoteValue = {
-				button: 'Right button',
-				scene: 'Key Pressed 1 time',
-			};
-			// Trigger the trigger card with 1 dropdown option
-			this.triggerButton2_scene.trigger(this, this.triggerButton2_scene.getArgumentValues, remoteValue);
-			// Trigger the trigger card with tokens
-			this.triggerButton2_button.trigger(this, remoteValue, null);
-		}
-	}
-	onOnOffListener3(data) {
-		this.log('genOnOff - onOff', data, 'Both buttons');
-		if (data === 0) {
-			const remoteValue = {
-				button: 'Both buttons',
-				scene: 'Key Pressed 1 time',
-			};
-			// Trigger the trigger card with 1 dropdown option
-			this.triggerButton2_scene.trigger(this, this.triggerButton2_scene.getArgumentValues, remoteValue);
-			// Trigger the trigger card with tokens
-			this.triggerButton2_button.trigger(this, remoteValue, null);
-		}
+
+		// filter for query
+		resultArray = resultArray.filter(result => {
+			return result.name.toLowerCase().indexOf(query.toLowerCase()) > -1;
+		});
+		this.log(resultArray);
+		return Promise.resolve(resultArray);
 	}
 
 	onLifelineReport(value) {

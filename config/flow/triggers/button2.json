@@ -1,8 +1,8 @@
 [{
 		"id": "button2_scene",
 		"title": {
-			"en": "A scene has been activated",
-			"nl": "Een scene is geactiveerd"
+			"en": "DEPRECATED A scene has been activated",
+			"nl": "VEROUDERD Een scene is geactiveerd"
 		},
 		"hint": {
 			"en": "This card will only get triggered if the scene matches the state of the dropdown fields.",

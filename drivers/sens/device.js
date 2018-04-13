@@ -20,24 +20,17 @@ class XiaomiTempSensor extends ZigBeeDevice {
 		this._attrReportListeners['0_msRelativeHumidity']['measuredValue'] =
 			this.onHumidityReport.bind(this);
 
-		// Register the AttributeReportListener - Lifeline
-		this.registerAttrReportListener('genBasic', '65281', 1, 60, null,
-				this.onLifelineReport.bind(this), 0)
-			.then(() => {
-				// Registering attr reporting succeeded
-				this.log('registered attr report listener - genBasic - Lifeline');
-			})
-			.catch(err => {
-				// Registering attr reporting failed
-				this.error('failed to register attr report listener - genBasic - Lifeline', err);
-			});
+		this._attrReportListeners['0_genBasic'] = this._attrReportListeners['0_genBasic'] || {};
+		this._attrReportListeners['0_genBasic']['65281'] =
+			this.onLifelineReport.bind(this);
 
 	}
 
 	onTemperatureReport(value) {
 		const parsedValue = Math.round((value / 100) * 10) / 10;
-		this.log('measure_temperature', parsedValue);
-		this.setCapabilityValue('measure_temperature', parsedValue);
+		const temperatureOffset = this.getSetting('temperature_offset') || 0;
+		this.log('measure_temperature', parsedValue, '+ temperature offset', temperatureOffset);
+		this.setCapabilityValue('measure_temperature', parsedValue + temperatureOffset);
 	}
 
 	onHumidityReport(value) {
@@ -68,8 +61,9 @@ class XiaomiTempSensor extends ZigBeeDevice {
 
 		// temperature reportParser (ID 100)
 		const parsedTemp = parsedData['100'] / 100.0;
-		this.log('lifeline - temperature', parsedTemp);
-		this.setCapabilityValue('measure_temperature', parsedTemp);
+		const temperatureOffset = this.getSetting('temperature_offset') || 0;
+		this.log('lifeline - temperature', parsedTemp, '+ temperature offset', temperatureOffset);
+		this.setCapabilityValue('measure_temperature', parsedTemp + temperatureOffset);
 
 		// humidity reportParser (ID 101)
 		const parsedHum = parsedData['101'] / 100.0;
