@@ -3,12 +3,14 @@
 	"title": {
 		"en": "A button has been pressed",
 		"nl": "Een knop is ingedrukt",
-		"de": "Ein Schalter ist gedrückt"
+		"de": "Ein Schalter ist gedrückt",
+		"sv": "En knapp har tryckts"
 	},
 	"hint": {
 		"en": "This card will trigger on any button pressed and provides the scene tokens.",
 		"nl": "Deze kaart wordt geactiveerd bij iedere knop die ingedrukt wordt en biedt de scene tokens aan.",
-		"de": "Diese Karte wird mit jeder gedrücktem Schalter aktiviert und liefert den scene token."
+		"de": "Diese Karte wird mit jeder gedrücktem Schalter aktiviert und liefert den scene token.",
+		"sv": "Detta kort aktiveras om någon knapp har tryckts och tilldelar scentokens."
 	},
 	"args": [{
 		"name": "device",
@@ -21,10 +23,12 @@
 		"title": {
 			"en": "scene",
 			"nl": "scene",
-			"de": "Szene"
+			"de": "Szene",
+			"sv": "Scen"
 		},
 		"example": {
-			"en": "Button pressed (test)"
+			"en": "Button pressed (test)",
+			"sv": "Knapp som har tryckts (test)"
 		}
 	}]
 }]
