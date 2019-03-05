@@ -468,7 +468,8 @@
 						"label": {
 							"en": "any side up",
 							"nl": "willekeurige zijde",
-							"de": "beliebige Seite oben"
+							"de": "beliebige Seite oben",
+							"sv": "någon sida upp"
 						}
 					},
 					{
@@ -476,7 +477,8 @@
 						"label": {
 							"en": "side 1 up",
 							"nl": "zijde 1 boven",
-							"de": "Seite 1 oben"
+							"de": "seite 1 oben"
+							"sv": "sida 1 upp"
 						}
 					},
 					{
@@ -484,7 +486,8 @@
 						"label": {
 							"en": "side 2 up",
 							"nl": "zijde 2 boven",
-							"de": "Seite 2 oben"
+							"de": "seite 2 oben",
+							"sv": "sida 2 upp"
 						}
 					},
 					{
@@ -492,7 +495,8 @@
 						"label": {
 							"en": "side 3 up",
 							"nl": "zijde 3 boven",
-							"de": "Seite 3 oben"
+							"de": "seite 3 oben",
+							"sv": "sida 3 upp"
 						}
 					},
 					{
@@ -500,7 +504,8 @@
 						"label": {
 							"en": "side 4 up",
 							"nl": "zijde 4  boven",
-							"de": "Seite 4 oben"
+							"de": "seite 4 oben",
+							"sv": "sida 4 upp"
 						}
 					},
 					{
@@ -508,7 +513,8 @@
 						"label": {
 							"en": "side 5 up",
 							"nl": "side 5 boven",
-							"de": "Seite 5 oben"
+							"de": "seite 5 oben",
+							"sv": "sida 5 upp"
 						}
 					},
 					{
@@ -516,7 +522,8 @@
 						"label": {
 							"en": "side 6 up",
 							"nl": "zijde 6 boven",
-							"de": "Seite 6 oben"
+							"de": "seite 6 oben",
+							"sv": "sida 6 upp"
 						}
 					}
 				]
@@ -528,7 +535,8 @@
 		"title": {
 			"en": "Cube rotated",
 			"nl": "Cube gedraaid",
-			"de": "Cube gedreht"
+			"de": "Cube gedreht",
+			"sv": "Kuben roterad"
 		},
 		"args": [{
 				"name": "device",
@@ -543,7 +551,8 @@
 						"label": {
 							"en": "any side up",
 							"nl": "willekeurige zijde",
-							"de": "beliebige Seite oben"
+							"de": "beliebige Seite oben",
+							"sv": "någon sida upp"
 						}
 					},
 					{
@@ -551,7 +560,8 @@
 						"label": {
 							"en": "side 1 up",
 							"nl": "zijde 1 boven",
-							"de": "Seite 1 oben"
+							"de": "seite 1 oben",
+							"sv": "sida 1 upp"
 						}
 					},
 					{
@@ -559,7 +569,8 @@
 						"label": {
 							"en": "side 2 up",
 							"nl": "zijde 2 boven",
-							"de": "Seite 2 oben"
+							"de": "seite 2 oben",
+							"sv": "sida 2 upp"
 						}
 					},
 					{
@@ -567,7 +578,8 @@
 						"label": {
 							"en": "side 3 up",
 							"nl": "zijde 3 boven",
-							"de": "Seite 3 oben"
+							"de": "seite 3 oben",
+							"sv": "sida 3 upp"
 						}
 					},
 					{
@@ -575,7 +587,8 @@
 						"label": {
 							"en": "side 4 up",
 							"nl": "zijde 4  boven",
-							"de": "Seite 4 oben"
+							"de": "seite 4 oben",
+							"sv": "sida 4 upp"
 						}
 					},
 					{
@@ -583,7 +596,8 @@
 						"label": {
 							"en": "side 5 up",
 							"nl": "side 5 boven",
-							"de": "Seite 5 oben"
+							"de": "seite 5 oben",
+							"sv": "sida 5 upp"
 						}
 					},
 					{
@@ -591,7 +605,8 @@
 						"label": {
 							"en": "side 6 up",
 							"nl": "zijde 6 boven",
-							"de": "Seite 6 oben"
+							"de": "seite 6 oben",
+							"sv": "sida 6 upp"
 						}
 					}
 				]
@@ -603,7 +618,8 @@
 				"title": {
 					"en": "Rotation Angle °",
 					"nl": "Rotatiehoek °",
-					"de": "Drehwinkel °"
+					"de": "Drehwinkel °",
+					"sv": "Rotationsvinkel °"
 				},
 				"example": 124.51
 			},
@@ -612,8 +628,9 @@
 				"type": "number",
 				"title": {
 					"en": "Relative Angle %",
-					"nl": "Relatieve hoek %",
-					"de": "Relativer Winkel %"
+					"nl": "Relatieve Hoek %",
+					"de": "Relativer Winkel %",
+					"sv": "Relativ Vinkel %"
 				},
 				"example": 0.92
 			}
