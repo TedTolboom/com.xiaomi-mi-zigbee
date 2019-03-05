@@ -3,7 +3,8 @@
 	"title": {
 		"en": "Is turned !{{on|off}} (right switch)",
 		"nl": "Is !{{ingeschakeld|uitgeschakeld}} (rechter schakelaar)",
-		"de": "Ist !{{eingeschaltet|ausgeschaltet}} (rechter Schalter)"
+		"de": "Ist !{{eingeschaltet|ausgeschaltet}} (rechter Schalter)",
+		"sv": "Är !{{påslagen|avslagen}} (höger knapp)"
 	},
 	"args": [{
 		"type": "device",
