@@ -5,7 +5,8 @@
   },
   "description": {
     "en": "Control Xiaomi / Aqara ZigBee devices",
-    "nl": "Bestuur Xiaomi / Aqara ZigBee apparaten"
+    "nl": "Bestuur Xiaomi / Aqara ZigBee apparaten",
+    "sv": "Kontrollerar Xiaomi / Aqara Zigbee enheter"
   },
   "category": [
     "lights"
@@ -62,11 +63,13 @@
       "icon": "/drivers/vibration.aq1/assets/alarm_tilt.svg",
       "title": {
         "en": "Tilt Alarm",
-        "nl": "Kantelalarm"
+        "nl": "Kantelalarm",
+        "sv": "Lutningsalarm"
       },
       "desc": {
         "en": "Detected tilt motion",
-        "nl": "Gedetecteerde kantel beweging"
+        "nl": "Gedetecteerde kantel beweging",
+        "sv": "Detekterade lutningsrörelse"
       },
       "getable": true,
       "setable": false
@@ -77,11 +80,13 @@
       "icon": "/drivers/vibration.aq1/assets/alarm_vibration.svg",
       "title": {
         "en": "Vibration Alarm",
-        "nl": "Trillingsalarm"
+        "nl": "Trillingsalarm",
+        "sv": "Vibrationsalarm"
       },
       "desc": {
         "en": "Detected vibration",
-        "nl": "Gedetecteerde trilling"
+        "nl": "Gedetecteerde trilling",
+        "sv": "Detekterade vibration"
       },
       "getable": true,
       "setable": false
@@ -92,11 +97,13 @@
       "icon": "/drivers/vibration.aq1/assets/alarm_drop.svg",
       "title": {
         "en": "Drop Alarm",
-        "nl": "Valalarm"
+        "nl": "Valalarm",
+        "sv": "Fallalarm"
       },
       "desc": {
         "en": "Detected drop motion",
-        "nl": "Gedetecteerde val beweging"
+        "nl": "Gedetecteerde val beweging",
+        "sv": "Detekterade fallrörelse"
       },
       "getable": true,
       "setable": false
@@ -107,7 +114,8 @@
       "icon": "/drivers/vibration.aq1/assets/measure_tilt.svg",
       "title": {
         "en": "Tilt angle",
-        "nl": "Kantelhoek"
+        "nl": "Kantelhoek",
+        "sv": "Lutningvinkel"
       },
       "getable": true,
       "setable": false,
@@ -122,7 +130,8 @@
       "icon": "/drivers/vibration.aq1/assets/measure_vibration.svg",
       "title": {
         "en": "Vibration",
-        "nl": "Trilling"
+        "nl": "Trilling",
+        "sv": "Vibration"
       },
       "getable": true,
       "setable": false,
@@ -134,7 +143,8 @@
       "icon": "/drivers/cube/assets/icon_rotate.svg",
       "title": {
         "en": "Rotation",
-        "nl": "Draaihoek"
+        "nl": "Draaihoek",
+        "sv": "Rotation"
       },
       "getable": true,
       "setable": false,
@@ -149,7 +159,8 @@
       "icon": "/drivers/cube/assets/icon.svg",
       "title": {
         "en": "Motion",
-        "nl": "Beweging"
+        "nl": "Beweging",
+        "sv": "Rörelse"
       },
       "getable": true,
       "setable": false,
@@ -158,49 +169,56 @@
           "id": "Shake",
           "title": {
             "en": "Shake",
-            "nl": "Schudden"
+            "nl": "Schudden",
+            "sv": "Skakning"
           }
         },
         {
           "id": "Flip90",
           "title": {
             "en": "Flip 90°",
-            "nl": "Flip 90°"
+            "nl": "Flip 90°",
+            "sv": "Vrid 90°"
           }
         },
         {
           "id": "Flip180",
           "title": {
             "en": "Flip 180°",
-            "nl": "Flip 180°"
+            "nl": "Flip 180°",
+            "sv": "Vrid 180°"
           }
         },
         {
           "id": "Slide",
           "title": {
             "en": "Slide",
-            "nl": "Schuiven"
+            "nl": "Schuiven",
+            "sv": "Glid"
           }
         },
         {
           "id": "DoubleTap",
           "title": {
             "en": "Double tap",
-            "nl": "Kloppen"
+            "nl": "Kloppen",
+            "sv": "Dubbel knackning"
           }
         },
         {
           "id": "Rotate",
           "title": {
             "en": "Rotate",
-            "nl": "Roteren"
+            "nl": "Roteren",
+            "sv": "Rotera"
           }
         },
         {
           "id": "Catch",
           "title": {
             "en": "Catch",
-            "nl": "Vangen"
+            "nl": "Vangen",
+            "sv": "Fånga"
           }
         }
       ]
@@ -211,7 +229,8 @@
       "icon": "/drivers/cube/assets/icon_face.svg",
       "title": {
         "en": "Face up",
-        "nl": "Zijde boven"
+        "nl": "Zijde boven",
+        "sv": "Sida upp"
       },
       "getable": true,
       "setable": false,
@@ -220,42 +239,48 @@
           "id": "1",
           "title": {
             "en": "Face 1",
-            "nl": "Zijde 1"
+            "nl": "Zijde 1",
+            "sv": "Sida 1"
           }
         },
         {
           "id": "2",
           "title": {
             "en": "Face 2",
-            "nl": "Zijde 2"
+            "nl": "Zijde 2",
+            "sv": "Sida 2"
           }
         },
         {
           "id": "3",
           "title": {
             "en": "Face 3",
-            "nl": "Zijde 3"
+            "nl": "Zijde 3",
+            "sv": "Sida 3"
           }
         },
         {
           "id": "4",
           "title": {
             "en": "Face 4",
-            "nl": "Zijde 4"
+            "nl": "Zijde 4",
+            "sv": "Sida 4"
           }
         },
         {
           "id": "5",
           "title": {
             "en": "Face 5",
-            "nl": "Zijde 5"
+            "nl": "Zijde 5",
+            "sv": "Sida 5"
           }
         },
         {
           "id": "6",
           "title": {
             "en": "Face 6",
-            "nl": "Zijde 6"
+            "nl": "Zijde 6",
+            "sv": "Sida 6"
           }
         }
       ]
@@ -264,10 +289,12 @@
       "type": "number",
       "title": {
         "en": "Position",
-        "nl": "Positie"
+        "nl": "Positie",
+        "sv": "Position"
       },
       "desc": {
-        "en": "Set the position of window coverings. 0 is closed, 1 is open"
+        "en": "Set the position of window coverings. 0 is closed, 1 is open",
+        "sv": "Ange persiennens position. 0 är stängd, 1 är öppen"
       },
       "chartType": "stepLine",
       "min": 0,
@@ -287,7 +314,8 @@
         "title": {
           "en": "Turned on (right switch)",
           "nl": "Ingeschakeld (rechter schakelaar)",
-          "de": "Eingeschaltet (rechter Schalter)"
+          "de": "Eingeschaltet (rechter Schalter)",
+          "sv": "Påslagen (höger knapp)"
         },
         "args": [
           {
@@ -302,7 +330,8 @@
         "title": {
           "en": "Turned off (right switch)",
           "nl": "Uitgeschakeld (rechter schakelaar)",
-          "de": "Ausgeschaltet (rechter Schalter)"
+          "de": "Ausgeschaltet (rechter Schalter)",
+          "sv": "Avslagen (höger knapp)"
         },
         "args": [
           {
