@@ -23,8 +23,8 @@
 		"title": {
 			"en": "scene",
 			"nl": "scene",
-			"de": "Szene",
-			"sv": "Scen"
+			"de": "szene",
+			"sv": "scen"
 		},
 		"example": {
 			"en": "Button pressed (test)",
