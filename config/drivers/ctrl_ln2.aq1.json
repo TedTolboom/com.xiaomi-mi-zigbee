@@ -4,7 +4,8 @@
 	"name": {
 		"en": "Aqara Wall Switch Double (LN)",
 		"nl": "Aqara Wall Switch Double (LN)",
-		"de": "Aqara Wall Switch Double (LN)"
+		"de": "Aqara Wall Switch Double (LN)",
+		"sv": "Aqara, Dubbelt Vägguttag (LN)"
 	},
 	"class": "socket",
 	"capabilities": [
@@ -17,13 +18,15 @@
 	"capabilitiesOptions": {
 		"onoff": {
 			"title": {
-				"en": "Switch 1"
+				"en": "Switch 1",
+				"sv": "Uttag 1"
 			},
 			"greyout": false
 		},
 		"onoff.1": {
 			"title": {
-				"en": "Switch 2"
+				"en": "Switch 2",
+				"sv": "Uttag 2"
 			},
 			"greyout": false
 		}
@@ -67,7 +70,8 @@
 			"instruction": {
 				"en": "Press and hold any of the switch button for more than 5 seconds until the blue light flashes three times after release",
 				"nl": "Press and hold any of the switch button for more than 5 seconds until the blue light flashes three times after release",
-				"de": "Drücke einen beliebigen Knopf länger als 5 Sekunden. Nach dem los lassen blinkt das blaue Licht 3 Mal."
+				"de": "Drücke einen beliebigen Knopf länger als 5 Sekunden. Nach dem los lassen blinkt das blaue Licht 3 Mal.",
+				"sv": "Tryck ned strömknappen i minst 5 sekunder, efter uppsläpp ska den röda dioden blinka tre gånger."
 			}
 		}
 	},
