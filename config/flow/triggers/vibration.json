@@ -3,7 +3,8 @@
 		"title": {
 			"en": "Vibration sensor motion",
 			"nl": "Trillings sensor beweging",
-			"de": "Bewegung des Vibrationssensors"
+			"de": "Bewegung des Vibrationssensors",
+			"sv": "Rörelse i vibrationssensor"
 		},
 		"args": [{
 			"name": "device",
@@ -16,12 +17,14 @@
 			"title": {
 				"en": "motion",
 				"nl": "beweging",
-				"de": "Bewegung"
+				"de": "bewegung",
+				"sv": "rörelse"
 			},
 			"example": {
 				"en": "Tilt",
 				"nl": "Kantel",
-				"de": "Neigung"
+				"de": "Neigung",
+				"sv": "Lutning"
 			}
 		}]
 	},
@@ -30,7 +33,8 @@
 		"title": {
 			"en": "The vibration strength changed",
 			"nl": "Het trillings niveau is veranderd",
-			"de": "Vibrationsintensität hat sich verändert"
+			"de": "Vibrationsintensität hat sich verändert",
+			"sv": "Vibrationsstyrkan har förändrats"
 		},
 		"args": [{
 			"name": "device",
@@ -43,7 +47,8 @@
 			"title": {
 				"en": "vibration strength",
 				"nl": "trillings niveau",
-				"de": "Vibrationsintensität"
+				"de": "Vibrationsintensität",
+				"sv": "Vibrationsstyrka"
 			},
 			"example": 45
 		}]
@@ -53,7 +58,8 @@
 		"title": {
 			"en": "Tilt angles to reference plane",
 			"nl": "Kantelhoeken tov referentievlak",
-			"de": "Neigungswinkel relativ zur Bezugsebene"
+			"de": "Neigungswinkel relativ zur Bezugsebene",
+			"sv": "Lutningsvinkel mot referensplanet"
 		},
 		"args": [{
 			"name": "device",
@@ -64,7 +70,8 @@
 				"name": "Tilt_x",
 				"type": "number",
 				"title": {
-					"en": "Tilt x"
+					"en": "Tilt x",
+					"sv": "Lutning x"
 				},
 				"example": -10.25
 			},
@@ -72,7 +79,8 @@
 				"name": "Tilt_y",
 				"type": "number",
 				"title": {
-					"en": "Tilt y"
+					"en": "Tilt y",
+					"sv": "Lutning y"
 				},
 				"example": 9.39
 			},
@@ -80,7 +88,8 @@
 				"name": "Tilt_max",
 				"type": "number",
 				"title": {
-					"en": "Max Tilt"
+					"en": "Max Tilt",
+					"sv": "Max Lutning"
 				},
 				"example": -10.25
 			},
@@ -88,7 +97,8 @@
 				"name": "Tilt_abs",
 				"type": "number",
 				"title": {
-					"en": "|Max Tilt|"
+					"en": "|Max Tilt|",
+					"sv": "|Max Lutning|"
 				},
 				"example": 10.25
 			}
@@ -99,7 +109,8 @@
 		"title": {
 			"en": "Tilt angles to previous position",
 			"nl": "Kantelhoeken tov vorige positie",
-			"de": "Neigungswinkel zur vorherigen Position"
+			"de": "Neigungswinkel zur vorherigen Position",
+			"sv": "Lutningsvinkel mot föregående position"
 		},
 		"args": [{
 			"name": "device",
@@ -110,7 +121,8 @@
 				"name": "Tilt_x",
 				"type": "number",
 				"title": {
-					"en": "Tilt x"
+					"en": "Tilt x",
+					"sv": "Lutning x"
 				},
 				"example": -10.25
 			},
@@ -118,7 +130,8 @@
 				"name": "Tilt_y",
 				"type": "number",
 				"title": {
-					"en": "Tilt y"
+					"en": "Tilt y",
+					"sv": "Lutning y"
 				},
 				"example": 9.39
 			},
@@ -126,7 +139,8 @@
 				"name": "Tilt_max",
 				"type": "number",
 				"title": {
-					"en": "Max Tilt"
+					"en": "Max Tilt",
+					"sv": "Max Lutning"
 				},
 				"example": -10.25
 			},
@@ -134,7 +148,8 @@
 				"name": "Tilt_abs",
 				"type": "number",
 				"title": {
-					"en": "|Max Tilt|"
+					"en": "|Max Tilt|",
+					"sv": "|Max Lutning|"
 				},
 				"example": 10.25
 			}
@@ -145,7 +160,8 @@
 		"title": {
 			"en": "The vibration alarm turned on",
 			"nl": "Het trillingsalarm gaat aan",
-			"de": "Vibrationsalarm wurde ausgelöst"
+			"de": "Vibrationsalarm wurde ausgelöst",
+			"sv": "Vibrationsalarm utlöst"
 		},
 		"args": [{
 			"name": "device",
@@ -158,7 +174,8 @@
 		"title": {
 			"en": "The vibration alarm turned off",
 			"nl": "Het trillingsalarm gaat uit",
-			"de": "Vibrationsalarm wurde ausgeschaltet"
+			"de": "Vibrationsalarm wurde ausgeschaltet",
+			"sv": "Vibrationsalarm avslaget
 		},
 		"args": [{
 			"name": "device",
@@ -171,7 +188,8 @@
 		"title": {
 			"en": "The tilt alarm turned on",
 			"nl": "Het kantelalarm gaat aan",
-			"de": "Neigungsalarm wurde ausgelöst"
+			"de": "Neigungsalarm wurde ausgelöst",
+			"sv": "Lutningsalarm utlöst"
 		},
 		"args": [{
 			"name": "device",
@@ -184,7 +202,8 @@
 		"title": {
 			"en": "The tilt alarm turned off",
 			"nl": "Het kantelalarm gaat uit",
-			"de": "Neigungsalarm wurde ausgeschaltet"
+			"de": "Neigungsalarm wurde ausgeschaltet",
+			"sv": "Lutningsalarm avslaget
 		},
 		"args": [{
 			"name": "device",
@@ -197,7 +216,8 @@
 		"title": {
 			"en": "The drop alarm turned on",
 			"nl": "Het valalarm gaat aan",
-			"de": "Sturzalarm wurde ausgelöst"
+			"de": "Sturzalarm wurde ausgelöst",
+			"sv": "Fallalarmet utlöst"
 		},
 		"args": [{
 			"name": "device",
@@ -210,7 +230,8 @@
 		"title": {
 			"en": "The drop alarm turned off",
 			"nl": "Het valalarm gaat uit",
-			"de": "Sturzalarm wurde ausgeschaltet"
+			"de": "Sturzalarm wurde ausgeschaltet",
+			"sv": "Fallalarmet avslaget
 		},
 		"args": [{
 			"name": "device",
