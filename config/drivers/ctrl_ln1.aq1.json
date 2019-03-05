@@ -4,7 +4,8 @@
 	"name": {
 		"en": "Aqara Wall Switch Single (LN)",
 		"nl": "Aqara Wall Switch Single (LN)",
-		"de": "Aqara Wall Switch Single (LN)"
+		"de": "Aqara Wall Switch Single (LN)",
+		"sv": "Aqara, Enkelt Vägguttag (LN)"
 	},
 	"class": "socket",
 	"capabilities": [
@@ -46,6 +47,7 @@
 				"en": "Press and hold any of the switch button for more than 5 seconds until the blue light flashes three times after release",
 				"nl": "Press and hold any of the switch button for more than 5 seconds until the blue light flashes three times after release",
 				"de": "Drücke einen beliebigen Knopf länger als 5 Sekunden. Nach dem los lassen blinkt das blaue Licht 3 Mal."
+				"sv": "Tryck ned strömknappen i minst 5 sekunder, efter uppsläpp ska den röda dioden blinka tre gånger."
 			}
 		}
 	},
