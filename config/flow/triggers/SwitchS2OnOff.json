@@ -3,7 +3,8 @@
 		"title": {
 			"en": "Turned on (right switch)",
 			"nl": "Ingeschakeld (rechter schakelaar)",
-			"de": "Eingeschaltet (rechter Schalter)"
+			"de": "Eingeschaltet (rechter Schalter)",
+			"sv": "Påslagen (höger knapp)"
 		},
 		"args": [{
 			"type": "device",
@@ -16,7 +17,8 @@
 		"title": {
 			"en": "Turned off (right switch)",
 			"nl": "Uitgeschakeld (rechter schakelaar)",
-			"de": "Ausgeschaltet (rechter Schalter)"
+			"de": "Ausgeschaltet (rechter Schalter)",
+			"sv": "Avslagen (höger knapp)"
 		},
 		"args": [{
 			"type": "device",
