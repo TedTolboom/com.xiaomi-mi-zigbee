@@ -4,7 +4,8 @@
 	"name": {
 		"en": "Smart socket plug",
 		"nl": "Smart socket plug",
-		"de": "Smart socket plug"
+		"de": "Smart socket plug",
+		"sv": "Smart socket plug"
 	},
 	"class": "socket",
 	"capabilities": [
@@ -23,7 +24,8 @@
 			"instruction": {
 				"en": "Long press the power button to open more than 5 seconds until the led flashes red one time and then flashes blue three times",
 				"nl": "Long press the power button to open more than 5 seconds until the led flashes red one time and then flashes blue three times",
-				"de": "Drücke den Power Knopf mehr als 5 Sekunden und lasse ihn los sobald das rote Licht einmal blinkt. Danach blinkt das blaue Licht zwei mal."
+				"de": "Drücke den Power Knopf mehr als 5 Sekunden und lasse ihn los sobald das rote Licht einmal blinkt. Danach blinkt das blaue Licht zwei mal.",
+				"sv": "Tryck ned strömknappen i minst 5 sekunder till dess att dioden blinkar rött en gång och därefter blinkar blått tre gånger."
 			}
 		}
 	},
