@@ -4,7 +4,8 @@
   "name": {
     "en": "Aqara LED Bulb",
     "nl": "Aqara LED Bulb",
-    "de": "Aqara LED Bulb"
+    "de": "Aqara LED Bulb",
+    "sv": "Aqara LED Bulb"
   },
   "class": "light",
   "capabilities": [
@@ -31,7 +32,8 @@
       "instruction": {
         "en": "Toggle the bulb on/off 5 times until the bulb blinks twice quickly to start pairing.",
         "nl": "Zet, om de lamp toe te voegen, de lamp 5 keer achter elkaar uit en weer aan totdat de lamp twee keer snel knippert.",
-        "de": "Schalte die Lampe 5 mal an und aus bis die Lampe 2 mal schnell hintereinander blinkt"
+        "de": "Schalte die Lampe 5 mal an und aus bis die Lampe 2 mal schnell hintereinander blinkt.",
+        "sv": "Slå på och av lampan 5 gånger så att den hastigt blinkar två gånger för att påbörja inkludering."
       }
     }
   },
@@ -45,12 +47,14 @@
     "label": {
       "en": "Transition Time",
       "nl": "Overgangstijd",
-      "de": "Übergangszeit"
+      "de": "Übergangszeit",
+      "sv": "Övergångstid"
     },
     "hint": {
       "en": "This setting determines the time in seconds it takes to dim from one level to another.",
       "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander.",
-      "de": "Diese Einstellung bestimmt wie lange es dauert die Helligkeit zu verändern."
+      "de": "Diese Einstellung bestimmt wie lange es dauert die Helligkeit zu verändern.",
+      "sv": "Den här inställningen avgör tiden det tar i sekunder för att ändra ljusstyrkan från en nivå till en annan."
     },
     "value": 1,
     "attr": {
