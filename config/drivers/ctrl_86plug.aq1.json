@@ -4,8 +4,8 @@
 	"name": {
 		"en": "Aqara Smart Socket",
 		"nl": "Aqara Smart Socket",
-		"de": "Aqara Smarte Steckdose",
-		"sv": "Aqara Smart Vägguttag"
+		"de": "Aqara Smart Socket",
+		"sv": "Aqara Smart Socket"
 	},
 	"class": "socket",
 	"capabilities": [
