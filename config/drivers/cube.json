@@ -4,8 +4,8 @@
 	"name": {
 		"en": "Cube",
 		"nl": "Cube",
-		"de": "Würfel",
-		"sv": "Kub"
+		"de": "Cube",
+		"sv": "Cube"
 	},
 	"class": "sensor",
 	"capabilities": [
