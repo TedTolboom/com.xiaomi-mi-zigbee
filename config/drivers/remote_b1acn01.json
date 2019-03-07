@@ -37,7 +37,7 @@
 		"label": {
 			"en": "Battery alarm threshold (%)",
 			"nl": "Batterij alarm waarde (%)",
-			"sv": "Batteriets alarmnivå %"
+			"sv": "Batteriets alarmnivå (%)"
 		},
 		"hint": {
 			"en": "Battery level (%) below which the battery alarm will be activated.\nRange: 1 - 90, \ndefault: 20 [%]",
