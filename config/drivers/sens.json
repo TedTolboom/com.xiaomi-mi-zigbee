@@ -35,7 +35,7 @@
 			"type": "number",
 			"label": {
 				"en": "Temperature offset (°C)",
-				"nl": "Temperatuur compensatie (°C)"
+				"nl": "Temperatuur compensatie (°C)",
 				"sv": "Temperaturavvikelse (°C)"
 			},
 			"hint": {
