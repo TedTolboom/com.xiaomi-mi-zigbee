@@ -43,7 +43,7 @@
 			"en": "Battery level (%) below which the battery alarm will be activated.\nRange: 1 - 90, \ndefault: 20 [%]",
 			"nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]",
 			"de": "Batterie level (%) Zwischen welchen Werten der Batterie Alarm aktiviert wird.\nSpanne: 1 - 90, \ndefault: 20 [%]",
-			"sv": "Batterinivå % under vilken batterilarmet kommer aktiveras.\nAvstånd: 1 - 90, \nstandard: 20 [%]"
+			"sv": "Batterinivå % under vilken batterilarmet kommer aktiveras.\nSkala: 1 - 90, \nstandard: 20 [%]"
 		},
 		"value": 20,
 		"attr": {
