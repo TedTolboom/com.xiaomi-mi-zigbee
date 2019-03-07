@@ -5,7 +5,7 @@
 		"en": "Aqara Wall Switch Double (L)",
 		"nl": "Aqara Wall Switch Double (L)",
 		"de": "Aqara Wall Switch Double (L)",
-		"sv": "Aqara, Dubbelt Vägguttag (L)"
+		"sv": "Aqara Wall Switch Double (L)"
 	},
 	"class": "socket",
 	"capabilities": [
