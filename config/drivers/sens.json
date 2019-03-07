@@ -22,7 +22,7 @@
 				"en": "Hold the sensor during inclusion in close proximity of Homey\nLong press the reset button for more than 3 seconds until the blue light flashes three times\nNote: keep pressing the reset button every 2 seconds to keep the sensor awake during the inclusion",
 				"nl": "Houd tijdens het toevoegen de sensor in de buurt van Homey\nHoud de reset knop ingedrukt voor meer dan 3 seconden totdat de blauwe led drie keer knippert\nNote: blijf de reset knop iedere 2 seconden indrukken om de sensor wakker te houden tijden het toevoegen",
 				"de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt\nNote: Drücke alle 2 Sekunden den Reset Knopf um den Sensor während des anlernens wach zu halten",
-				"sv": "Håll enhet nära Homey vid inkludering\nHåll in återställningsknappen i mer än 3 sekunder till dess att dioden blinkar blått tre gånger."
+				"sv": "Håll enheten nära Homey vid inkludering\nHåll in återställningsknappen i mer än 3 sekunder till dess att dioden blinkar blått tre gånger."
 			}
 		}
 	},
