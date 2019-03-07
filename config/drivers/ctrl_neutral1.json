@@ -5,7 +5,7 @@
 		"en": "Aqara Wall Switch Single (L)",
 		"nl": "Aqara Wall Switch Single (L)",
 		"de": "Aqara Wall Switch Single (L)",
-		"sv": "Aqara, Enkelt Vägguttag (L)"
+		"sv": "Aqara Wall Switch Single (L)"
 	},
 	"class": "socket",
 	"capabilities": [
