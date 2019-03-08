@@ -2,10 +2,7 @@
 	"id": "remote.b286acn01",
 	"branch": "master",
 	"name": {
-		"en": "Aqara Wireless Switch Double (2018)",
-		"nl": "Aqara Wireless Switch Double (2018)",
-		"de": "Aqara Wireless Switch Double (2018)",
-		"sv": "Aqara Wireless Switch Double (2018)"
+		"en": "Aqara Wireless Switch Double (2018)"
 	},
 	"class": "sensor",
 	"capabilities": [],
