@@ -2,10 +2,7 @@
 	"id": "cube",
 	"branch": "master",
 	"name": {
-		"en": "Cube",
-		"nl": "Cube",
-		"de": "Cube",
-		"sv": "Cube"
+		"en": "Cube"
 	},
 	"class": "sensor",
 	"capabilities": [
