@@ -2,10 +2,7 @@
 	"id": "plug",
 	"branch": "master",
 	"name": {
-		"en": "Smart socket plug",
-		"nl": "Smart socket plug",
-		"de": "Smart socket plug",
-		"sv": "Smart socket plug"
+		"en": "Smart socket plug"
 	},
 	"class": "socket",
 	"capabilities": [
