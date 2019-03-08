@@ -109,7 +109,7 @@
 					"value": "90,90,0",
 					"hint": {
 						"en": "This textbox will show the stored tilt reference vector. This is a read only setting; don't change",
-						"sv": "Denna textruta ska visa lagrad referensvektor. Detta är en skrivskyddad inställning, ändra inte på det"
+						"sv": "Denna textruta visar lagrad referensvektor. Detta är en skrivskyddad inställning, ändra inte på det"
 					}
 				},
 				{
