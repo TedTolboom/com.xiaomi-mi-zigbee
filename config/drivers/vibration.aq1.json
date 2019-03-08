@@ -84,7 +84,8 @@
 	"settings": [{
 			"type": "group",
 			"label": {
-				"en": "Tilt settings"
+				"en": "Tilt settings",
+				"sv": "Lutningsinställningar"
 			},
 			"children": [{
 					"id": "setReferenceVector",
