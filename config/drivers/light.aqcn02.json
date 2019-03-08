@@ -2,10 +2,7 @@
   "id": "light.aqcn02",
   "branch": "master",
   "name": {
-    "en": "Aqara LED Bulb",
-    "nl": "Aqara LED Bulb",
-    "de": "Aqara LED Bulb",
-    "sv": "Aqara LED Bulb"
+    "en": "Aqara LED Bulb"
   },
   "class": "light",
   "capabilities": [
