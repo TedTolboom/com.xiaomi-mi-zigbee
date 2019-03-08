@@ -2,10 +2,7 @@
 	"id": "ctrl_neutral2",
 	"branch": "master",
 	"name": {
-		"en": "Aqara Wall Switch Double (L)",
-		"nl": "Aqara Wall Switch Double (L)",
-		"de": "Aqara Wall Switch Double (L)",
-		"sv": "Aqara Wall Switch Double (L)"
+		"en": "Aqara Wall Switch Double (L)"
 	},
 	"class": "socket",
 	"capabilities": [
