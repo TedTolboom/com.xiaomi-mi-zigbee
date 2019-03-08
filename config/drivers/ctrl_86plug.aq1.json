@@ -2,10 +2,7 @@
 	"id": "ctrl_86plug.aq1",
 	"branch": "master",
 	"name": {
-		"en": "Aqara Smart Socket",
-		"nl": "Aqara Smart Socket",
-		"de": "Aqara Smart Socket",
-		"sv": "Aqara Smart Socket"
+		"en": "Aqara Smart Socket"
 	},
 	"class": "socket",
 	"capabilities": [
