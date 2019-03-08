@@ -2,10 +2,7 @@
 	"id": "remote.b1acn01",
 	"branch": "master",
 	"name": {
-		"en": "Aqara Wireless Mini Switch (2018)",
-		"nl": "Aqara Wireless Mini Switch (2018)",
-		"de": "Aqara Wireless Mini Switch (2018)",
-		"sv": "Aqara Wireless Mini Switch (2018)"
+		"en": "Aqara Wireless Mini Switch (2018)"
 	},
 	"class": "sensor",
 	"capabilities": [
