@@ -27,7 +27,8 @@
 			"instruction": {
 				"en": "Hold the sensor in close proximity of Homey\nLong press the reset button for more than 3 seconds until the blue light flashes three times",
 				"nl": "Houd tijdens het toevoegen de sensor in de buurt van Homey\nHoud de reset knop ingedrukt voor meer dan 3 seconden totdat de blauwe led drie keer knippert",
-				"de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt"
+				"de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt",
+				"sv": "Håll sensorn nära Homey under inkludering\nTryck ned strömknappen i minst 3 sekunder till dess att den blåa dioden blinkar tre gånger"
 			}
 		}
 	},
@@ -40,11 +41,13 @@
 			"type": "number",
 			"label": {
 				"en": "Temperature offset (°C)",
-				"nl": "Temperatuur compensatie (°C)"
+				"nl": "Temperatuur compensatie (°C)",
+				"sv": "Temperaturavvikelse (°C)"
 			},
 			"hint": {
 				"en": "Set a correction to compensate a temperature offset.\nRange: -10 - 10, step size 0.1, \ndefault: 0 [°C]",
-				"nl": "Stel een correctiewaarde in om een temperature verschil te compenseren.\nBereik: -10 - 10, stap grootte 0.1, \nstandaard: 0 [°C]"
+				"nl": "Stel een correctiewaarde in om een temperature verschil te compenseren.\nBereik: -10 - 10, stap grootte 0.1, \nstandaard: 0 [°C]",
+				"sv": "Ange ett korrigerande värde för temperaturavvikelse.\nSkala: -10 - 10, steg om 0,1, \nstandard: 0 [°C]"
 			},
 			"value": 0,
 			"attr": {
@@ -57,19 +60,22 @@
 			"id": "temperature_decimals",
 			"type": "radio",
 			"label": {
-				"en": "Temperature reporting"
+				"en": "Temperature reporting",
+				"sv": "Rapportera temperatur med"
 			},
 			"value": "1",
 			"values": [{
 					"id": "1",
 					"label": {
-						"en": "Report temperature value with 1 decimal (22.1 °C)"
+						"en": "Report temperature value with 1 decimal (22.1 °C)",
+						"sv": "En decimal (22.1 °C)"
 					}
 				},
 				{
 					"id": "2",
 					"label": {
-						"en": "Report temperature value with 2 decimals (22.07 °C)"
+						"en": "Report temperature value with 2 decimals (22.07 °C)",
+						"sv": "Två decimaler (22.07 °C)"
 					}
 				}
 			]
@@ -78,19 +84,22 @@
 			"id": "humidity_decimals",
 			"type": "radio",
 			"label": {
-				"en": "Humidity reporting"
+				"en": "Humidity reporting",
+				"sv": "Rapportera fukt med"
 			},
 			"value": "1",
 			"values": [{
 					"id": "1",
 					"label": {
-						"en": "Report humidity value with 1 decimal (65.3 %)"
+						"en": "Report humidity value with 1 decimal (65.3 %)",
+						"sv": "En decimal (65.3 %)"
 					}
 				},
 				{
 					"id": "2",
 					"label": {
-						"en": "Report humidity value with 2 decimals (65.34 %)"
+						"en": "Report humidity value with 2 decimals (65.34 %)",
+						"sv": "Två decimaler (65.34 %)"
 					}
 				}
 			]
@@ -100,11 +109,13 @@
 			"type": "number",
 			"label": {
 				"en": "Battery alarm threshold (%)",
-				"nl": "Batterij alarm waarde (%)"
+				"nl": "Batterij alarm waarde (%)",
+				"sv": "Batteriets alarmnivå (%)"
 			},
 			"hint": {
 				"en": "Battery level (%) below which the battery alarm will be activated.\nRange: 1 - 90, \ndefault: 20 [%]",
-				"nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]"
+				"nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]",
+				"sv": "Batterinivå % under vilken batterilarmet kommer aktiveras.\nSkala: 1 - 90, \nstandard: 20 [%]"
 			},
 			"value": 20,
 			"attr": {

@@ -2,8 +2,7 @@
 	"id": "vibration.aq1",
 	"branch": "master",
 	"name": {
-		"en": "Aqara Vibration Sensor",
-		"nl": "Aqara Vibration Sensor"
+		"en": "Aqara Vibration Sensor"
 	},
 	"class": "sensor",
 	"capabilities": [
@@ -19,7 +18,8 @@
 	"capabilitiesOptions": {
 		"measure_tilt.relative": {
 			"title": {
-				"en": "Relative tilt angle"
+				"en": "Relative tilt angle",
+				"sv": "Relativ lutningsvinkel"
 			}
 		}
 	},
@@ -72,7 +72,8 @@
 			"instruction": {
 				"en": "Hold the sensor in close proximity of Homey\nLong press the reset button for more than 5 seconds until the blue light flashes three times",
 				"nl": "Houd tijdens het toevoegen de sensor in de buurt van Homey\nHoud de reset knop ingedrukt voor meer dan 5 seconden totdat de blauwe led drie keer knippert",
-				"de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 5 Sekunden bis das blaue Licht 3 mal blinkt"
+				"de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 5 Sekunden bis das blaue Licht 3 mal blinkt",
+				"sv": "Håll sensorn nära Homey vid inkludering\nHåll in återställningsknappen i mer än 3 sekunder till dess att dioden blinkar blått tre gånger."
 			}
 		}
 	},
@@ -83,47 +84,55 @@
 	"settings": [{
 			"type": "group",
 			"label": {
-				"en": "Tilt settings"
+				"en": "Tilt settings",
+				"sv": "Lutningsinställningar"
 			},
 			"children": [{
 					"id": "setReferenceVector",
 					"type": "checkbox",
 					"value": false,
 					"label": {
-						"en": "Set tilt reference vector"
+						"en": "Set tilt reference vector",
+						"sv": "Ange lutningens referensvektor"
 					},
 					"hint": {
-						"en": "Set the tilt reference vector with the next tilt movement"
+						"en": "Set the tilt reference vector with the next tilt movement",
+						"sv": "Ange lutningens referensvektor med nästa lutningsrörelse"
 					}
 				},
 				{
 					"id": "tiltReferenceVector",
 					"type": "label",
 					"label": {
-						"en": "Tilt reference vector"
+						"en": "Tilt reference vector",
+						"sv": "Lutningens referensvektor"
 					},
 					"value": "90,90,0",
 					"hint": {
-						"en": "This textbox will show the stored tilt reference vector. This is a read only setting; don't change"
+						"en": "This textbox will show the stored tilt reference vector. This is a read only setting; don't change",
+						"sv": "Denna textruta visar lagrad referensvektor. Detta är en skrivskyddad inställning, ändra inte på det"
 					}
 				},
 				{
 					"id": "capabilityTiltAngles",
 					"type": "radio",
 					"label": {
-						"en": "Tilt angles in mobile interface"
+						"en": "Tilt angles in mobile interface",
+						"sv": "Lutningsvinkel i det mobila gränssnittet"
 					},
 					"value": "signed",
 					"values": [{
 							"id": "signed",
 							"label": {
-								"en": "Show signed tilt angles"
+								"en": "Show signed tilt angles",
+								"sv": "Visa signerade lutningsvinklar"
 							}
 						},
 						{
 							"id": "absolute",
 							"label": {
-								"en": "Show absolute tilt angles"
+								"en": "Show absolute tilt angles",
+								"sv": "Visa absoluta lutningsvinklar"
 							}
 						}
 					]
@@ -133,16 +142,19 @@
 		{
 			"type": "group",
 			"label": {
-				"en": "Alarm settings"
+				"en": "Alarm settings",
+				"sv": "Alarminställningar"
 			},
 			"children": [{
 					"id": "alarm_vibration_cancellation_delay",
 					"type": "number",
 					"label": {
-						"en": "Vibration alarm cancellation delay"
+						"en": "Vibration alarm cancellation delay",
+						"sv": "Återställningsfördröjning för vibrationsalarm"
 					},
 					"hint": {
-						"en": "Alarm cancellation delay after vibration motion has been detected.\nDefault: 30 s\nRange: 10 - 3600 s"
+						"en": "Alarm cancellation delay after vibration motion has been detected.\nDefault: 30 s\nRange: 10 - 3600 s",
+						"sv": "Återställningsfördröjning efter det att en vibrationsrörelse har identifierats.\nStandard: 30s\nAvstånd: 10 -3600 s"
 					},
 					"value": 30,
 					"attr": {
@@ -154,10 +166,12 @@
 					"id": "alarm_tilt_cancellation_delay",
 					"type": "number",
 					"label": {
-						"en": "Tilt alarm cancellation delay"
+						"en": "Tilt alarm cancellation delay",
+						"sv": "Återställningsfördröjning för lutningsalarm"
 					},
 					"hint": {
-						"en": "Alarm cancellation delay after tilt motion has been detected.\nDefault: 30 s\nRange: 10 - 3600 s"
+						"en": "Alarm cancellation delay after tilt motion has been detected.\nDefault: 30 s\nRange: 10 - 3600 s",
+						"sv": "Återställningsfördröjning efter det att en lutningssrörelse har identifierats.\nStandard: 30s\nAvstånd: 10 -3600 s"
 					},
 					"value": 30,
 					"attr": {
@@ -169,10 +183,12 @@
 					"id": "alarm_drop_cancellation_delay",
 					"type": "number",
 					"label": {
-						"en": "Drop alarm cancellation delay"
+						"en": "Drop alarm cancellation delay",
+						"sv": "Återställningsfördröjning för fallalarm"
 					},
 					"hint": {
-						"en": "Alarm cancellation delay after drop motion has been detected.\nDefault: 30 s\nRange: 10 - 3600 s"
+						"en": "Alarm cancellation delay after drop motion has been detected.\nDefault: 30 s\nRange: 10 - 3600 s",
+						"sv": "Återställningsfördröjning efter det att en fallrörelse har identifierats.\nStandard: 30s\nAvstånd: 10 -3600 s"
 					},
 					"value": 30,
 					"attr": {
@@ -187,11 +203,14 @@
 			"type": "number",
 			"label": {
 				"en": "Battery alarm threshold (%)",
-				"nl": "Batterij alarm waarde (%)"
+				"nl": "Batterij alarm waarde (%)",
+				"sv": "Batteriets alarmnivå (%)"
 			},
 			"hint": {
 				"en": "Battery level (%) below which the battery alarm will be activated.\nRange: 1 - 90, \ndefault: 20 [%]",
-				"nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]"
+				"nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]",
+				"sv": "Batterinivå % under vilken batterilarmet kommer aktiveras.\nSkala: 1 - 90, \nstandard: 20 [%]"
+				
 			},
 			"value": 20,
 			"attr": {

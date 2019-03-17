@@ -2,9 +2,7 @@
 	"id": "sensor_86sw2Un",
 	"branch": "master",
 	"name": {
-		"en": "Aqara Wireless Remote Switch Double",
-		"nl": "Aqara Wireless Remote Switch Double",
-		"de": "Aqara Wireless Remote Switch Double"
+		"en": "Aqara Wireless Remote Switch Double"
 	},
 	"class": "sensor",
 	"capabilities": [],
@@ -18,7 +16,8 @@
 			"instruction": {
 				"en": "Long press any power button to open more than 5 seconds until the blue light flashes three times after release",
 				"nl": "Long press any power button to open more than 5 seconds until the blue light flashes three times after release",
-				"de": "Drücke den Power Knopf länger als 5 Sekunden. Nach dem los lassen blinkt das rote Licht 3 Mal."
+				"de": "Drücke den Power Knopf länger als 5 Sekunden. Nach dem los lassen blinkt das rote Licht 3 Mal.",
+				"sv": "Tryck in en strömknapp i minst 5 sekunder till dess att den blå dioden blinkar tre gånger efter uppsläpp."
 			}
 		}
 	},

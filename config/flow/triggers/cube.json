@@ -3,7 +3,8 @@
 		"title": {
 			"en": "Cube motion",
 			"nl": "Cube beweging",
-			"de": "Cube Bewegung"
+			"de": "Cube Bewegung",
+			"sv": "Kubrörelse"
 		},
 		"args": [{
 			"name": "device",
@@ -16,19 +17,22 @@
 				"title": {
 					"en": "Cube Motion",
 					"nl": "Cube beweging",
-					"de": "Cube Bewegung"
+					"de": "Cube Bewegung",
+					"sv": "Kubrörelse"
 				},
 				"example": {
 					"en": "Shake",
 					"nl": "Schudden",
-					"de": "Schütteln"
+					"de": "Schütteln",
+					"sv": "Skaka"
 				}
 			},
 			{
 				"name": "sourceFace",
 				"type": "number",
 				"title": {
-					"en": "source Face"
+					"en": "source Face",
+					"sv": "ursprunglig sida"
 				},
 				"example": 1
 			},
@@ -36,7 +40,8 @@
 				"name": "targetFace",
 				"type": "number",
 				"title": {
-					"en": "target Face"
+					"en": "target Face",
+					"sv": "målsida"
 				},
 				"example": 5
 			}
@@ -47,7 +52,8 @@
 		"title": {
 			"en": "Cube shaked",
 			"nl": "Cube geschud",
-			"de": "Cube geschüttelt"
+			"de": "Cube geschüttelt",
+			"sv": "Kub skakad"
 		},
 		"args": [{
 				"name": "device",
@@ -62,7 +68,8 @@
 						"label": {
 							"en": "any side up",
 							"nl": "willekeurige zijde",
-							"de": "Zufällige Seite oben"
+							"de": "Zufällige Seite oben",
+							"sv": "någon sida upp"
 						}
 					},
 					{
@@ -70,7 +77,8 @@
 						"label": {
 							"en": "side 1 up",
 							"nl": "zijde 1 boven",
-							"de": "Seite 1 oben"
+							"de": "Seite 1 oben",
+							"sv": "sida 1 upp"
 						}
 					},
 					{
@@ -78,7 +86,8 @@
 						"label": {
 							"en": "side 2 up",
 							"nl": "zijde 2 boven",
-							"de": "Seite 2 oben"
+							"de": "Seite 2 oben",
+							"sv": "sida 2 upp"
 						}
 					},
 					{
@@ -86,7 +95,8 @@
 						"label": {
 							"en": "side 3 up",
 							"nl": "zijde 3 boven",
-							"de": "Seite 3 oben"
+							"de": "Seite 3 oben",
+							"sv": "sida 3 upp"
 						}
 					},
 					{
@@ -94,7 +104,8 @@
 						"label": {
 							"en": "side 4 up",
 							"nl": "zijde 4  boven",
-							"de": "Seite 4 oben"
+							"de": "Seite 4 oben",
+							"sv": "sida 4 upp"
 						}
 					},
 					{
@@ -102,7 +113,8 @@
 						"label": {
 							"en": "side 5 up",
 							"nl": "zijde 5 boven",
-							"de": "Seite 5 oben"
+							"de": "Seite 5 oben",
+							"sv": "sida 5 upp"
 						}
 					},
 					{
@@ -110,7 +122,8 @@
 						"label": {
 							"en": "side 6 up",
 							"nl": "zijde 6 boven",
-							"de": "Seite 6 oben"
+							"de": "Seite 6 oben",
+							"sv": "sida 6 upp"
 						}
 					}
 				]
@@ -122,7 +135,8 @@
 		"title": {
 			"en": "Cube flipped 90°",
 			"nl": "Cube 90° gekanteld",
-			"de": "Cube 90° gedreht"
+			"de": "Cube 90° gedreht",
+			"sv": "Kuben vänd 90°"
 		},
 		"args": [{
 				"name": "device",
@@ -137,7 +151,8 @@
 						"label": {
 							"en": "from any side",
 							"nl": "van iedere zijde",
-							"de": "von beliebiger Seite"
+							"de": "von beliebiger Seite",
+							"sv": "från någon sida"
 						}
 					},
 					{
@@ -145,7 +160,8 @@
 						"label": {
 							"en": "from side 1",
 							"nl": "van zijde 1",
-							"de": "von Seite 1"
+							"de": "von Seite 1",
+							"sv": "från sida 1"
 						}
 					},
 					{
@@ -153,7 +169,8 @@
 						"label": {
 							"en": "from side 2",
 							"nl": "van zijde 2",
-							"de": "von Seite 2"
+							"de": "von Seite 2",
+							"sv": "från sida 2"
 						}
 					},
 					{
@@ -161,7 +178,8 @@
 						"label": {
 							"en": "from side 3",
 							"nl": "van zijde 3",
-							"de": "von Seite 3"
+							"de": "von Seite 3",
+							"sv": "från sida 3"
 						}
 					},
 					{
@@ -169,7 +187,8 @@
 						"label": {
 							"en": "from side 4",
 							"nl": "van zijde 4",
-							"de": "von Seite 4"
+							"de": "von Seite 4",
+							"sv": "från sida 4"
 						}
 					},
 					{
@@ -177,7 +196,8 @@
 						"label": {
 							"en": "from side 5",
 							"nl": "van side 5",
-							"de": "von Seite 5"
+							"de": "von Seite 5",
+							"sv": "från sida 5"
 						}
 					},
 					{
@@ -185,7 +205,8 @@
 						"label": {
 							"en": "from side 6",
 							"nl": "van zijde 6",
-							"de": "von Seite 6"
+							"de": "von Seite 6",
+							"sv": "från sida 6"
 						}
 					}
 				]
@@ -198,7 +219,8 @@
 						"label": {
 							"en": "to any side",
 							"nl": "naar iedere zijde",
-							"de": "zu beliebiger Seite"
+							"de": "zu beliebiger Seite",
+							"sv": "till någon sida"
 
 						}
 					},
@@ -207,7 +229,8 @@
 						"label": {
 							"en": "to 1",
 							"nl": "naar 1",
-							"de": "zu Seite 1"
+							"de": "zu Seite 1",
+							"sv": "till 1"
 						}
 					},
 					{
@@ -215,7 +238,8 @@
 						"label": {
 							"en": "to 2",
 							"nl": "naar 2",
-							"de": "zu Seite 2"
+							"de": "zu Seite 2",
+							"sv": "till 2"
 						}
 					},
 					{
@@ -223,7 +247,8 @@
 						"label": {
 							"en": "to 3",
 							"nl": "naar 3",
-							"de": "zu Seite 3"
+							"de": "zu Seite 3",
+							"sv": "till 3"
 						}
 					},
 					{
@@ -231,7 +256,8 @@
 						"label": {
 							"en": "to 4",
 							"nl": "naar 4",
-							"de": "zu Seite 4"
+							"de": "zu Seite 4",
+							"sv": "till 4"
 						}
 					},
 					{
@@ -239,7 +265,8 @@
 						"label": {
 							"en": "to 5",
 							"nl": "naar 5",
-							"de": "zu Seite 5"
+							"de": "zu Seite 5",
+							"sv": "till 5"
 						}
 					},
 					{
@@ -247,7 +274,8 @@
 						"label": {
 							"en": "to 6",
 							"nl": "naar 6",
-							"de": "zu Seite 6"
+							"de": "zu Seite 6",
+							"sv": "till 6"
 						}
 					}
 				]
@@ -258,7 +286,8 @@
 		"id": "cube_Flip180",
 		"title": {
 			"en": "Cube flipped 180°",
-			"nl": "Cube 180° gekanteld"
+			"nl": "Cube 180° gekanteld",
+			"sv": "Kuben vänd 180°"
 		},
 		"args": [{
 				"name": "device",
@@ -273,7 +302,8 @@
 						"label": {
 							"en": "any side up",
 							"nl": "willekeurige zijde",
-							"de": "beliebige Seite oben"
+							"de": "beliebige Seite oben",
+							"sv": "någon sida upp"
 						}
 					},
 					{
@@ -281,7 +311,8 @@
 						"label": {
 							"en": "side 1 up",
 							"nl": "zijde 1 boven",
-							"de": "Seite 1 oben"
+							"de": "seite 1 oben",
+							"sv": "sida 1 upp"
 						}
 					},
 					{
@@ -289,7 +320,8 @@
 						"label": {
 							"en": "side 2 up",
 							"nl": "zijde 2 boven",
-							"de": "Seite 2 oben"
+							"de": "Seite 2 oben",
+							"sv": "sida 2 upp"
 						}
 					},
 					{
@@ -297,7 +329,8 @@
 						"label": {
 							"en": "side 3 up",
 							"nl": "zijde 3 boven",
-							"de": "Seite 3 oben"
+							"de": "Seite 3 oben",
+							"sv": "sida 3 upp"
 						}
 					},
 					{
@@ -305,7 +338,8 @@
 						"label": {
 							"en": "side 4 up",
 							"nl": "zijde 4  boven",
-							"de": "Seite 4 oben"
+							"de": "seite 4 oben",
+							"sv": "sida 4 upp"
 						}
 					},
 					{
@@ -313,7 +347,8 @@
 						"label": {
 							"en": "side 5 up",
 							"nl": "side 5 boven",
-							"de": "Seite 5 oben"
+							"de": "seite 5 oben",
+							"sv": "sida 5 upp"
 						}
 					},
 					{
@@ -321,7 +356,8 @@
 						"label": {
 							"en": "side 6 up",
 							"nl": "zijde 6 boven",
-							"de": "Seite 6 oben"
+							"de": "seite 6 oben",
+							"sv": "sida 6 upp"
 						}
 					}
 				]
@@ -333,7 +369,8 @@
 		"title": {
 			"en": "Cube slided",
 			"nl": "Cube verschoven",
-			"de": "Cube verschieben"
+			"de": "Cube verschieben",
+			"sv": "Kuben gled"
 		},
 		"args": [{
 				"name": "device",
@@ -348,7 +385,8 @@
 						"label": {
 							"en": "any side up",
 							"nl": "willekeurige zijde",
-							"de": "beliebige Seite oben"
+							"de": "beliebige Seite oben",
+							"sv": "någon sida upp"
 						}
 					},
 					{
@@ -356,7 +394,8 @@
 						"label": {
 							"en": "side 1 up",
 							"nl": "zijde 1 boven",
-							"de": "Seite 1 oben"
+							"de": "seite 1 oben",
+							"sv": "sida 1 upp"
 						}
 					},
 					{
@@ -364,7 +403,8 @@
 						"label": {
 							"en": "side 2 up",
 							"nl": "zijde 2 boven",
-							"de": "Seite 2 oben"
+							"de": "seite 2 oben",
+							"sv": "sida 2 upp"
 						}
 					},
 					{
@@ -372,7 +412,8 @@
 						"label": {
 							"en": "side 3 up",
 							"nl": "zijde 3 boven",
-							"de": "Seite 3 oben"
+							"de": "seite 3 oben",
+							"sv": "sida 3 upp"
 						}
 					},
 					{
@@ -380,7 +421,8 @@
 						"label": {
 							"en": "side 4 up",
 							"nl": "zijde 4  boven",
-							"de": "Seite 4 oben"
+							"de": "seite 4 oben",
+							"sv": "sida 4 upp"
 						}
 					},
 					{
@@ -388,7 +430,8 @@
 						"label": {
 							"en": "side 5 up",
 							"nl": "side 5 boven",
-							"de": "Seite 5 oben"
+							"de": "seite 5 oben",
+							"sv": "sida 5 upp"
 						}
 					},
 					{
@@ -396,7 +439,8 @@
 						"label": {
 							"en": "side 6 up",
 							"nl": "zijde 6 boven",
-							"de": "Seite 6 oben"
+							"de": "seite 6 oben",
+							"sv": "sida 6 upp"
 						}
 					}
 				]
@@ -408,7 +452,8 @@
 		"title": {
 			"en": "Cube double tapped",
 			"nl": "Cube twee keer kloppen",
-			"de": "Cube zweimal angetippt"
+			"de": "Cube zweimal angetippt",
+			"sv": "Kuben dubbelknackad"
 		},
 		"args": [{
 				"name": "device",
@@ -423,7 +468,8 @@
 						"label": {
 							"en": "any side up",
 							"nl": "willekeurige zijde",
-							"de": "beliebige Seite oben"
+							"de": "beliebige Seite oben",
+							"sv": "någon sida upp"
 						}
 					},
 					{
@@ -431,7 +477,8 @@
 						"label": {
 							"en": "side 1 up",
 							"nl": "zijde 1 boven",
-							"de": "Seite 1 oben"
+							"de": "seite 1 oben"
+							"sv": "sida 1 upp"
 						}
 					},
 					{
@@ -439,7 +486,8 @@
 						"label": {
 							"en": "side 2 up",
 							"nl": "zijde 2 boven",
-							"de": "Seite 2 oben"
+							"de": "seite 2 oben",
+							"sv": "sida 2 upp"
 						}
 					},
 					{
@@ -447,7 +495,8 @@
 						"label": {
 							"en": "side 3 up",
 							"nl": "zijde 3 boven",
-							"de": "Seite 3 oben"
+							"de": "seite 3 oben",
+							"sv": "sida 3 upp"
 						}
 					},
 					{
@@ -455,7 +504,8 @@
 						"label": {
 							"en": "side 4 up",
 							"nl": "zijde 4  boven",
-							"de": "Seite 4 oben"
+							"de": "seite 4 oben",
+							"sv": "sida 4 upp"
 						}
 					},
 					{
@@ -463,7 +513,8 @@
 						"label": {
 							"en": "side 5 up",
 							"nl": "side 5 boven",
-							"de": "Seite 5 oben"
+							"de": "seite 5 oben",
+							"sv": "sida 5 upp"
 						}
 					},
 					{
@@ -471,7 +522,8 @@
 						"label": {
 							"en": "side 6 up",
 							"nl": "zijde 6 boven",
-							"de": "Seite 6 oben"
+							"de": "seite 6 oben",
+							"sv": "sida 6 upp"
 						}
 					}
 				]
@@ -483,7 +535,8 @@
 		"title": {
 			"en": "Cube rotated",
 			"nl": "Cube gedraaid",
-			"de": "Cube gedreht"
+			"de": "Cube gedreht",
+			"sv": "Kuben roterad"
 		},
 		"args": [{
 				"name": "device",
@@ -498,7 +551,8 @@
 						"label": {
 							"en": "any side up",
 							"nl": "willekeurige zijde",
-							"de": "beliebige Seite oben"
+							"de": "beliebige Seite oben",
+							"sv": "någon sida upp"
 						}
 					},
 					{
@@ -506,7 +560,8 @@
 						"label": {
 							"en": "side 1 up",
 							"nl": "zijde 1 boven",
-							"de": "Seite 1 oben"
+							"de": "seite 1 oben",
+							"sv": "sida 1 upp"
 						}
 					},
 					{
@@ -514,7 +569,8 @@
 						"label": {
 							"en": "side 2 up",
 							"nl": "zijde 2 boven",
-							"de": "Seite 2 oben"
+							"de": "seite 2 oben",
+							"sv": "sida 2 upp"
 						}
 					},
 					{
@@ -522,7 +578,8 @@
 						"label": {
 							"en": "side 3 up",
 							"nl": "zijde 3 boven",
-							"de": "Seite 3 oben"
+							"de": "seite 3 oben",
+							"sv": "sida 3 upp"
 						}
 					},
 					{
@@ -530,7 +587,8 @@
 						"label": {
 							"en": "side 4 up",
 							"nl": "zijde 4  boven",
-							"de": "Seite 4 oben"
+							"de": "seite 4 oben",
+							"sv": "sida 4 upp"
 						}
 					},
 					{
@@ -538,7 +596,8 @@
 						"label": {
 							"en": "side 5 up",
 							"nl": "side 5 boven",
-							"de": "Seite 5 oben"
+							"de": "seite 5 oben",
+							"sv": "sida 5 upp"
 						}
 					},
 					{
@@ -546,7 +605,8 @@
 						"label": {
 							"en": "side 6 up",
 							"nl": "zijde 6 boven",
-							"de": "Seite 6 oben"
+							"de": "seite 6 oben",
+							"sv": "sida 6 upp"
 						}
 					}
 				]
@@ -558,7 +618,8 @@
 				"title": {
 					"en": "Rotation Angle °",
 					"nl": "Rotatiehoek °",
-					"de": "Drehwinkel °"
+					"de": "Drehwinkel °",
+					"sv": "Rotationsvinkel °"
 				},
 				"example": 124.51
 			},
@@ -567,8 +628,9 @@
 				"type": "number",
 				"title": {
 					"en": "Relative Angle %",
-					"nl": "Relatieve hoek %",
-					"de": "Relativer Winkel %"
+					"nl": "Relatieve Hoek %",
+					"de": "Relativer Winkel %",
+					"sv": "Relativ Vinkel %"
 				},
 				"example": 0.92
 			}

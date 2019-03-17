@@ -5,7 +5,8 @@
   },
   "description": {
     "en": "Control Xiaomi / Aqara ZigBee devices",
-    "nl": "Bestuur Xiaomi / Aqara ZigBee apparaten"
+    "nl": "Bestuur Xiaomi / Aqara ZigBee apparaten",
+    "sv": "Kontrollerar Xiaomi / Aqara Zigbee enheter"
   },
   "category": [
     "lights"
@@ -42,6 +43,12 @@
         "name": "Ted Tolboom",
         "email": "dTNL.Homey@gmail.com"
       }
+    ],
+   "translators": [
+      {
+        "name": "Johan Bendz",
+        "email": "johan_bendz@hotmail.com"
+      }
     ]
   },
   "contributing": {
@@ -62,11 +69,13 @@
       "icon": "/drivers/vibration.aq1/assets/alarm_tilt.svg",
       "title": {
         "en": "Tilt Alarm",
-        "nl": "Kantelalarm"
+        "nl": "Kantelalarm",
+        "sv": "Lutningsalarm"
       },
       "desc": {
         "en": "Detected tilt motion",
-        "nl": "Gedetecteerde kantel beweging"
+        "nl": "Gedetecteerde kantel beweging",
+        "sv": "Detekterade lutningsrörelse"
       },
       "getable": true,
       "setable": false
@@ -77,11 +86,13 @@
       "icon": "/drivers/vibration.aq1/assets/alarm_vibration.svg",
       "title": {
         "en": "Vibration Alarm",
-        "nl": "Trillingsalarm"
+        "nl": "Trillingsalarm",
+        "sv": "Vibrationsalarm"
       },
       "desc": {
         "en": "Detected vibration",
-        "nl": "Gedetecteerde trilling"
+        "nl": "Gedetecteerde trilling",
+        "sv": "Detekterade vibration"
       },
       "getable": true,
       "setable": false
@@ -92,11 +103,13 @@
       "icon": "/drivers/vibration.aq1/assets/alarm_drop.svg",
       "title": {
         "en": "Drop Alarm",
-        "nl": "Valalarm"
+        "nl": "Valalarm",
+        "sv": "Fallalarm"
       },
       "desc": {
         "en": "Detected drop motion",
-        "nl": "Gedetecteerde val beweging"
+        "nl": "Gedetecteerde val beweging",
+        "sv": "Detekterade fallrörelse"
       },
       "getable": true,
       "setable": false
@@ -107,7 +120,8 @@
       "icon": "/drivers/vibration.aq1/assets/measure_tilt.svg",
       "title": {
         "en": "Tilt angle",
-        "nl": "Kantelhoek"
+        "nl": "Kantelhoek",
+        "sv": "Lutningvinkel"
       },
       "getable": true,
       "setable": false,
@@ -122,7 +136,8 @@
       "icon": "/drivers/vibration.aq1/assets/measure_vibration.svg",
       "title": {
         "en": "Vibration",
-        "nl": "Trilling"
+        "nl": "Trilling",
+        "sv": "Vibration"
       },
       "getable": true,
       "setable": false,
@@ -134,7 +149,8 @@
       "icon": "/drivers/cube/assets/icon_rotate.svg",
       "title": {
         "en": "Rotation",
-        "nl": "Draaihoek"
+        "nl": "Draaihoek",
+        "sv": "Rotation"
       },
       "getable": true,
       "setable": false,
@@ -149,7 +165,8 @@
       "icon": "/drivers/cube/assets/icon.svg",
       "title": {
         "en": "Motion",
-        "nl": "Beweging"
+        "nl": "Beweging",
+        "sv": "Rörelse"
       },
       "getable": true,
       "setable": false,
@@ -158,49 +175,56 @@
           "id": "Shake",
           "title": {
             "en": "Shake",
-            "nl": "Schudden"
+            "nl": "Schudden",
+            "sv": "Skakning"
           }
         },
         {
           "id": "Flip90",
           "title": {
             "en": "Flip 90°",
-            "nl": "Flip 90°"
+            "nl": "Flip 90°",
+            "sv": "Vrid 90°"
           }
         },
         {
           "id": "Flip180",
           "title": {
             "en": "Flip 180°",
-            "nl": "Flip 180°"
+            "nl": "Flip 180°",
+            "sv": "Vrid 180°"
           }
         },
         {
           "id": "Slide",
           "title": {
             "en": "Slide",
-            "nl": "Schuiven"
+            "nl": "Schuiven",
+            "sv": "Glid"
           }
         },
         {
           "id": "DoubleTap",
           "title": {
             "en": "Double tap",
-            "nl": "Kloppen"
+            "nl": "Kloppen",
+            "sv": "Dubbel knackning"
           }
         },
         {
           "id": "Rotate",
           "title": {
             "en": "Rotate",
-            "nl": "Roteren"
+            "nl": "Roteren",
+            "sv": "Rotera"
           }
         },
         {
           "id": "Catch",
           "title": {
             "en": "Catch",
-            "nl": "Vangen"
+            "nl": "Vangen",
+            "sv": "Fånga"
           }
         }
       ]
@@ -211,7 +235,8 @@
       "icon": "/drivers/cube/assets/icon_face.svg",
       "title": {
         "en": "Face up",
-        "nl": "Zijde boven"
+        "nl": "Zijde boven",
+        "sv": "Sida upp"
       },
       "getable": true,
       "setable": false,
@@ -220,42 +245,48 @@
           "id": "1",
           "title": {
             "en": "Face 1",
-            "nl": "Zijde 1"
+            "nl": "Zijde 1",
+            "sv": "Sida 1"
           }
         },
         {
           "id": "2",
           "title": {
             "en": "Face 2",
-            "nl": "Zijde 2"
+            "nl": "Zijde 2",
+            "sv": "Sida 2"
           }
         },
         {
           "id": "3",
           "title": {
             "en": "Face 3",
-            "nl": "Zijde 3"
+            "nl": "Zijde 3",
+            "sv": "Sida 3"
           }
         },
         {
           "id": "4",
           "title": {
             "en": "Face 4",
-            "nl": "Zijde 4"
+            "nl": "Zijde 4",
+            "sv": "Sida 4"
           }
         },
         {
           "id": "5",
           "title": {
             "en": "Face 5",
-            "nl": "Zijde 5"
+            "nl": "Zijde 5",
+            "sv": "Sida 5"
           }
         },
         {
           "id": "6",
           "title": {
             "en": "Face 6",
-            "nl": "Zijde 6"
+            "nl": "Zijde 6",
+            "sv": "Sida 6"
           }
         }
       ]
@@ -264,10 +295,12 @@
       "type": "number",
       "title": {
         "en": "Position",
-        "nl": "Positie"
+        "nl": "Positie",
+        "sv": "Position"
       },
       "desc": {
-        "en": "Set the position of window coverings. 0 is closed, 1 is open"
+        "en": "Set the position of window coverings. 0 is closed, 1 is open",
+        "sv": "Ange persiennens position. 0 är stängd, 1 är öppen"
       },
       "chartType": "stepLine",
       "min": 0,
@@ -287,7 +320,8 @@
         "title": {
           "en": "Turned on (right switch)",
           "nl": "Ingeschakeld (rechter schakelaar)",
-          "de": "Eingeschaltet (rechter Schalter)"
+          "de": "Eingeschaltet (rechter Schalter)",
+          "sv": "Påslagen (höger knapp)"
         },
         "args": [
           {
@@ -302,7 +336,8 @@
         "title": {
           "en": "Turned off (right switch)",
           "nl": "Uitgeschakeld (rechter schakelaar)",
-          "de": "Ausgeschaltet (rechter Schalter)"
+          "de": "Ausgeschaltet (rechter Schalter)",
+          "sv": "Avslagen (höger knapp)"
         },
         "args": [
           {
@@ -317,12 +352,14 @@
         "title": {
           "en": "A button has been pressed",
           "nl": "Een knop is ingedrukt",
-          "de": "Ein Schalter ist gedrückt"
+          "de": "Ein Schalter ist gedrückt",
+          "sv": "En knapp har tryckts"
         },
         "hint": {
           "en": "This card will trigger on any button pressed and provides the scene tokens.",
           "nl": "Deze kaart wordt geactiveerd bij iedere knop die ingedrukt wordt en biedt de scene tokens aan.",
-          "de": "Diese Karte wird mit jeder gedrücktem Schalter aktiviert und liefert den scene token."
+          "de": "Diese Karte wird mit jeder gedrücktem Schalter aktiviert und liefert den scene token.",
+          "sv": "Detta kort aktiveras om någon knapp har tryckts och tillhandahåller scen token."
         },
         "args": [
           {
@@ -338,10 +375,12 @@
             "title": {
               "en": "scene",
               "nl": "scene",
-              "de": "Szene"
+              "de": "szene",
+              "sv": "scen"
             },
             "example": {
-              "en": "Button pressed (test)"
+              "en": "Button pressed (test)",
+              "sv": "En knapp har tryckts (test)"
             }
           }
         ]
@@ -351,12 +390,14 @@
         "title": {
           "en": "A button has been pressed",
           "nl": "Een knop is ingedrukt",
-          "de": "Ein Schalter ist gedrückt"
+          "de": "Ein Schalter ist gedrückt",
+          "sv": "En knapp har tryckts"
         },
         "hint": {
           "en": "This card will trigger on any button pressed and provides the scene tokens.",
           "nl": "Deze kaart wordt geactiveerd bij iedere knop die ingedrukt wordt en biedt de scene tokens aan.",
-          "de": "Diese Karte wird mit jeder gedrücktem Schalter aktiviert und liefert den scene token."
+          "de": "Diese Karte wird mit jeder gedrücktem Schalter aktiviert und liefert den scene token.",
+          "sv": "Detta kort aktiveras om någon knapp har tryckts och tillhandahåller scen token."
         },
         "args": [
           {
@@ -372,7 +413,8 @@
             "title": {
               "en": "button",
               "nl": "knop",
-              "de": "Schalter"
+              "de": "Schalter",
+              "sv": "knapp"
             },
             "example": {
               "en": "0"
@@ -384,10 +426,12 @@
             "title": {
               "en": "scene",
               "nl": "scene",
-              "de": "Szene"
+              "de": "Sene",
+              "sv": "scen"
             },
             "example": {
-              "en": "Button pressed (test)"
+              "en": "Button pressed (test)",
+              "sv": "En knapp har tryckts (test)"
             }
           }
         ]
@@ -397,12 +441,14 @@
         "title": {
           "en": "A scene has been activated",
           "nl": "Een scene is geactiveerd",
-          "de": "Eine Szene wurde aktiviert"
+          "de": "Eine Szene wurde aktiviert",
+          "sv": "En scen har aktiverats"
         },
         "hint": {
           "en": "This card will only get triggered if the scene matches the state of the dropdown fields.",
           "nl": "Deze kaart wordt alleen geactiveerd wanneer de scene overeenkomt met de toestand van de gekozen opties.",
-          "de": "Diese Karte wird nur aktiviert wenn die Szene mit dem Status im Dropdown-Feld übereinstimmt."
+          "de": "Diese Karte wird nur aktiviert wenn die Szene mit dem Status im Dropdown-Feld übereinstimmt.",
+          "sv": "Detta kort aktiveras bara om en scen matchar status på rullgardinsfälten."
         },
         "args": [
           {
@@ -421,12 +467,14 @@
         "title": {
           "en": "A scene has been activated",
           "nl": "Een scene is geactiveerd",
-          "de": "Eine Szene wurde aktiviert"
+          "de": "Eine Szene wurde aktiviert",
+          "sv": "En scen har aktiverats"
         },
         "hint": {
           "en": "This card will only get triggered if the scene matches the state of the dropdown fields.",
           "nl": "Deze kaart wordt alleen geactiveerd wanneer de scene overeenkomt met de toestand van de gekozen opties.",
-          "de": "Diese Karte wird nur aktiviert wenn die Szene mit dem Status im Dropdown-Feld übereinstimmt."
+          "de": "Diese Karte wird nur aktiviert wenn die Szene mit dem Status im Dropdown-Feld übereinstimmt.",
+          "sv": "Detta kort aktiveras bara om en scen matchar status på rullgardinsfälten."
         },
         "args": [
           {
@@ -449,7 +497,8 @@
         "title": {
           "en": "Cube motion",
           "nl": "Cube beweging",
-          "de": "Cube Bewegung"
+          "de": "Cube Bewegung",
+          "sv": "Kubrörelse"
         },
         "args": [
           {
@@ -465,19 +514,22 @@
             "title": {
               "en": "Cube Motion",
               "nl": "Cube beweging",
-              "de": "Cube Bewegung"
+              "de": "Cube Bewegung",
+              "sv": "Kubrörelse"
             },
             "example": {
               "en": "Shake",
               "nl": "Schudden",
-              "de": "Schütteln"
+              "de": "Schütteln",
+              "sv": "Skaka"
             }
           },
           {
             "name": "sourceFace",
             "type": "number",
             "title": {
-              "en": "source Face"
+              "en": "source Face",
+              "sv": "ursprunglig sida"
             },
             "example": 1
           },
@@ -485,7 +537,8 @@
             "name": "targetFace",
             "type": "number",
             "title": {
-              "en": "target Face"
+              "en": "target Face",
+              "sv": "målsida"
             },
             "example": 5
           }
@@ -496,7 +549,8 @@
         "title": {
           "en": "Cube shaked",
           "nl": "Cube geschud",
-          "de": "Cube geschüttelt"
+          "de": "Cube geschüttelt",
+          "sv": "Kub skakad"
         },
         "args": [
           {
@@ -513,7 +567,8 @@
                 "label": {
                   "en": "any side up",
                   "nl": "willekeurige zijde",
-                  "de": "Zufällige Seite oben"
+                  "de": "Zufällige Seite oben",
+                  "sv": "någon sida upp"
                 }
               },
               {
@@ -521,7 +576,8 @@
                 "label": {
                   "en": "side 1 up",
                   "nl": "zijde 1 boven",
-                  "de": "Seite 1 oben"
+                  "de": "Seite 1 oben",
+                  "sv": "sida 1 upp"
                 }
               },
               {
@@ -529,7 +585,8 @@
                 "label": {
                   "en": "side 2 up",
                   "nl": "zijde 2 boven",
-                  "de": "Seite 2 oben"
+                  "de": "Seite 2 oben",
+                  "sv": "sida 2 upp"
                 }
               },
               {
@@ -537,7 +594,8 @@
                 "label": {
                   "en": "side 3 up",
                   "nl": "zijde 3 boven",
-                  "de": "Seite 3 oben"
+                  "de": "Seite 3 oben",
+                  "sv": "sida 3 upp"
                 }
               },
               {
@@ -545,7 +603,8 @@
                 "label": {
                   "en": "side 4 up",
                   "nl": "zijde 4  boven",
-                  "de": "Seite 4 oben"
+                  "de": "Seite 4 oben",
+                  "sv": "sida 4 upp"
                 }
               },
               {
@@ -553,7 +612,8 @@
                 "label": {
                   "en": "side 5 up",
                   "nl": "zijde 5 boven",
-                  "de": "Seite 5 oben"
+                  "de": "Seite 5 oben",
+                  "sv": "sida 5 upp"
                 }
               },
               {
@@ -561,7 +621,8 @@
                 "label": {
                   "en": "side 6 up",
                   "nl": "zijde 6 boven",
-                  "de": "Seite 6 oben"
+                  "de": "Seite 6 oben",
+                  "sv": "sida 6 upp"
                 }
               }
             ]
@@ -573,7 +634,8 @@
         "title": {
           "en": "Cube flipped 90°",
           "nl": "Cube 90° gekanteld",
-          "de": "Cube 90° gedreht"
+          "de": "Cube 90° gedreht",
+          "sv": "Kuben vänd 90°"
         },
         "args": [
           {
@@ -590,7 +652,8 @@
                 "label": {
                   "en": "from any side",
                   "nl": "van iedere zijde",
-                  "de": "von beliebiger Seite"
+                  "de": "von beliebiger Seite",
+                  "sv": "från någon sida"
                 }
               },
               {
@@ -598,7 +661,8 @@
                 "label": {
                   "en": "from side 1",
                   "nl": "van zijde 1",
-                  "de": "von Seite 1"
+                  "de": "von Seite 1",
+                  "sv": "från sida 1"
                 }
               },
               {
@@ -606,7 +670,8 @@
                 "label": {
                   "en": "from side 2",
                   "nl": "van zijde 2",
-                  "de": "von Seite 2"
+                  "de": "von Seite 2",
+                  "sv": "från sida 2"
                 }
               },
               {
@@ -614,7 +679,8 @@
                 "label": {
                   "en": "from side 3",
                   "nl": "van zijde 3",
-                  "de": "von Seite 3"
+                  "de": "von Seite 3",
+                  "sv": "från sida 3"
                 }
               },
               {
@@ -622,7 +688,8 @@
                 "label": {
                   "en": "from side 4",
                   "nl": "van zijde 4",
-                  "de": "von Seite 4"
+                  "de": "von Seite 4",
+                  "sv": "från sida 4"
                 }
               },
               {
@@ -630,7 +697,8 @@
                 "label": {
                   "en": "from side 5",
                   "nl": "van side 5",
-                  "de": "von Seite 5"
+                  "de": "von Seite 5",
+                  "sv": "från sida 5"
                 }
               },
               {
@@ -638,7 +706,8 @@
                 "label": {
                   "en": "from side 6",
                   "nl": "van zijde 6",
-                  "de": "von Seite 6"
+                  "de": "von Seite 6",
+                  "sv": "från sida 6"
                 }
               }
             ]
@@ -652,7 +721,8 @@
                 "label": {
                   "en": "to any side",
                   "nl": "naar iedere zijde",
-                  "de": "zu beliebiger Seite"
+                  "de": "zu beliebiger Seite",
+                  "sv": "till någon sida"
                 }
               },
               {
@@ -660,7 +730,8 @@
                 "label": {
                   "en": "to 1",
                   "nl": "naar 1",
-                  "de": "zu Seite 1"
+                  "de": "zu 1",
+                  "sv": "till 1"
                 }
               },
               {
@@ -668,7 +739,8 @@
                 "label": {
                   "en": "to 2",
                   "nl": "naar 2",
-                  "de": "zu Seite 2"
+                  "de": "zu 2",
+                  "sv": "till 2"
                 }
               },
               {
@@ -676,7 +748,8 @@
                 "label": {
                   "en": "to 3",
                   "nl": "naar 3",
-                  "de": "zu Seite 3"
+                  "de": "zu 3",
+                  "sv": "till 3"
                 }
               },
               {
@@ -684,7 +757,8 @@
                 "label": {
                   "en": "to 4",
                   "nl": "naar 4",
-                  "de": "zu Seite 4"
+                  "de": "zu 4",
+                  "sv": "till 4"
                 }
               },
               {
@@ -692,7 +766,8 @@
                 "label": {
                   "en": "to 5",
                   "nl": "naar 5",
-                  "de": "zu Seite 5"
+                  "de": "zu 5",
+                  "sv": "till 5"
                 }
               },
               {
@@ -700,7 +775,8 @@
                 "label": {
                   "en": "to 6",
                   "nl": "naar 6",
-                  "de": "zu Seite 6"
+                  "de": "zu 6",
+                  "sv": "till 6"
                 }
               }
             ]
@@ -711,7 +787,8 @@
         "id": "cube_Flip180",
         "title": {
           "en": "Cube flipped 180°",
-          "nl": "Cube 180° gekanteld"
+          "nl": "Cube 180° gekanteld",
+          "sv": "Kube vänd 180°"
         },
         "args": [
           {
@@ -728,7 +805,8 @@
                 "label": {
                   "en": "any side up",
                   "nl": "willekeurige zijde",
-                  "de": "beliebige Seite oben"
+                  "de": "beliebige Seite oben",
+                  "sv": "någon sida upp"
                 }
               },
               {
@@ -736,7 +814,8 @@
                 "label": {
                   "en": "side 1 up",
                   "nl": "zijde 1 boven",
-                  "de": "Seite 1 oben"
+                  "de": "Seite 1 oben",
+                  "sv": "sida 1 upp"
                 }
               },
               {
@@ -744,7 +823,8 @@
                 "label": {
                   "en": "side 2 up",
                   "nl": "zijde 2 boven",
-                  "de": "Seite 2 oben"
+                  "de": "Seite 2 oben",
+                  "sv": "sida 2 upp"
                 }
               },
               {
@@ -752,7 +832,8 @@
                 "label": {
                   "en": "side 3 up",
                   "nl": "zijde 3 boven",
-                  "de": "Seite 3 oben"
+                  "de": "Seite 3 oben",
+                  "sv": "sida 3 upp"
                 }
               },
               {
@@ -760,7 +841,8 @@
                 "label": {
                   "en": "side 4 up",
                   "nl": "zijde 4  boven",
-                  "de": "Seite 4 oben"
+                  "de": "Seite 4 oben",
+                  "sv": "sida 4 upp"
                 }
               },
               {
@@ -768,7 +850,8 @@
                 "label": {
                   "en": "side 5 up",
                   "nl": "side 5 boven",
-                  "de": "Seite 5 oben"
+                  "de": "Seite 5 oben",
+                  "sv": "sida 5 upp"
                 }
               },
               {
@@ -776,7 +859,8 @@
                 "label": {
                   "en": "side 6 up",
                   "nl": "zijde 6 boven",
-                  "de": "Seite 6 oben"
+                  "de": "Seite 6 oben",
+                  "sv": "sida 6 upp"
                 }
               }
             ]
@@ -788,7 +872,8 @@
         "title": {
           "en": "Cube slided",
           "nl": "Cube verschoven",
-          "de": "Cube verschieben"
+          "de": "Cube verschieben",
+          "sv": "Kub gled"
         },
         "args": [
           {
@@ -805,7 +890,8 @@
                 "label": {
                   "en": "any side up",
                   "nl": "willekeurige zijde",
-                  "de": "beliebige Seite oben"
+                  "de": "beliebige Seite oben",
+                  "sv": "någon sida upp"
                 }
               },
               {
@@ -813,7 +899,8 @@
                 "label": {
                   "en": "side 1 up",
                   "nl": "zijde 1 boven",
-                  "de": "Seite 1 oben"
+                  "de": "Seite 1 oben",
+                  "sv": "sida 1 upp"
                 }
               },
               {
@@ -821,7 +908,8 @@
                 "label": {
                   "en": "side 2 up",
                   "nl": "zijde 2 boven",
-                  "de": "Seite 2 oben"
+                  "de": "Seite 2 oben",
+                  "sv": "sida 2 upp"
                 }
               },
               {
@@ -829,7 +917,8 @@
                 "label": {
                   "en": "side 3 up",
                   "nl": "zijde 3 boven",
-                  "de": "Seite 3 oben"
+                  "de": "Seite 3 oben",
+                  "sv": "sida 3 upp"
                 }
               },
               {
@@ -837,7 +926,8 @@
                 "label": {
                   "en": "side 4 up",
                   "nl": "zijde 4  boven",
-                  "de": "Seite 4 oben"
+                  "de": "Seite 4 oben",
+                  "sv": "sida 4 upp"
                 }
               },
               {
@@ -845,7 +935,8 @@
                 "label": {
                   "en": "side 5 up",
                   "nl": "side 5 boven",
-                  "de": "Seite 5 oben"
+                  "de": "Seite 5 oben",
+                  "sv": "sida 5 upp"
                 }
               },
               {
@@ -853,7 +944,8 @@
                 "label": {
                   "en": "side 6 up",
                   "nl": "zijde 6 boven",
-                  "de": "Seite 6 oben"
+                  "de": "Seite 6 oben",
+                  "sv": "sida 6 upp"
                 }
               }
             ]
@@ -865,7 +957,8 @@
         "title": {
           "en": "Cube double tapped",
           "nl": "Cube twee keer kloppen",
-          "de": "Cube zweimal angetippt"
+          "de": "Cube zweimal angetippt",
+          "sv": "Kub dubbelknackad"
         },
         "args": [
           {
@@ -882,7 +975,8 @@
                 "label": {
                   "en": "any side up",
                   "nl": "willekeurige zijde",
-                  "de": "beliebige Seite oben"
+                  "de": "beliebige Seite oben",
+                  "sv": "någon sida upp"
                 }
               },
               {
@@ -890,7 +984,8 @@
                 "label": {
                   "en": "side 1 up",
                   "nl": "zijde 1 boven",
-                  "de": "Seite 1 oben"
+                  "de": "Seite 1 oben",
+                  "sv": "sida 1 upp"
                 }
               },
               {
@@ -898,7 +993,8 @@
                 "label": {
                   "en": "side 2 up",
                   "nl": "zijde 2 boven",
-                  "de": "Seite 2 oben"
+                  "de": "Seite 2 oben",
+                  "sv": "sida 2 upp"
                 }
               },
               {
@@ -906,7 +1002,8 @@
                 "label": {
                   "en": "side 3 up",
                   "nl": "zijde 3 boven",
-                  "de": "Seite 3 oben"
+                  "de": "Seite 3 oben",
+                  "sv": "sida 3 upp"
                 }
               },
               {
@@ -914,7 +1011,8 @@
                 "label": {
                   "en": "side 4 up",
                   "nl": "zijde 4  boven",
-                  "de": "Seite 4 oben"
+                  "de": "Seite 4 oben",
+                  "sv": "sida 4 upp"
                 }
               },
               {
@@ -922,7 +1020,8 @@
                 "label": {
                   "en": "side 5 up",
                   "nl": "side 5 boven",
-                  "de": "Seite 5 oben"
+                  "de": "Seite 5 oben",
+                  "sv": "sida 5 upp"
                 }
               },
               {
@@ -930,7 +1029,8 @@
                 "label": {
                   "en": "side 6 up",
                   "nl": "zijde 6 boven",
-                  "de": "Seite 6 oben"
+                  "de": "Seite 6 oben",
+                  "sv": "sida 6 upp"
                 }
               }
             ]
@@ -942,7 +1042,8 @@
         "title": {
           "en": "Cube rotated",
           "nl": "Cube gedraaid",
-          "de": "Cube gedreht"
+          "de": "Cube gedreht",
+          "sv": "Kub roterad"
         },
         "args": [
           {
@@ -959,7 +1060,8 @@
                 "label": {
                   "en": "any side up",
                   "nl": "willekeurige zijde",
-                  "de": "beliebige Seite oben"
+                  "de": "beliebige Seite oben",
+                  "sv": "någon sida upp"
                 }
               },
               {
@@ -967,7 +1069,8 @@
                 "label": {
                   "en": "side 1 up",
                   "nl": "zijde 1 boven",
-                  "de": "Seite 1 oben"
+                  "de": "Seite 1 oben",
+                  "sv": "sida 1 upp"
                 }
               },
               {
@@ -975,7 +1078,8 @@
                 "label": {
                   "en": "side 2 up",
                   "nl": "zijde 2 boven",
-                  "de": "Seite 2 oben"
+                  "de": "Seite 2 oben",
+                  "sv": "sida 2 upp"
                 }
               },
               {
@@ -983,7 +1087,8 @@
                 "label": {
                   "en": "side 3 up",
                   "nl": "zijde 3 boven",
-                  "de": "Seite 3 oben"
+                  "de": "Seite 3 oben",
+                  "sv": "sida 3 upp"
                 }
               },
               {
@@ -991,7 +1096,8 @@
                 "label": {
                   "en": "side 4 up",
                   "nl": "zijde 4  boven",
-                  "de": "Seite 4 oben"
+                  "de": "Seite 4 oben",
+                  "sv": "sida 4 upp"
                 }
               },
               {
@@ -999,7 +1105,8 @@
                 "label": {
                   "en": "side 5 up",
                   "nl": "side 5 boven",
-                  "de": "Seite 5 oben"
+                  "de": "Seite 5 oben",
+                  "sv": "sida 5 upp"
                 }
               },
               {
@@ -1007,7 +1114,8 @@
                 "label": {
                   "en": "side 6 up",
                   "nl": "zijde 6 boven",
-                  "de": "Seite 6 oben"
+                  "de": "Seite 6 oben",
+                  "sv": "sida 6 upp"
                 }
               }
             ]
@@ -1020,7 +1128,8 @@
             "title": {
               "en": "Rotation Angle °",
               "nl": "Rotatiehoek °",
-              "de": "Drehwinkel °"
+              "de": "Drehwinkel °",
+              "sv": "Rotationsvinkel °"
             },
             "example": 124.51
           },
@@ -1030,7 +1139,8 @@
             "title": {
               "en": "Relative Angle %",
               "nl": "Relatieve hoek %",
-              "de": "Relativer Winkel %"
+              "de": "Relativer Winkel %",
+              "sv": "Relativ vinkel %"
             },
             "example": 0.92
           }
@@ -1041,7 +1151,8 @@
         "title": {
           "en": "Vibration sensor motion",
           "nl": "Trillings sensor beweging",
-          "de": "Bewegung des Vibrationssensors"
+          "de": "Bewegung des Vibrationssensors",
+          "sv": "Rörelse i vibrationssensor"
         },
         "args": [
           {
@@ -1057,12 +1168,14 @@
             "title": {
               "en": "motion",
               "nl": "beweging",
-              "de": "Bewegung"
+              "de": "Bewegung",
+              "sv": "rörelse"
             },
             "example": {
               "en": "Tilt",
               "nl": "Kantel",
-              "de": "Neigung"
+              "de": "Neigung",
+              "sv": "Lutning"
             }
           }
         ]
@@ -1072,7 +1185,8 @@
         "title": {
           "en": "The vibration strength changed",
           "nl": "Het trillings niveau is veranderd",
-          "de": "Vibrationsintensität hat sich verändert"
+          "de": "Vibrationsintensität hat sich verändert",
+          "sv": "Vibrationsstyrkan ändrades"
         },
         "args": [
           {
@@ -1088,7 +1202,8 @@
             "title": {
               "en": "vibration strength",
               "nl": "trillings niveau",
-              "de": "Vibrationsintensität"
+              "de": "Vibrationsintensität",
+              "sv": "Vibrationsstyrka"
             },
             "example": 45
           }
@@ -1099,7 +1214,8 @@
         "title": {
           "en": "Tilt angles to reference plane",
           "nl": "Kantelhoeken tov referentievlak",
-          "de": "Neigungswinkel relativ zur Bezugsebene"
+          "de": "Neigungswinkel relativ zur Bezugsebene",
+          "sv": "Lutningsvinkel mätt mot referensplanet"
         },
         "args": [
           {
@@ -1113,7 +1229,8 @@
             "name": "Tilt_x",
             "type": "number",
             "title": {
-              "en": "Tilt x"
+              "en": "Tilt x",
+              "sv": "Lutning x"
             },
             "example": -10.25
           },
@@ -1121,7 +1238,8 @@
             "name": "Tilt_y",
             "type": "number",
             "title": {
-              "en": "Tilt y"
+              "en": "Tilt y",
+              "sv": "Lutning y"
             },
             "example": 9.39
           },
@@ -1129,7 +1247,8 @@
             "name": "Tilt_max",
             "type": "number",
             "title": {
-              "en": "Max Tilt"
+              "en": "Max Tilt",
+              "sv": "Max Lutning"
             },
             "example": -10.25
           },
@@ -1137,7 +1256,8 @@
             "name": "Tilt_abs",
             "type": "number",
             "title": {
-              "en": "|Max Tilt|"
+              "en": "|Max Tilt|",
+              "sv": "|Max Lutning|"
             },
             "example": 10.25
           }
@@ -1148,7 +1268,8 @@
         "title": {
           "en": "Tilt angles to previous position",
           "nl": "Kantelhoeken tov vorige positie",
-          "de": "Neigungswinkel zur vorherigen Position"
+          "de": "Neigungswinkel zur vorherigen Position",
+          "sv": "Lutningsvinkel mot föregående position"
         },
         "args": [
           {
@@ -1162,7 +1283,8 @@
             "name": "Tilt_x",
             "type": "number",
             "title": {
-              "en": "Tilt x"
+              "en": "Tilt x",
+              "sv": "Lutning x"
             },
             "example": -10.25
           },
@@ -1170,7 +1292,8 @@
             "name": "Tilt_y",
             "type": "number",
             "title": {
-              "en": "Tilt y"
+              "en": "Tilt y",
+              "sv": "Lutning y"
             },
             "example": 9.39
           },
@@ -1178,7 +1301,8 @@
             "name": "Tilt_max",
             "type": "number",
             "title": {
-              "en": "Max Tilt"
+              "en": "Max Tilt",
+              "sv": "Max Lutning"
             },
             "example": -10.25
           },
@@ -1186,7 +1310,8 @@
             "name": "Tilt_abs",
             "type": "number",
             "title": {
-              "en": "|Max Tilt|"
+              "en": "|Max Tilt|",
+              "sv": "|Max Lutning|"
             },
             "example": 10.25
           }
@@ -1197,7 +1322,8 @@
         "title": {
           "en": "The vibration alarm turned on",
           "nl": "Het trillingsalarm gaat aan",
-          "de": "Vibrationsalarm wurde ausgelöst"
+          "de": "Vibrationsalarm wurde ausgelöst",
+          "sv": "Vibrationsalarmet löste ut"
         },
         "args": [
           {
@@ -1212,7 +1338,8 @@
         "title": {
           "en": "The vibration alarm turned off",
           "nl": "Het trillingsalarm gaat uit",
-          "de": "Vibrationsalarm wurde ausgeschaltet"
+          "de": "Vibrationsalarm wurde ausgeschaltet",
+          "sv": "Vibrationsalarmet stängdes av"
         },
         "args": [
           {
@@ -1227,7 +1354,8 @@
         "title": {
           "en": "The tilt alarm turned on",
           "nl": "Het kantelalarm gaat aan",
-          "de": "Neigungsalarm wurde ausgelöst"
+          "de": "Neigungsalarm wurde ausgelöst",
+          "sv": "Lutningsalarmet löste ut"
         },
         "args": [
           {
@@ -1242,7 +1370,8 @@
         "title": {
           "en": "The tilt alarm turned off",
           "nl": "Het kantelalarm gaat uit",
-          "de": "Neigungsalarm wurde ausgeschaltet"
+          "de": "Neigungsalarm wurde ausgeschaltet",
+          "sv": "Lutningsalarmet stängdes av"
         },
         "args": [
           {
@@ -1257,7 +1386,8 @@
         "title": {
           "en": "The drop alarm turned on",
           "nl": "Het valalarm gaat aan",
-          "de": "Sturzalarm wurde ausgelöst"
+          "de": "Sturzalarm wurde ausgelöst",
+          "sv": "Fallalarmet löste ut"
         },
         "args": [
           {
@@ -1272,7 +1402,8 @@
         "title": {
           "en": "The drop alarm turned off",
           "nl": "Het valalarm gaat uit",
-          "de": "Sturzalarm wurde ausgeschaltet"
+          "de": "Sturzalarm wurde ausgeschaltet",
+          "sv": "Fallalarmet stängdes av"
         },
         "args": [
           {
@@ -1289,7 +1420,8 @@
         "title": {
           "en": "Is turned !{{on|off}} (right switch)",
           "nl": "Is !{{ingeschakeld|uitgeschakeld}} (rechter schakelaar)",
-          "de": "Ist !{{eingeschaltet|ausgeschaltet}} (rechter Schalter)"
+          "de": "Ist !{{eingeschaltet|ausgeschaltet}} (rechter Schalter)",
+          "sv": "Är !{{påslagen|avslagen}} (höger strömbrytare)"
         },
         "args": [
           {
@@ -1306,7 +1438,8 @@
         "title": {
           "en": "Turn on (right switch)",
           "nl": "Zet aan (rechter schakelaar)",
-          "de": "Anschalten (rechter Schalter)"
+          "de": "Anschalten (rechter Schalter)",
+          "sv": "Slå på (höger strömbrytare)"
         },
         "args": [
           {
@@ -1321,7 +1454,8 @@
         "title": {
           "en": "Turn off (right switch)",
           "nl": "Zet uit (rechter schakelaar)",
-          "de": "Ausschalten (rechter Schalter)"
+          "de": "Ausschalten (rechter Schalter)",
+          "sv": "Slå av (höger strömbrytare)"
         },
         "args": [
           {
@@ -1337,9 +1471,7 @@
     {
       "id": "ctrl_86plug.aq1",
       "name": {
-        "en": "Aqara Smart Socket",
-        "nl": "Aqara Smart Socket",
-        "de": "Aqara Smarte Steckdose"
+        "en": "Aqara Smart Socket"
       },
       "class": "socket",
       "capabilities": [
@@ -1360,7 +1492,8 @@
           "instruction": {
             "en": "Long press the power button to open more than 5 seconds until the red light flashes three times after release",
             "nl": "Long press the power button to open more than 5 seconds until the red light flashes three times after release",
-            "de": "Drücke den Power Knopf länger als 5 Sekunden. Nach dem los lassen blinkt das rote Licht 3 Mal."
+            "de": "Drücke den Power Knopf länger als 5 Sekunden. Nach dem los lassen blinkt das rote Licht 3 Mal.",
+            "sv": "Tryck ned strömknappen i minst 5 sekunder, efter uppsläpp ska den röda dioden blinka tre gånger."
           }
         }
       },
@@ -1373,9 +1506,7 @@
     {
       "id": "ctrl_ln1.aq1",
       "name": {
-        "en": "Aqara Wall Switch Single (LN)",
-        "nl": "Aqara Wall Switch Single (LN)",
-        "de": "Aqara Wall Switch Single (LN)"
+        "en": "Aqara Wall Switch Single (LN)"
       },
       "class": "socket",
       "capabilities": [
@@ -1423,7 +1554,8 @@
           "instruction": {
             "en": "Press and hold any of the switch button for more than 5 seconds until the blue light flashes three times after release",
             "nl": "Press and hold any of the switch button for more than 5 seconds until the blue light flashes three times after release",
-            "de": "Drücke einen beliebigen Knopf länger als 5 Sekunden. Nach dem los lassen blinkt das blaue Licht 3 Mal."
+            "de": "Drücke einen beliebigen Knopf länger als 5 Sekunden. Nach dem los lassen blinkt das blaue Licht 3 Mal.",
+            "sv": "Tryck ned strömknappen i minst 5 sekunder till dess att den blå dioden blinkar tre gånger."
           }
         }
       },
@@ -1435,9 +1567,7 @@
     {
       "id": "ctrl_ln2.aq1",
       "name": {
-        "en": "Aqara Wall Switch Double (LN)",
-        "nl": "Aqara Wall Switch Double (LN)",
-        "de": "Aqara Wall Switch Double (LN)"
+        "en": "Aqara Wall Switch Double (LN)"
       },
       "class": "socket",
       "capabilities": [
@@ -1450,13 +1580,15 @@
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Switch 1"
+            "en": "Switch 1",
+            "sv": "Uttag 1"
           },
           "greyout": false
         },
         "onoff.1": {
           "title": {
-            "en": "Switch 2"
+            "en": "Switch 2",
+            "sv": "Uttag 2"
           },
           "greyout": false
         }
@@ -1509,7 +1641,8 @@
           "instruction": {
             "en": "Press and hold any of the switch button for more than 5 seconds until the blue light flashes three times after release",
             "nl": "Press and hold any of the switch button for more than 5 seconds until the blue light flashes three times after release",
-            "de": "Drücke einen beliebigen Knopf länger als 5 Sekunden. Nach dem los lassen blinkt das blaue Licht 3 Mal."
+            "de": "Drücke einen beliebigen Knopf länger als 5 Sekunden. Nach dem los lassen blinkt das blaue Licht 3 Mal.",
+            "sv": "Tryck ned strömknappen i minst 5 sekunder, efter uppsläpp ska den röda dioden blinka tre gånger."
           }
         }
       },
@@ -1521,9 +1654,7 @@
     {
       "id": "ctrl_neutral1",
       "name": {
-        "en": "Aqara Wall Switch Single (L)",
-        "nl": "Aqara Wall Switch Single (L)",
-        "de": "Aqara Wall Switch Single (L)"
+        "en": "Aqara Wall Switch Single (L)"
       },
       "class": "socket",
       "capabilities": [
@@ -1543,7 +1674,8 @@
           "instruction": {
             "en": "Press and hold any of the switch button for more than 5 seconds until the blue light flashes three times after release",
             "nl": "Press and hold any of the switch button for more than 5 seconds until the blue light flashes three times after release",
-            "de": "Drücke einen beliebigen Knopf länger als 5 Sekunden. Nach dem los lassen blinkt das blaue Licht 3 Mal."
+            "de": "Drücke einen beliebigen Knopf länger als 5 Sekunden. Nach dem los lassen blinkt das blaue Licht 3 Mal.",
+            "sv": "Tryck in en strömknapp i minst 5 sekunder till dess att den blå dioden blinkar tre gånger efter uppsläpp."
           }
         }
       },
@@ -1555,9 +1687,7 @@
     {
       "id": "ctrl_neutral2",
       "name": {
-        "en": "Aqara Wall Switch Double (L)",
-        "nl": "Aqara Wall Switch Double (L)",
-        "de": "Aqara Wall Switch Double (L)"
+        "en": "Aqara Wall Switch Double (L)"
       },
       "class": "socket",
       "capabilities": [
@@ -1567,13 +1697,15 @@
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Switch 1"
+            "en": "Switch 1",
+            "sv": "Uttag 1"
           },
           "greyout": false
         },
         "onoff.1": {
           "title": {
-            "en": "Switch 2"
+            "en": "Switch 2",
+            "sv": "Uttag 2"
           },
           "greyout": false
         }
@@ -1618,7 +1750,8 @@
           "instruction": {
             "en": "Press and hold any of the switch button for more than 5 seconds until the blue light flashes three times after release",
             "nl": "Press and hold any of the switch button for more than 5 seconds until the blue light flashes three times after release",
-            "de": "Drücke einen beliebigen Knopf länger als 5 Sekunden. Nach dem los lassen blinkt das blaue Licht 3 Mal."
+            "de": "Drücke einen beliebigen Knopf länger als 5 Sekunden. Nach dem los lassen blinkt das blaue Licht 3 Mal.",
+            "sv": "Tryck ned strömknappen i minst 5 sekunder, efter uppsläpp ska den röda dioden blinka tre gånger."
           }
         }
       },
@@ -1685,7 +1818,8 @@
           "instruction": {
             "en": "Hold the Cube during inclusion in close proximity of Homey\nLong press the reset button for more than 3 seconds until the blue light flashes three times\nNote: keep pressing the reset button every 2 seconds to keep the sensor awake during the inclusion",
             "nl": "Houd tijdens het toevoegen de Cube in de buurt van Homey\nHoud de reset knop ingedrukt voor meer dan 3 seconden totdat de blauwe led drie keer knippert\nNote: blijf de reset knop iedere 2 seconden indrukken om de sensor wakker te houden tijden het toevoegen",
-            "de": "Halte den Würfel nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt\nNote: Drücke alle 2 Sekunden den Reset Knopf um den Sensor während des anlernens wach zu halten"
+            "de": "Halte den Würfel nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt\nNote: Drücke alle 2 Sekunden den Reset Knopf um den Sensor während des anlernens wach zu halten",
+            "sv": "Håll Kuben nära Homey under inkludering\nTryck ned strömknappen i minst 3 sekunder till dess att den blåa dioden blinkar tre gånger\nNotera: fortsätt att trycka på inkluderaknappen var annan sekund för att hålla sensorn vaken till dess den inkluderats"
           }
         }
       },
@@ -1699,11 +1833,13 @@
           "type": "number",
           "label": {
             "en": "Relative rotation angle (xx° = 100%)",
-            "nl": "Relatieve hoekverdraaing (xx° = 100%)"
+            "nl": "Relatieve hoekverdraaing (xx° = 100%)",
+            "sv": "Relativ rotationsvinkel (xx° = 100%)"
           },
           "hint": {
             "en": "This setting will translate the actual measured rotation angle in a relative rotation angle that can be used to increase or decrease dim-level / volume.\nxx° = 100%\nRange: 90 - 360, \ndefault: 180 [°]",
-            "nl": "Deze instelling vertaalt de gemeten hoekverdraaing in een relatieve hoekverdraaing die gebruikt kan worden voor het verhogen of verlagen van het volume.\nxx° = 100%\nBereik: 90 - 360, \nstandaard: 180 [°]"
+            "nl": "Deze instelling vertaalt de gemeten hoekverdraaing in een relatieve hoekverdraaing die gebruikt kan worden voor het verhogen of verlagen van het volume.\nxx° = 100%\nBereik: 90 - 360, \nstandaard: 180 [°]",
+            "sv": "Denna inställning översätter den faktiskt uppmätta rotationsvinkeln till en relativ vridningsvinkel som kan användas för att öka eller minska dimnivån / styrkan.\nxx° = 100%\nRange: 90 - 360, \ndefault: 180 [°]"
           },
           "value": 180,
           "attr": {
@@ -1716,11 +1852,13 @@
           "type": "number",
           "label": {
             "en": "Battery alarm threshold (%)",
-            "nl": "Batterij alarm waarde (%)"
+            "nl": "Batterij alarm waarde (%)",
+            "sv": "Batterialarm sker vid (%)"
           },
           "hint": {
             "en": "Battery level (%) below which the battery alarm will be activated.\nRange: 1 - 90, \ndefault: 20 [%]",
-            "nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]"
+            "nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]",
+            "sv": "Batterinivå (%) för aktivering av batterialarm.\nAvstånd: 1 - 90, \nstandard: 20 [%]"
           },
           "value": 20,
           "attr": {
@@ -1733,9 +1871,7 @@
     {
       "id": "curtain",
       "name": {
-        "en": "Aqara Curtain Controller",
-        "nl": "Aqara Curtain Controller",
-        "de": "Aqara Curtain Controller"
+        "en": "Aqara Curtain Controller"
       },
       "class": "windowcoverings",
       "capabilities": [
@@ -1747,12 +1883,14 @@
       "capabilitiesOptions": {
         "onoff": {
           "title": {
-            "en": "Curtain open"
+            "en": "Curtain open",
+            "sv": "Persiennöppning"
           }
         },
         "dim": {
           "title": {
-            "en": "Open level"
+            "en": "Open level",
+            "sv": "Öppningsgrad"
           }
         }
       },
@@ -1800,7 +1938,8 @@
           "instruction": {
             "en": "Long-press the reset key for more than 5 seconds and then release it when the blue light it turned on",
             "nl": "Long-press the reset key for more than 5 seconds and then release it when the blue light it turned on",
-            "de": "Drücke den Reset Knopf mehr als 5 Sekunden und lasse ihn los sobald das blaue Licht an geht."
+            "de": "Drücke den Reset Knopf mehr als 5 Sekunden und lasse ihn los sobald das blaue Licht an geht.",
+            "sv": "Håll inne återställningsknappen i minst 5 sekunder och släpp den sedan när den blå dioden lyser." 
           }
         }
       },
@@ -1813,9 +1952,7 @@
     {
       "id": "light.aqcn02",
       "name": {
-        "en": "Aqara LED Bulb",
-        "nl": "Aqara LED Bulb",
-        "de": "Aqara LED Bulb"
+        "en": "Aqara LED Bulb"
       },
       "class": "light",
       "capabilities": [
@@ -1844,7 +1981,8 @@
           "instruction": {
             "en": "Toggle the bulb on/off 5 times until the bulb blinks twice quickly to start pairing.",
             "nl": "Zet, om de lamp toe te voegen, de lamp 5 keer achter elkaar uit en weer aan totdat de lamp twee keer snel knippert.",
-            "de": "Schalte die Lampe 5 mal an und aus bis die Lampe 2 mal schnell hintereinander blinkt"
+            "de": "Schalte die Lampe 5 mal an und aus bis die Lampe 2 mal schnell hintereinander blinkt",
+            "sv": "Slå på och av lampan 5 gånger så att den hastigt blinkar två gånger för att påbörja inkludering."
           }
         }
       },
@@ -1859,12 +1997,14 @@
           "label": {
             "en": "Transition Time",
             "nl": "Overgangstijd",
-            "de": "Übergangszeit"
+            "de": "Übergangszeit",
+            "sv": "Övergångstid"
           },
           "hint": {
             "en": "This setting determines the time in seconds it takes to dim from one level to another.",
             "nl": "Deze instelling bepaalt de duur in seconden van het dimmen van een niveau naar een ander.",
-            "de": "Diese Einstellung bestimmt wie lange es dauert die Helligkeit zu verändern."
+            "de": "Diese Einstellung bestimmt wie lange es dauert die Helligkeit zu verändern.",
+            "sv": "Den här inställningen avgör tiden det tar i sekunder för att ändra ljusstyrkan från en nivå till en annan."
           },
           "value": 1,
           "attr": {
@@ -1877,9 +2017,7 @@
     {
       "id": "plug",
       "name": {
-        "en": "Smart socket plug",
-        "nl": "Smart socket plug",
-        "de": "Smart socket plug"
+        "en": "Smart socket plug"
       },
       "class": "socket",
       "capabilities": [
@@ -1900,7 +2038,8 @@
           "instruction": {
             "en": "Long press the power button to open more than 5 seconds until the led flashes red one time and then flashes blue three times",
             "nl": "Long press the power button to open more than 5 seconds until the led flashes red one time and then flashes blue three times",
-            "de": "Drücke den Power Knopf mehr als 5 Sekunden und lasse ihn los sobald das rote Licht einmal blinkt. Danach blinkt das blaue Licht zwei mal."
+            "de": "Drücke den Power Knopf mehr als 5 Sekunden und lasse ihn los sobald das rote Licht einmal blinkt. Danach blinkt das blaue Licht zwei mal.",
+            "sv": "Tryck ned strömknappen i minst 5 sekunder till dess att dioden blinkar rött en gång och därefter blinkar blått tre gånger."
           }
         }
       },
@@ -1913,9 +2052,7 @@
     {
       "id": "remote.b186acn01",
       "name": {
-        "en": "Aqara Wireless Switch Single (2018)",
-        "nl": "Aqara Wireless Switch Single (2018)",
-        "de": "Aqara Wireless Switch Single (2018)"
+        "en": "Aqara Wireless Switch Single (2018)"
       },
       "class": "sensor",
       "capabilities": [],
@@ -1931,7 +2068,8 @@
           "instruction": {
             "en": "Long press the button for more than 10 seconds until the blue light flashes three times after release",
             "nl": "Houd de knop ingedrukt voor meer dan 10 seconden totdat de blauwe led drie keer knippert",
-            "de": "Drücke den Knopf länger als 10 Sekunden. Nach dem los lassen blinkt das blaue Licht 3 Mal."
+            "de": "Drücke den Knopf länger als 10 Sekunden. Nach dem los lassen blinkt das blaue Licht 3 Mal.",
+            "sv": "Tryck ned strömknappen i minst 10 sekunder, därefter ska den blå dioden blinka tre gånger"
           }
         }
       },
@@ -1944,9 +2082,7 @@
     {
       "id": "remote.b286acn01",
       "name": {
-        "en": "Aqara Wireless Switch Double (2018)",
-        "nl": "Aqara Wireless Switch Double (2018)",
-        "de": "Aqara Wireless Switch Double (2018)"
+        "en": "Aqara Wireless Switch Double (2018)"
       },
       "class": "sensor",
       "capabilities": [],
@@ -1962,7 +2098,8 @@
           "instruction": {
             "en": "Long press any of the buttons for more than 10 seconds until the blue light flashes three times after release",
             "nl": "Houd een van de knoppen ingedrukt voor meer dan 10 seconden totdat de blauwe led drie keer knippert",
-            "de": "Drücke den Knopf länger als 10 Sekunden. Nach dem los lassen blinkt das blaue Licht 3 Mal."
+            "de": "Drücke den Knopf länger als 10 Sekunden. Nach dem los lassen blinkt das blaue Licht 3 Mal.",
+            "sv": "Tryck ned strömknappen i minst 10 sekunder, därefter ska den blå dioden blinka tre gånger"
           }
         }
       },
@@ -1975,9 +2112,7 @@
     {
       "id": "remote.b1acn01",
       "name": {
-        "en": "Aqara Wireless Mini Switch (2018)",
-        "nl": "Aqara Wireless Mini Switch (2018)",
-        "de": "Aqara Wireless Mini Switch (2018)"
+        "en": "Aqara Wireless Mini Switch (2018)"
       },
       "class": "sensor",
       "capabilities": [
@@ -1996,7 +2131,8 @@
           "instruction": {
             "en": "Hold the wireless switch during inclusion in close proximity of Homey\nLong press the reset button for more than 3 seconds until the blue light flashes three times",
             "nl": "Houd tijdens het toevoegen de knop in de buurt van Homey\nHoud de reset knop ingedrukt voor meer dan 3 seconden totdat de blauwe led drie keer knippert",
-            "de": "Halte den Schalter nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt"
+            "de": "Halte den Schalter nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt",
+            "sv": "Håll enhet nära Homey vid inkludering\nHåll in återställningsknappen i mer än 3 sekunder till dess att dioden blinkar blått tre gånger."
           }
         }
       },
@@ -2010,12 +2146,14 @@
           "type": "number",
           "label": {
             "en": "Battery alarm threshold (%)",
-            "nl": "Batterij alarm waarde (%)"
+            "nl": "Batterij alarm waarde (%)",
+            "sv": "Batteriets alarmnivå (%)"
           },
           "hint": {
             "en": "Battery level (%) below which the battery alarm will be activated.\nRange: 1 - 90, \ndefault: 20 [%]",
             "nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]",
-            "de": "Batterie level (%) Zwischen welchen Werten der Batterie Alarm aktiviert wird.\nSpanne: 1 - 90, \ndefault: 20 [%]"
+            "de": "Batterie level (%) Zwischen welchen Werten der Batterie Alarm aktiviert wird.\nSpanne: 1 - 90, \ndefault: 20 [%]",
+            "sv": "Batterinivå % under vilken batterilarmet kommer aktiveras.\nSkala: 1 - 90, \nstandard: 20 [%]"
           },
           "value": 20,
           "attr": {
@@ -2052,7 +2190,8 @@
           "instruction": {
             "en": "Hold the sensor during inclusion in close proximity of Homey\nLong press the reset button for more than 3 seconds until the blue light flashes three times\nNote: keep pressing the reset button every 2 seconds to keep the sensor awake during the inclusion",
             "nl": "Houd tijdens het toevoegen de sensor in de buurt van Homey\nHoud de reset knop ingedrukt voor meer dan 3 seconden totdat de blauwe led drie keer knippert\nNote: blijf de reset knop iedere 2 seconden indrukken om de sensor wakker te houden tijden het toevoegen",
-            "de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt\nNote: Drücke alle 2 Sekunden den Reset Knopf um den Sensor während des anlernens wach zu halten"
+            "de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt\nNote: Drücke alle 2 Sekunden den Reset Knopf um den Sensor während des anlernens wach zu halten",
+            "sv": "Håll sensorn nära Homey vid inkludering\nHåll in återställningsknappen i mer än 3 sekunder till dess att dioden blinkar blått tre gånger.\nNotering: Fortsätt att trycka på knappen var annan sekund för att hålla enheten vaken under inkluderingen."
           }
         }
       },
@@ -2066,11 +2205,13 @@
           "type": "number",
           "label": {
             "en": "Temperature offset (°C)",
-            "nl": "Temperatuur compensatie (°C)"
+            "nl": "Temperatuur compensatie (°C)",
+            "sv": "Temperaturavvikelse (°C)"
           },
           "hint": {
             "en": "Set a correction to compensate a temperature offset.\nRange: -10 - 10, step size 0.1, \ndefault: 0 [°C]",
-            "nl": "Stel een correctiewaarde in om een temperature verschil te compenseren.\nBereik: -10 - 10, stap grootte 0.1, \nstandaard: 0 [°C]"
+            "nl": "Stel een correctiewaarde in om een temperature verschil te compenseren.\nBereik: -10 - 10, stap grootte 0.1, \nstandaard: 0 [°C]",
+            "sv": "Ange ett korrigerande värde för temperaturavvikelse.\nSkala: -10 - 10, steg om 0,1, \nstandard: 0 [°C]"
           },
           "value": 0,
           "attr": {
@@ -2083,20 +2224,23 @@
           "id": "temperature_decimals",
           "type": "radio",
           "label": {
-            "en": "Temperature reporting"
+            "en": "Temperature reporting",
+            "sv": "Rapportera temperatur med"
           },
           "value": "1",
           "values": [
             {
               "id": "1",
               "label": {
-                "en": "Report temperature value with 1 decimal (22.1 °C)"
+                "en": "Report temperature value with 1 decimal (22.1 °C)",
+                "sv": "En decimal (22.1 °C)"
               }
             },
             {
               "id": "2",
               "label": {
-                "en": "Report temperature value with 2 decimals (22.07 °C)"
+                "en": "Report temperature value with 2 decimals (22.07 °C)",
+                "sv": "Två decimaler (22.07 °C)"
               }
             }
           ]
@@ -2105,20 +2249,23 @@
           "id": "humidity_decimals",
           "type": "radio",
           "label": {
-            "en": "Humidity reporting"
+            "en": "Humidity reporting",
+            "sv": "Rapportera fukt med"
           },
           "value": "1",
           "values": [
             {
               "id": "1",
               "label": {
-                "en": "Report humidity value with 1 decimal (65.3 %)"
+                "en": "Report humidity value with 1 decimal (65.3 %)",
+                "sv": "En decimal (65.3 %)"
               }
             },
             {
               "id": "2",
               "label": {
-                "en": "Report humidity value with 2 decimals (65.34 %)"
+                "en": "Report humidity value with 2 decimals (65.34 %)",
+                "sv": "Två decimaler (65.34 %)"
               }
             }
           ]
@@ -2128,11 +2275,13 @@
           "type": "number",
           "label": {
             "en": "Battery alarm threshold (%)",
-            "nl": "Batterij alarm waarde (%)"
+            "nl": "Batterij alarm waarde (%)",
+            "sv": "Batteriets alarmnivå (%)"
           },
           "hint": {
             "en": "Battery level (%) below which the battery alarm will be activated.\nRange: 1 - 90, \ndefault: 20 [%]",
-            "nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]"
+            "nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]",
+            "sv": "Batterinivå % under vilken batterilarmet kommer aktiveras.\nSkala: 1 - 90, \nstandard: 20 [%]"
           },
           "value": 20,
           "attr": {
@@ -2145,9 +2294,7 @@
     {
       "id": "sensor_86sw1lu",
       "name": {
-        "en": "Aqara Wireless Remote Switch Single",
-        "nl": "Aqara Wireless Remote Switch Single",
-        "de": "Aqara Wireless Remote Switch Single"
+        "en": "Aqara Wireless Remote Switch Single"
       },
       "class": "sensor",
       "capabilities": [],
@@ -2163,7 +2310,8 @@
           "instruction": {
             "en": "Long press any power button to open more than 5 seconds until the blue light flashes three times after release",
             "nl": "Long press any power button to open more than 5 seconds until the blue light flashes three times after release",
-            "de": "Drücke den Power Knopf länger als 5 Sekunden. Nach dem los lassen blinkt das rote Licht 3 Mal."
+            "de": "Drücke den Power Knopf länger als 5 Sekunden. Nach dem los lassen blinkt das rote Licht 3 Mal.",
+            "sv": "Tryck in en strömknapp i minst 5 sekunder till dess att den blå dioden blinkar tre gånger efter uppsläpp."
           }
         }
       },
@@ -2176,9 +2324,7 @@
     {
       "id": "sensor_86sw2Un",
       "name": {
-        "en": "Aqara Wireless Remote Switch Double",
-        "nl": "Aqara Wireless Remote Switch Double",
-        "de": "Aqara Wireless Remote Switch Double"
+        "en": "Aqara Wireless Remote Switch Double"
       },
       "class": "sensor",
       "capabilities": [],
@@ -2194,7 +2340,8 @@
           "instruction": {
             "en": "Long press any power button to open more than 5 seconds until the blue light flashes three times after release",
             "nl": "Long press any power button to open more than 5 seconds until the blue light flashes three times after release",
-            "de": "Drücke den Power Knopf länger als 5 Sekunden. Nach dem los lassen blinkt das rote Licht 3 Mal."
+            "de": "Drücke den Power Knopf länger als 5 Sekunden. Nach dem los lassen blinkt das rote Licht 3 Mal.",
+            "sv": "Tryck in en strömknapp i minst 5 sekunder till dess att den blå dioden blinkar tre gånger efter uppsläpp."
           }
         }
       },
@@ -2227,7 +2374,8 @@
           "instruction": {
             "en": "Hold the sensor during inclusion in close proximity of Homey\nLong press the reset button for more than 3 seconds until the blue light flashes three times",
             "nl": "Houd tijdens het toevoegen de sensor in de buurt van Homey\nHoud de reset knop ingedrukt voor meer dan 3 seconden totdat de blauwe led drie keer knippert",
-            "de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt"
+            "de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt",
+            "sv": "Håll sensorn nära Homey vid inkludering\nHåll in återställningsknappen i mer än 3 sekunder till dess att dioden blinkar blått tre gånger."
           }
         }
       },
@@ -2241,11 +2389,13 @@
           "type": "number",
           "label": {
             "en": "Battery alarm threshold (%)",
-            "nl": "Batterij alarm waarde (%)"
+            "nl": "Batterij alarm waarde (%)",
+            "sv": "Batteriets alarmnivå (%)"
           },
           "hint": {
             "en": "Battery level (%) below which the battery alarm will be activated.\nRange: 1 - 90, \ndefault: 20 [%]",
-            "nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]"
+            "nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]",
+            "sv": "Batterinivå % under vilken batterilarmet kommer aktiveras.\nSkala: 1 - 90, \nstandard: 20 [%]"
           },
           "value": 20,
           "attr": {
@@ -2258,9 +2408,7 @@
     {
       "id": "sensor_magnet",
       "name": {
-        "en": "Door/Window sensor",
-        "nl": "Door/Window sensor",
-        "de": "Door/Window sensor"
+        "en": "Door/Window sensor"
       },
       "class": "sensor",
       "capabilities": [
@@ -2315,7 +2463,8 @@
           "instruction": {
             "en": "Hold the sensor during inclusion in close proximity of Homey\nLong press the reset button for more than 3 seconds until the blue light flashes three times",
             "nl": "Houd tijdens het toevoegen de sensor in de buurt van Homey\nHoud de reset knop ingedrukt voor meer dan 3 seconden totdat de blauwe led drie keer knippert",
-            "de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt"
+            "de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt",
+            "sv": "Håll sensorn nära Homey vid inkludering\nHåll in återställningsknappen i mer än 3 sekunder till dess att dioden blinkar blått tre gånger."
           }
         }
       },
@@ -2329,11 +2478,13 @@
           "type": "number",
           "label": {
             "en": "Disable motion alarm after",
-            "nl": "Schakel bewegingsalarm uit na"
+            "nl": "Schakel bewegingsalarm uit na",
+            "sv": "Deaktivera rörelsealarmet efter"
           },
           "hint": {
             "en": "This setting will disable the motion alarm after the given time (in seconds) has expired. Every time motion is observed by the device it will reset this timeout.\nRange: 60 - 86400, default: 300 [s]",
-            "nl": "Deze instelling zal het bewegingsalarm uitschakelen na de tijd (in seconden) is verstreken. Elke keer dat opnieuw beweging wordt gedetecteerd wordt deze timer herstart.\nBereik: 60 - 86400, Standaard: 300 [s]"
+            "nl": "Deze instelling zal het bewegingsalarm uitschakelen na de tijd (in seconden) is verstreken. Elke keer dat opnieuw beweging wordt gedetecteerd wordt deze timer herstart.\nBereik: 60 - 86400, Standaard: 300 [s]",
+            "sv": "Detta deaktiverar rörelsealarmet efter att angiven tid (i sekunder) har löpt ut. Varje gång en rörelse observeras återställer enheten tiden för nedräkningen. \nSkala: 60 - 86400, standard: 300 [s]"
           },
           "value": 300,
           "attr": {
@@ -2346,11 +2497,13 @@
           "type": "number",
           "label": {
             "en": "Battery alarm threshold (%)",
-            "nl": "Batterij alarm waarde (%)"
+            "nl": "Batterij alarm waarde (%)",
+            "sv": "Batteriets alarmnivå (%)"
           },
           "hint": {
             "en": "Battery level (%) below which the battery alarm will be activated.\nRange: 1 - 90, \ndefault: 20 [%]",
-            "nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]"
+            "nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]",
+            "sv": "Batterinivå % under vilken batterilarmet kommer aktiveras.\nSkala: 1 - 90, \nstandard: 20 [%]"
           },
           "value": 20,
           "attr": {
@@ -2363,9 +2516,7 @@
     {
       "id": "sensor_motion",
       "name": {
-        "en": "Occupancy sensor",
-        "nl": "Occupancy sensor",
-        "de": "Occupancy sensor"
+        "en": "Occupancy sensor"
       },
       "class": "sensor",
       "capabilities": [
@@ -2383,7 +2534,8 @@
           "instruction": {
             "en": "Hold the sensor during inclusion in close proximity of Homey\nLong press the reset button for more than 3 seconds until the blue light flashes three times\nNote: keep pressing the reset button every 2 seconds to keep the sensor awake during the inclusion",
             "nl": "Houd tijdens het toevoegen de sensor in de buurt van Homey\nHoud de reset knop ingedrukt voor meer dan 3 seconden totdat de blauwe led drie keer knippert\nNote: blijf de reset knop iedere 2 seconden indrukken om de sensor wakker te houden tijden het toevoegen",
-            "de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt\nNote: Drücke alle 2 Sekunden den Reset Knopf um den Sensor während des anlernens wach zu halten"
+            "de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt\nNote: Drücke alle 2 Sekunden den Reset Knopf um den Sensor während des anlernens wach zu halten",
+            "sv": "Håll sensorn nära Homey vid inkludering\nHåll in återställningsknappen i mer än 3 sekunder till dess att dioden blinkar blått tre gånger.\nNotering: Fortsätt att trycka på knappen var annan sekund för att hålla enheten vaken under inkluderingen."
           }
         }
       },
@@ -2397,11 +2549,13 @@
           "type": "number",
           "label": {
             "en": "Disable motion alarm after",
-            "nl": "Schakel bewegingsalarm uit na"
+            "nl": "Schakel bewegingsalarm uit na",
+            "sv": "Deaktivera rörelsealarmet efter"
           },
           "hint": {
             "en": "This setting will disable the motion alarm after the given time (in seconds) has expired after the last motion has been detected. Every time motion is observed by the device it will reset this timeout.\nRange: 60 - 86400, default: 300 [s]",
-            "nl": "Deze instelling zal het bewegingsalarm uitschakelen na de tijd (in seconden), na de laatste beweging gedetecteerd is, is verstreken. Elke keer dat opnieuw beweging wordt gedetecteerd wordt deze timer herstart.\nBereik: 60 - 86400, Standaard: 300 [s]"
+            "nl": "Deze instelling zal het bewegingsalarm uitschakelen na de tijd (in seconden), na de laatste beweging gedetecteerd is, is verstreken. Elke keer dat opnieuw beweging wordt gedetecteerd wordt deze timer herstart.\nBereik: 60 - 86400, Standaard: 300 [s]",
+            "sv": "Detta deaktiverar rörelsealarmet efter att angiven tid (i sekunder) har löpt ut. Varje gång en rörelse observeras återställer enheten tiden för nedräkningen. \nSkala: 60 - 86400, standard: 300 [s]"
           },
           "value": 300,
           "attr": {
@@ -2412,76 +2566,9 @@
       ]
     },
     {
-      "id": "sensor_natgas",
-      "name": {
-        "en": "Gas Leak detector",
-        "nl": "Gas Leak detector",
-        "de": "Gas Leak detector"
-      },
-      "class": "sensor",
-      "capabilities": [
-        "alarm_co",
-        "measure_temperature",
-        "alarm_battery",
-        "measure_battery"
-      ],
-      "zigbee": {
-        "manufacturerName": "LUMI",
-        "productId": "lumi.sensor_natgas",
-        "deviceId": 257,
-        "profileId": 260,
-        "learnmode": {
-          "image": "/drivers/sensor_natgas/assets/learn.svg",
-          "instruction": {
-            "en": "Press 3 times quickly to hear the device ring 3 times",
-            "nl": "Press 3 times quickly to hear the device ring 3 times",
-            "de": "Drücke 3 mal schnell hintereinander bis es 3 mal piept"
-          }
-        }
-      },
-      "images": {
-        "large": "/drivers/sensor_natgas/assets/images/large.png",
-        "small": "/drivers/sensor_natgas/assets/images/small.png"
-      },
-      "settings": []
-    },
-    {
-      "id": "sensor_smoke",
-      "name": {
-        "en": "Smoke detector",
-        "nl": "Smoke detector"
-      },
-      "class": "sensor",
-      "capabilities": [
-        "alarm_smoke",
-        "alarm_battery",
-        "measure_battery"
-      ],
-      "zigbee": {
-        "manufacturerName": "LUMI",
-        "productId": "lumi.sensor_smoke",
-        "deviceId": 1026,
-        "profileId": 260,
-        "learnmode": {
-          "image": "/drivers/sensor_smoke/assets/learn.svg",
-          "instruction": {
-            "en": "Press 3 times quickly to hear the device ring 3 times",
-            "nl": "Press 3 times quickly to hear the device ring 3 times",
-            "de": "Drücke 3 mal schnell hintereinander bis es 3 mal piept"
-          }
-        }
-      },
-      "images": {
-        "large": "/drivers/sensor_smoke/assets/images/large.png",
-        "small": "/drivers/sensor_smoke/assets/images/small.png"
-      },
-      "settings": []
-    },
-    {
       "id": "sensor_switch.aq2",
       "name": {
-        "en": "Aqara Wireless switch",
-        "nl": "Aqara Wireless switch"
+        "en": "Aqara Wireless switch"
       },
       "class": "sensor",
       "capabilities": [
@@ -2500,7 +2587,8 @@
           "instruction": {
             "en": "Hold the wireless switch during inclusion in close proximity of Homey\nLong press the reset button for more than 3 seconds until the blue light flashes three times",
             "nl": "Houd tijdens het toevoegen de knop in de buurt van Homey\nHoud de reset knop ingedrukt voor meer dan 3 seconden totdat de blauwe led drie keer knippert",
-            "de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt"
+            "de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt",
+            "sv": "Håll sensorn nära Homey vid inkludering\nHåll in återställningsknappen i mer än 3 sekunder till dess att dioden blinkar blått tre gånger."
           }
         }
       },
@@ -2514,11 +2602,13 @@
           "type": "number",
           "label": {
             "en": "Battery alarm threshold (%)",
-            "nl": "Batterij alarm waarde (%)"
+            "nl": "Batterij alarm waarde (%)",
+            "sv": "Batteriets alarmnivå (%)"
           },
           "hint": {
             "en": "Battery level (%) below which the battery alarm will be activated.\nRange: 1 - 90, \ndefault: 20 [%]",
-            "nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]"
+            "nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]",
+            "sv": "Batterinivå % under vilken batterilarmet kommer aktiveras.\nSkala: 1 - 90, \nstandard: 20 [%]"
           },
           "value": 20,
           "attr": {
@@ -2531,8 +2621,7 @@
     {
       "id": "sensor_switch.aq3",
       "name": {
-        "en": "Aqara Wireless switch (Gyro)",
-        "nl": "Aqara Wireless switch (Gyro)"
+        "en": "Aqara Wireless switch (Gyro)"
       },
       "class": "sensor",
       "capabilities": [
@@ -2552,7 +2641,8 @@
           "instruction": {
             "en": "Hold the wireless switch during inclusion in close proximity of Homey\nLong press the reset button for more than 3 seconds until the blue light flashes three times",
             "nl": "Houd tijdens het toevoegen de knop in de buurt van Homey\nHoud de reset knop ingedrukt voor meer dan 3 seconden totdat de blauwe led drie keer knippert",
-            "de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt"
+            "de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt",
+            "sv": "Håll sensorn nära Homey vid inkludering\nHåll in återställningsknappen i mer än 3 sekunder till dess att dioden blinkar blått tre gånger."
           }
         }
       },
@@ -2566,11 +2656,13 @@
           "type": "number",
           "label": {
             "en": "Battery alarm threshold (%)",
-            "nl": "Batterij alarm waarde (%)"
+            "nl": "Batterij alarm waarde (%)",
+            "sv": "Batteriets alarmnivå (%)"
           },
           "hint": {
             "en": "Battery level (%) below which the battery alarm will be activated.\nRange: 1 - 90, \ndefault: 20 [%]",
-            "nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]"
+            "nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]",
+            "sv": "Batterinivå % under vilken batterilarmet kommer aktiveras.\nSkala: 1 - 90, \nstandard: 20 [%]"
           },
           "value": 20,
           "attr": {
@@ -2583,8 +2675,7 @@
     {
       "id": "sensor_switch",
       "name": {
-        "en": "Wireless switch",
-        "nl": "Wireless switch"
+        "en": "Wireless switch"
       },
       "class": "sensor",
       "capabilities": [],
@@ -2600,7 +2691,8 @@
           "instruction": {
             "en": "Hold the wireless switch during inclusion in close proximity of Homey\nLong press the reset button for more than 3 seconds until the blue light flashes three times\nNote: keep pressing the reset button every 2 seconds to keep the sensor awake during the inclusion",
             "nl": "Houd tijdens het toevoegen de knop in de buurt van Homey\nHoud de reset knop ingedrukt voor meer dan 3 seconden totdat de blauwe led drie keer knippert\nNote: blijf de reset knop iedere 2 seconden indrukken om de sensor wakker te houden tijden het toevoegen",
-            "de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt\nNote: Drücke alle 2 Sekunden den Reset Knopf um den Sensor während des anlernens wach zu halten"
+            "de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt\nNote: Drücke alle 2 Sekunden den Reset Knopf um den Sensor während des anlernens wach zu halten",
+            "sv": "Håll sensorn nära Homey vid inkludering\nHåll in återställningsknappen i mer än 3 sekunder till dess att dioden blinkar blått tre gånger.\nNotera: fortsätt att trycka på återställningsknappen varannan sekund för att hålla enheten vaken under inkluderingen"
           }
         }
       },
@@ -2614,11 +2706,13 @@
           "type": "number",
           "label": {
             "en": "Button long-press threshold",
-            "nl": "Lang ingedrukt drempelwaarde"
+            "nl": "Lang ingedrukt drempelwaarde",
+            "sv": "Tröskelvärde för långt knapptryck"
           },
           "hint": {
             "en": "This setting will determine the threshold used to determine if a button is held or only single clicked.\nDepending on the distance between the switch and Homey, this threshold, \nneeds to be increased to compensate for latency or\n can be decreased to improve fast response.\nDefault: 1000 ms\nRange: 300 - 5000 ms",
-            "nl": "Deze instelling bepaald de drempelwaarde op basis waarvan bepaald wordt of een knop ingedrukt gehouden wordt of een enkele keer ingedrukt is.\nAfhankelijk van de afstand tussen switch en Homey, zal deze drempelwaarde, \nverhoogd moeten worden om communicatie tijd te compenseren or\n verlaagd worden om de reactietijd te verkorten.\nStandaard: 1000 ms\nBereik: 300 - 5000 ms"
+            "nl": "Deze instelling bepaald de drempelwaarde op basis waarvan bepaald wordt of een knop ingedrukt gehouden wordt of een enkele keer ingedrukt is.\nAfhankelijk van de afstand tussen switch en Homey, zal deze drempelwaarde, \nverhoogd moeten worden om communicatie tijd te compenseren or\n verlaagd worden om de reactietijd te verkorten.\nStandaard: 1000 ms\nBereik: 300 - 5000 ms",
+            "sv": "Denna inställning anger tröskelvärdet för hur länge en knapp ska hållas intryckt för att räknas som långt knapptryck.\nBeroende av avståndet mellan enheten och Homey kan detta träskelvärde\nbehöva ökas för att kompensera för fördröjning eller\n ökas för att snabba på återkopplingen. \nStandard: 1000 ms\nRange: 300 - 5000 ms"
           },
           "value": 1000,
           "attr": {
@@ -2629,42 +2723,9 @@
       ]
     },
     {
-      "id": "sensor_wleak.aq1",
-      "name": {
-        "en": "Aqara Water sensor",
-        "nl": "Aqara Water sensor"
-      },
-      "class": "sensor",
-      "capabilities": [
-        "alarm_water",
-        "alarm_battery",
-        "measure_battery"
-      ],
-      "zigbee": {
-        "manufacturerName": "LUMI",
-        "productId": "lumi.sensor_wleak.aq1",
-        "deviceId": 1026,
-        "profileId": 260,
-        "learnmode": {
-          "image": "/drivers/sensor_wleak.aq1/assets/learn.svg",
-          "instruction": {
-            "en": "Pinch the sensor for 5 seconds until the blue light flashes continuously",
-            "nl": "Pinch the sensor for 5 seconds until the blue light flashes continuously",
-            "de": "Drücke den Sensor für 5 Sekunden bis das blaue Licht durchgehend leuchtet"
-          }
-        }
-      },
-      "images": {
-        "large": "/drivers/sensor_wleak.aq1/assets/images/large.png",
-        "small": "/drivers/sensor_wleak.aq1/assets/images/small.png"
-      },
-      "settings": []
-    },
-    {
       "id": "vibration.aq1",
       "name": {
-        "en": "Aqara Vibration Sensor",
-        "nl": "Aqara Vibration Sensor"
+        "en": "Aqara Vibration Sensor"
       },
       "class": "sensor",
       "capabilities": [
@@ -2680,7 +2741,8 @@
       "capabilitiesOptions": {
         "measure_tilt.relative": {
           "title": {
-            "en": "Relative tilt angle"
+            "en": "Relative tilt angle",
+            "sv": "Relativ lutningsvinkel"
           }
         }
       },
@@ -2734,7 +2796,8 @@
           "instruction": {
             "en": "Hold the sensor in close proximity of Homey\nLong press the reset button for more than 5 seconds until the blue light flashes three times",
             "nl": "Houd tijdens het toevoegen de sensor in de buurt van Homey\nHoud de reset knop ingedrukt voor meer dan 5 seconden totdat de blauwe led drie keer knippert",
-            "de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 5 Sekunden bis das blaue Licht 3 mal blinkt"
+            "de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 5 Sekunden bis das blaue Licht 3 mal blinkt",
+            "sv": "Håll sensorn nära Homey vid inkludering\nHåll in återställningsknappen i mer än 3 sekunder till dess att dioden blinkar blått tre gånger."
           }
         }
       },
@@ -2746,7 +2809,8 @@
         {
           "type": "group",
           "label": {
-            "en": "Tilt settings"
+            "en": "Tilt settings",
+            "sv": "Lutningsinställningar"
           },
           "children": [
             {
@@ -2754,41 +2818,48 @@
               "type": "checkbox",
               "value": false,
               "label": {
-                "en": "Set tilt reference vector"
+                "en": "Set tilt reference vector",
+                "sv": "Ange lutningens referensvektor"
               },
               "hint": {
-                "en": "Set the tilt reference vector with the next tilt movement"
+                "en": "Set the tilt reference vector with the next tilt movement",
+                "sv": "Ange lutningens referensvektor med nästa lutningsrörelse"
               }
             },
             {
               "id": "tiltReferenceVector",
               "type": "label",
               "label": {
-                "en": "Tilt reference vector"
+                "en": "Tilt reference vector",
+                "sv": "Lutningens referensvektor"
               },
               "value": "90,90,0",
               "hint": {
-                "en": "This textbox will show the stored tilt reference vector. This is a read only setting; don't change"
+                "en": "This textbox will show the stored tilt reference vector. This is a read only setting; don't change",
+                "sv": "Denna textruta visar lagrad referensvektor. Detta är en skrivskyddad inställning, ändra inte på det"
               }
             },
             {
               "id": "capabilityTiltAngles",
               "type": "radio",
               "label": {
-                "en": "Tilt angles in mobile interface"
+                "en": "Tilt angles in mobile interface",
+                "sv": "Lutningsvinkel i det mobila gränssnittet"
               },
               "value": "signed",
               "values": [
                 {
                   "id": "signed",
                   "label": {
-                    "en": "Show signed tilt angles"
+                    "en": "Show signed tilt angles",
+                    "sv": "Visa signerade lutningsvinklar"
                   }
                 },
                 {
                   "id": "absolute",
                   "label": {
-                    "en": "Show absolute tilt angles"
+                    "en": "Show absolute tilt angles",
+                    "sv": "Visa absoluta lutningsvinklar"
                   }
                 }
               ]
@@ -2798,17 +2869,20 @@
         {
           "type": "group",
           "label": {
-            "en": "Alarm settings"
+            "en": "Alarm settings",
+            "sv": "Alarminställningar"
           },
           "children": [
             {
               "id": "alarm_vibration_cancellation_delay",
               "type": "number",
               "label": {
-                "en": "Vibration alarm cancellation delay"
+                "en": "Vibration alarm cancellation delay",
+                "sv": "Återställningsfördröjning för vibrationsalarm"
               },
               "hint": {
-                "en": "Alarm cancellation delay after vibration motion has been detected.\nDefault: 30 s\nRange: 10 - 3600 s"
+                "en": "Alarm cancellation delay after vibration motion has been detected.\nDefault: 30 s\nRange: 10 - 3600 s",
+                "sv": "Återställningsfördröjning efter det att en vibrationsrörelse har identifierats.\nStandard: 30s\nAvstånd: 10 -3600 s"
               },
               "value": 30,
               "attr": {
@@ -2820,10 +2894,12 @@
               "id": "alarm_tilt_cancellation_delay",
               "type": "number",
               "label": {
-                "en": "Tilt alarm cancellation delay"
+                "en": "Tilt alarm cancellation delay",
+                "sv": "Återställningsfördröjning för lutningsalarm"
               },
               "hint": {
-                "en": "Alarm cancellation delay after tilt motion has been detected.\nDefault: 30 s\nRange: 10 - 3600 s"
+                "en": "Alarm cancellation delay after tilt motion has been detected.\nDefault: 30 s\nRange: 10 - 3600 s",
+                "sv": "Återställningsfördröjning efter det att en lutningssrörelse har identifierats.\nStandard: 30s\nAvstånd: 10 -3600 s"
               },
               "value": 30,
               "attr": {
@@ -2835,10 +2911,12 @@
               "id": "alarm_drop_cancellation_delay",
               "type": "number",
               "label": {
-                "en": "Drop alarm cancellation delay"
+                "en": "Drop alarm cancellation delay",
+                "sv": "Återställningsfördröjning för fallalarm"
               },
               "hint": {
-                "en": "Alarm cancellation delay after drop motion has been detected.\nDefault: 30 s\nRange: 10 - 3600 s"
+                "en": "Alarm cancellation delay after drop motion has been detected.\nDefault: 30 s\nRange: 10 - 3600 s",
+                "sv": "Återställningsfördröjning efter det att en fallrörelse har identifierats.\nStandard: 30s\nAvstånd: 10 -3600 s"
               },
               "value": 30,
               "attr": {
@@ -2853,11 +2931,13 @@
           "type": "number",
           "label": {
             "en": "Battery alarm threshold (%)",
-            "nl": "Batterij alarm waarde (%)"
+            "nl": "Batterij alarm waarde (%)",
+            "sv": "Batteriets alarmnivå (%)"
           },
           "hint": {
             "en": "Battery level (%) below which the battery alarm will be activated.\nRange: 1 - 90, \ndefault: 20 [%]",
-            "nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]"
+            "nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]",
+            "sv": "Batterinivå % under vilken batterilarmet kommer aktiveras.\nSkala: 1 - 90, \nstandard: 20 [%]"
           },
           "value": 20,
           "attr": {
@@ -2895,7 +2975,8 @@
           "instruction": {
             "en": "Hold the sensor in close proximity of Homey\nLong press the reset button for more than 3 seconds until the blue light flashes three times",
             "nl": "Houd tijdens het toevoegen de sensor in de buurt van Homey\nHoud de reset knop ingedrukt voor meer dan 3 seconden totdat de blauwe led drie keer knippert",
-            "de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt"
+            "de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt",
+            "sv": "Håll sensorn nära Homey under inkludering\nTryck ned strömknappen i minst 3 sekunder till dess att den blåa dioden blinkar tre gånger"
           }
         }
       },
@@ -2909,11 +2990,13 @@
           "type": "number",
           "label": {
             "en": "Temperature offset (°C)",
-            "nl": "Temperatuur compensatie (°C)"
+            "nl": "Temperatuur compensatie (°C)",
+            "sv": "Temperaturavvikelse (°C)"
           },
           "hint": {
             "en": "Set a correction to compensate a temperature offset.\nRange: -10 - 10, step size 0.1, \ndefault: 0 [°C]",
-            "nl": "Stel een correctiewaarde in om een temperature verschil te compenseren.\nBereik: -10 - 10, stap grootte 0.1, \nstandaard: 0 [°C]"
+            "nl": "Stel een correctiewaarde in om een temperature verschil te compenseren.\nBereik: -10 - 10, stap grootte 0.1, \nstandaard: 0 [°C]",
+            "sv": "Ange ett korrigerande värde för temperaturavvikelse.\nSkala: -10 - 10, steg om 0,1, \nstandard: 0 [°C]"
           },
           "value": 0,
           "attr": {
@@ -2926,20 +3009,23 @@
           "id": "temperature_decimals",
           "type": "radio",
           "label": {
-            "en": "Temperature reporting"
+            "en": "Temperature reporting",
+            "sv": "Rapportera temperatur med"
           },
           "value": "1",
           "values": [
             {
               "id": "1",
               "label": {
-                "en": "Report temperature value with 1 decimal (22.1 °C)"
+                "en": "Report temperature value with 1 decimal (22.1 °C)",
+                "sv": "En decimal (22.1 °C)"
               }
             },
             {
               "id": "2",
               "label": {
-                "en": "Report temperature value with 2 decimals (22.07 °C)"
+                "en": "Report temperature value with 2 decimals (22.07 °C)",
+                "sv": "Två decimaler (22.07 °C)"
               }
             }
           ]
@@ -2948,20 +3034,23 @@
           "id": "humidity_decimals",
           "type": "radio",
           "label": {
-            "en": "Humidity reporting"
+            "en": "Humidity reporting",
+            "sv": "Rapportera fukt med"
           },
           "value": "1",
           "values": [
             {
               "id": "1",
               "label": {
-                "en": "Report humidity value with 1 decimal (65.3 %)"
+                "en": "Report humidity value with 1 decimal (65.3 %)",
+                "sv": "En decimal (65.3 %)"
               }
             },
             {
               "id": "2",
               "label": {
-                "en": "Report humidity value with 2 decimals (65.34 %)"
+                "en": "Report humidity value with 2 decimals (65.34 %)",
+                "sv": "Två decimaler (65.34 %)"
               }
             }
           ]
@@ -2971,11 +3060,13 @@
           "type": "number",
           "label": {
             "en": "Battery alarm threshold (%)",
-            "nl": "Batterij alarm waarde (%)"
+            "nl": "Batterij alarm waarde (%)",
+            "sv": "Batteriets alarmnivå (%)"
           },
           "hint": {
             "en": "Battery level (%) below which the battery alarm will be activated.\nRange: 1 - 90, \ndefault: 20 [%]",
-            "nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]"
+            "nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]",
+            "sv": "Batterinivå % under vilken batterilarmet kommer aktiveras.\nSkala: 1 - 90, \nstandard: 20 [%]"
           },
           "value": 20,
           "attr": {

@@ -2,9 +2,7 @@
 	"id": "sensor_motion",
 	"branch": "master",
 	"name": {
-		"en": "Occupancy sensor",
-		"nl": "Occupancy sensor",
-		"de": "Occupancy sensor"
+		"en": "Occupancy sensor"
 	},
 	"class": "sensor",
 	"capabilities": [
@@ -22,7 +20,8 @@
 			"instruction": {
 				"en": "Hold the sensor during inclusion in close proximity of Homey\nLong press the reset button for more than 3 seconds until the blue light flashes three times\nNote: keep pressing the reset button every 2 seconds to keep the sensor awake during the inclusion",
 				"nl": "Houd tijdens het toevoegen de sensor in de buurt van Homey\nHoud de reset knop ingedrukt voor meer dan 3 seconden totdat de blauwe led drie keer knippert\nNote: blijf de reset knop iedere 2 seconden indrukken om de sensor wakker te houden tijden het toevoegen",
-				"de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt\nNote: Drücke alle 2 Sekunden den Reset Knopf um den Sensor während des anlernens wach zu halten"
+				"de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt\nNote: Drücke alle 2 Sekunden den Reset Knopf um den Sensor während des anlernens wach zu halten",
+				"sv": "Håll sensorn nära Homey vid inkludering\nHåll in återställningsknappen i mer än 3 sekunder till dess att dioden blinkar blått tre gånger.\nNotering: Fortsätt att trycka på knappen var annan sekund för att hålla enheten vaken under inkluderingen."
 			}
 		}
 	},
@@ -35,11 +34,13 @@
 		"type": "number",
 		"label": {
 			"en": "Disable motion alarm after",
-			"nl": "Schakel bewegingsalarm uit na"
+			"nl": "Schakel bewegingsalarm uit na",
+			"sv": "Deaktivera rörelsealarmet efter"
 		},
 		"hint": {
 			"en": "This setting will disable the motion alarm after the given time (in seconds) has expired after the last motion has been detected. Every time motion is observed by the device it will reset this timeout.\nRange: 60 - 86400, default: 300 [s]",
-			"nl": "Deze instelling zal het bewegingsalarm uitschakelen na de tijd (in seconden), na de laatste beweging gedetecteerd is, is verstreken. Elke keer dat opnieuw beweging wordt gedetecteerd wordt deze timer herstart.\nBereik: 60 - 86400, Standaard: 300 [s]"
+			"nl": "Deze instelling zal het bewegingsalarm uitschakelen na de tijd (in seconden), na de laatste beweging gedetecteerd is, is verstreken. Elke keer dat opnieuw beweging wordt gedetecteerd wordt deze timer herstart.\nBereik: 60 - 86400, Standaard: 300 [s]",
+			"sv": "Detta deaktiverar rörelsealarmet efter att angiven tid (i sekunder) har löpt ut. Varje gång en rörelse observeras återställer enheten tiden för nedräkningen. \nSkala: 60 - 86400, standard: 300 [s]"
 		},
 		"value": 300,
 		"attr": {

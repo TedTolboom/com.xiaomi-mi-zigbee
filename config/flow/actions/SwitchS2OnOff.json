@@ -4,7 +4,8 @@
 		"title": {
 			"en": "Turn on (right switch)",
 			"nl": "Zet aan (rechter schakelaar)",
-			"de": "Anschalten (rechter Schalter)"
+			"de": "Anschalten (rechter Schalter)",
+			"sv": "Sätt på (höger knapp)"
 		},
 		"args": [
 			{
@@ -19,7 +20,8 @@
 		"title": {
 			"en": "Turn off (right switch)",
 			"nl": "Zet uit (rechter schakelaar)",
-			"de": "Ausschalten (rechter Schalter)"
+			"de": "Ausschalten (rechter Schalter)",
+			"sv": "Stäng av (höger knapp)"
 		},
 		"args": [
 			{

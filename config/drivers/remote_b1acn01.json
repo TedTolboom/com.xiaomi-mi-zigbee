@@ -2,9 +2,7 @@
 	"id": "remote.b1acn01",
 	"branch": "master",
 	"name": {
-		"en": "Aqara Wireless Mini Switch (2018)",
-		"nl": "Aqara Wireless Mini Switch (2018)",
-		"de": "Aqara Wireless Mini Switch (2018)"
+		"en": "Aqara Wireless Mini Switch (2018)"
 	},
 	"class": "sensor",
 	"capabilities": [
@@ -21,7 +19,8 @@
 			"instruction": {
 				"en": "Hold the wireless switch during inclusion in close proximity of Homey\nLong press the reset button for more than 3 seconds until the blue light flashes three times",
 				"nl": "Houd tijdens het toevoegen de knop in de buurt van Homey\nHoud de reset knop ingedrukt voor meer dan 3 seconden totdat de blauwe led drie keer knippert",
-				"de": "Halte den Schalter nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt"
+				"de": "Halte den Schalter nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt",
+				"sv": "Håll enhet nära Homey vid inkludering\nHåll in återställningsknappen i mer än 3 sekunder till dess att dioden blinkar blått tre gånger. "
 			}
 		}
 	},
@@ -34,12 +33,14 @@
 		"type": "number",
 		"label": {
 			"en": "Battery alarm threshold (%)",
-			"nl": "Batterij alarm waarde (%)"
+			"nl": "Batterij alarm waarde (%)",
+			"sv": "Batteriets alarmnivå (%)"
 		},
 		"hint": {
 			"en": "Battery level (%) below which the battery alarm will be activated.\nRange: 1 - 90, \ndefault: 20 [%]",
 			"nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]",
-			"de": "Batterie level (%) Zwischen welchen Werten der Batterie Alarm aktiviert wird.\nSpanne: 1 - 90, \ndefault: 20 [%]"
+			"de": "Batterie level (%) Zwischen welchen Werten der Batterie Alarm aktiviert wird.\nSpanne: 1 - 90, \ndefault: 20 [%]",
+			"sv": "Batterinivå % under vilken batterilarmet kommer aktiveras.\nSkala: 1 - 90, \nstandard: 20 [%]"
 		},
 		"value": 20,
 		"attr": {

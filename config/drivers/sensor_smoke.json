@@ -2,8 +2,7 @@
 	"id": "sensor_smoke",
 	"branch": "development",
 	"name": {
-		"en": "Smoke detector",
-		"nl": "Smoke detector"
+		"en": "Smoke detector"
 	},
 	"class": "sensor",
 	"capabilities": [
@@ -21,7 +20,8 @@
 			"instruction": {
 				"en": "Press 3 times quickly to hear the device ring 3 times",
 				"nl": "Press 3 times quickly to hear the device ring 3 times",
-				"de": "Drücke 3 mal schnell hintereinander bis es 3 mal piept"
+				"de": "Drücke 3 mal schnell hintereinander bis es 3 mal piept",
+				"sv": "Tryck 3 gånger i snabb följd för att höra enheten ringa 3 gånger."
 			}
 		}
 	},
