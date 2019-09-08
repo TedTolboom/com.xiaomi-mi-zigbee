@@ -2299,7 +2299,7 @@
           },
           "value": 300,
           "attr": {
-            "min": 60,
+            "min": 5,
             "max": 86400
           }
         },
@@ -2318,6 +2318,19 @@
           "attr": {
             "min": 1,
             "max": 90
+          }
+        },
+        {
+          "id": "hacked_alarm_motion_reset_window",
+          "type": "checkbox",
+          "value":false,
+          "label": {
+            "en": "I have soldered the PCB",
+            "nl": "Ik heb de printplaat gesoldeerd"
+          },
+          "hint": {
+            "en": "By soldering two contact points on the PCB it's possible to reduce the motion blind time to 5 seconds instead of the minimum 60 seconds. Enabling this setting will allow you to override the minimum of 60 seconds for cancelling the alarm and will set it to 5 seconds.",
+            "nl": "Door twee contactpunten op de printplaat te solderen is het mogelijk om de blindtijd van de sensor terug te brengen naar 5 seconden. Inschakelen van deze instelling maakt het mogelijk om de instelling voor het annuleren van de bewegingsmelder te overschrijven tot 5 seconden."
           }
         }
       ]
@@ -2367,8 +2380,21 @@
           },
           "value": 300,
           "attr": {
-            "min": 60,
+            "min": 5,
             "max": 86400
+          }
+        },
+        {
+          "id": "hacked_alarm_motion_reset_window",
+          "type": "checkbox",
+          "value":false,
+          "label": {
+            "en": "I have soldered the PCB",
+            "nl": "Ik heb de printplaat gesoldeerd"
+          },
+          "hint": {
+            "en": "By soldering two contact points on the PCB it's possible to reduce the motion blind time to 5 seconds instead of the minimum 60 seconds. Enabling this setting will allow you to override the minimum of 60 seconds for cancelling the alarm and will set it to 5 seconds.",
+            "nl": "Door twee contactpunten op de printplaat te solderen is het mogelijk om de blindtijd van de sensor terug te brengen naar 5 seconden. Inschakelen van deze instelling maakt het mogelijk om de instelling voor het annuleren van de bewegingsmelder te overschrijven tot 5 seconden."
           }
         }
       ]
