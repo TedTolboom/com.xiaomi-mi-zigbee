@@ -33,17 +33,25 @@ class AqaraHumanBodySensor extends ZigBeeDevice {
 				// Registering attr reporting failed
 				this.error('failed to register attr report listener - genBasic - Lifeline', err);
 			});
+
+		if(this.getCapabilityValue('alarm_motion')) {
+            this.log('alarm_motion active');
+            this.debounceMotionTimeout();
+        }
+	}
+
+	debounceMotionTimeout() {
+        // Set and clear motion timeout
+        clearTimeout(this.motionTimeout);
+        this.motionTimeout = setTimeout(() => {
+			this.log('manual alarm_motion reset');
+			this.setCapabilityValue('alarm_motion', false);
+    	}, (this.getSetting('alarm_motion_reset_window') || 300) * 1000);
 	}
 
 	onOccupancyReport(value) {
 		this.log('alarm_motion', value === 1);
-
-		// Set and clear motion timeout
-		clearTimeout(this.motionTimeout);
-		this.motionTimeout = setTimeout(() => {
-			this.log('manual alarm_motion reset');
-			this.setCapabilityValue('alarm_motion', false);
-		}, (this.getSetting('alarm_motion_reset_window') || 300) * 1000);
+		this.debounceMotionTimeout();
 
 		// Update capability value
 		this.setCapabilityValue('alarm_motion', value === 1);
