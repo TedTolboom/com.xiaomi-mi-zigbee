@@ -19,7 +19,10 @@
   },
   "zigbee": {
     "manufacturerName": "LUMI",
-    "productId": "lumi.sensor_cube",
+    "productId": [
+      "lumi.sensor_cube",
+      "lumi.sensor_cube.aqgl01"
+    ],
     "endpoints": {
       "1": {
         "clusters": [
