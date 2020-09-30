@@ -2516,7 +2516,7 @@
       },
       "zigbee": {
         "manufacturerName": "LUMI",
-        "productId": "lumi.remote.b286acn01",
+        "productId": ["lumi.remote.b286acn01","lumi.remote.b286acn02"],
         "endpoints": {
           "1": {
             "clusters": [
