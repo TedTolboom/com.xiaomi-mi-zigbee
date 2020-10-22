@@ -27,7 +27,7 @@
       "instruction": {
         "en": "Hold the sensor during inclusion in close proximity of Homey\nLong press the reset button for more than 3 seconds until the blue light flashes three times",
         "nl": "Houd tijdens het toevoegen de sensor in de buurt van Homey\nHoud de reset knop ingedrukt voor meer dan 3 seconden totdat de blauwe led drie keer knippert",
-        "de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt"
+        "de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mindestens 3 Sekunden lang gedrückt bis das blaue Licht 3 Mal blinkt"
       }
     }
   },
@@ -41,11 +41,13 @@
       "type": "number",
       "label": {
         "en": "Disable motion alarm after",
-        "nl": "Schakel bewegingsalarm uit na"
+        "nl": "Schakel bewegingsalarm uit na",
+        "de": "Bewegungsalarm deaktivieren nach"
       },
       "hint": {
         "en": "This setting will disable the motion alarm after the given time (in seconds) has expired. Every time motion is observed by the device it will reset this timeout.\nRange: 60 - 86400, default: 300 [s]",
-        "nl": "Deze instelling zal het bewegingsalarm uitschakelen na de tijd (in seconden) is verstreken. Elke keer dat opnieuw beweging wordt gedetecteerd wordt deze timer herstart.\nBereik: 60 - 86400, Standaard: 300 [s]"
+        "nl": "Deze instelling zal het bewegingsalarm uitschakelen na de tijd (in seconden) is verstreken. Elke keer dat opnieuw beweging wordt gedetecteerd wordt deze timer herstart.\nBereik: 60 - 86400, Standaard: 300 [s]",
+        "de": "Diese Einstellung setzt den Bewegungsalarm nach einer gewissen Zeit (in Sekunden) zurück. Jedes mal, wenn eine Bewegung erkannt wird, wird dieser Timer zurückgesetzt.\nEinstellungsbereich: 60 - 86400, Standardeinstellung: 300 [s]"
       },
       "value": 300,
       "attr": {
@@ -58,11 +60,13 @@
       "type": "number",
       "label": {
         "en": "Battery alarm threshold (%)",
-        "nl": "Batterij alarm waarde (%)"
+        "nl": "Batterij alarm waarde (%)",
+        "de": "Akkustandswarnung bei (%)"
       },
       "hint": {
         "en": "Battery level (%) below which the battery alarm will be activated.\nRange: 1 - 90, \ndefault: 20 [%]",
-        "nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]"
+        "nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]",
+        "de": "Akkustand (in %), bei dem eine Akkustandswarnung erfolgt. \nEinstellungsbereich: 1 - 90, \nStandardeinstellung: 20 [%]
       },
       "value": 20,
       "attr": {
@@ -74,7 +78,8 @@
       "type": "group",
       "label": {
         "en": "Expert settings",
-        "nl": "Expert instellingen"
+        "nl": "Expert instellingen",
+        "de": "Experteneinstellung"
       },
       "collapsed": true,
       "children": [
@@ -83,11 +88,13 @@
           "type": "checkbox",
           "value": false,
           "label": {
-            "en": "Hacked sensor"
+            "en": "Hacked sensor",
+            "de": "modifizierter Sensor"
           },
           "hint": {
             "en": "By soldering two contact points on the PCB it's possible to reduce the motion blind time to 5 seconds instead of the minimum 60 seconds. Enabling this setting will allow you to override the minimum of 60 seconds for cancelling the alarm and will set it to 5 seconds.",
-            "nl": "Door twee contactpunten op de printplaat te solderen is het mogelijk om de blindtijd van de sensor terug te brengen naar 5 seconden. Inschakelen van deze instelling maakt het mogelijk om de instelling voor het annuleren van de bewegingsmelder te overschrijven tot 5 seconden."
+            "nl": "Door twee contactpunten op de printplaat te solderen is het mogelijk om de blindtijd van de sensor terug te brengen naar 5 seconden. Inschakelen van deze instelling maakt het mogelijk om de instelling voor het annuleren van de bewegingsmelder te overschrijven tot 5 seconden.",
+            "de": "Wenn auf der Platine eine Brücke zwischen zwei bestimmtem Lötpunkten gezogem wird, kann der Sensor alle 5 Sekunden eine neue Bewegung registrieren. Ohne Modifikation kann der Sensor nur alle 60 Sekunden eine neue Bewegung registrieren. Diese Einstellung setzt den Timer zum Zurücksetzen des Bewegungsalarms auf 5 Sekunden"
           }
         }
       ]
