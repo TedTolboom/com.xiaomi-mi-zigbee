@@ -4,13 +4,15 @@
   "icon": "/assets/capabilities/measure_tilt.svg",
   "title": {
     "en": "Tilt angle",
-    "nl": "Kantelhoek"
+    "nl": "Kantelhoek",
+    "de": "Neigungswinkel
   },
   "getable": true,
   "setable": false,
   "insights": true,
   "units": {
-    "en": "°"
+    "en": "°",
+    "de": "°"
   },
   "decimals": 2
 }

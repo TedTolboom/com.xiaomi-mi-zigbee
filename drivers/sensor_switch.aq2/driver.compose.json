@@ -1,7 +1,8 @@
 {
   "name": {
     "en": "Aqara Wireless switch",
-    "nl": "Aqara Wireless switch"
+    "nl": "Aqara Wireless switch",
+    "de": "Aqara Wireless Switch"
   },
   "class": "sensor",
   "capabilities": [
@@ -30,7 +31,7 @@
       "instruction": {
         "en": "Hold the wireless switch during inclusion in close proximity of Homey\nLong press the reset button for more than 3 seconds until the blue light flashes three times",
         "nl": "Houd tijdens het toevoegen de knop in de buurt van Homey\nHoud de reset knop ingedrukt voor meer dan 3 seconden totdat de blauwe led drie keer knippert",
-        "de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt"
+        "de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 Mal blinkt"
       }
     }
   },

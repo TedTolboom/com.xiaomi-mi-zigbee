@@ -5,7 +5,8 @@
   },
   "description": {
     "en": "A different kind of Smart Home solution",
-    "nl": "Een ander soort oplossing voor slimme huizen"
+    "nl": "Een ander soort oplossing voor slimme huizen",
+    "de": "Eine Smart Home Lösung der besonderen Art"
   },
   "category": [
     "lights"
@@ -39,6 +40,10 @@
       {
         "name": "🇩🇪 Sebastian Spoerer",
         "email": "sebastian@programmieramt.de"
+      },
+      {
+        "name": "Drigga",
+        "email": "DriggasHome@gmx.de"
       }
     ]
   },

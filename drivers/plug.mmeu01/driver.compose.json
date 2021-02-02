@@ -1,6 +1,7 @@
 {
   "name": {
-    "en": "Xiaomi Smart plug (EU)"
+    "en": "Xiaomi Smart plug (EU)",
+    "Aqara Smarte Steckdose (EU-Version)"
   },
   "class": "socket",
   "capabilities": [

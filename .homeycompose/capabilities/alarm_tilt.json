@@ -4,21 +4,25 @@
   "icon": "/assets/capabilities/alarm_tilt.svg",
   "title": {
     "en": "Tilt Alarm",
-    "nl": "Kantelalarm"
+    "nl": "Kantelalarm",
+    "de": "Neigungsalarm"
   },
   "desc": {
     "en": "Detected tilt motion",
-    "nl": "Gedetecteerde kantel beweging"
+    "nl": "Gedetecteerde kantel beweging",
+    "de": "Neigung erkannt"
   },
   "getable": true,
   "setable": false,
   "insights": true,
   "insightsTitleTrue": {
     "en": "Tilt alarm turned on",
-    "nl": "Kantel alarm ging af"
+    "nl": "Kantel alarm ging af",
+    "de": "Neigungsalarm wurde ausgelöst"
   },
   "insightsTitleFalse": {
     "en": "Tilt alarm turned off",
-    "nl": "Kantel alarm ging uit"
+    "nl": "Kantel alarm ging uit",
+    "de": "Neigungsalarm wurde ausgeschaltet"
   }
 }

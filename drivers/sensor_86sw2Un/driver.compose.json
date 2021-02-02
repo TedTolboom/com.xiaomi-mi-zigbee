@@ -37,7 +37,7 @@
       "instruction": {
         "en": "Long press any power button to open more than 5 seconds until the blue light flashes three times after release",
         "nl": "Long press any power button to open more than 5 seconds until the blue light flashes three times after release",
-        "de": "Drücke den Power Knopf länger als 5 Sekunden. Nach dem los lassen blinkt das rote Licht 3 Mal."
+        "de": "Halte den Power Knopf länger als 5 Sekunden lang gedrückt. Nach dem Loslassen sollte das blaue Licht 3 Mal blinken."
       }
     }
   },

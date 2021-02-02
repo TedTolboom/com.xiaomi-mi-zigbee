@@ -27,7 +27,7 @@
       "instruction": {
         "en": "Hold the wireless switch during inclusion in close proximity of Homey\nLong press the reset button for more than 3 seconds until the blue light flashes three times\nNote: keep pressing the reset button every 2 seconds to keep the sensor awake during the inclusion",
         "nl": "Houd tijdens het toevoegen de knop in de buurt van Homey\nHoud de reset knop ingedrukt voor meer dan 3 seconden totdat de blauwe led drie keer knippert\nNote: blijf de reset knop iedere 2 seconden indrukken om de sensor wakker te houden tijden het toevoegen",
-        "de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt\nNote: Drücke alle 2 Sekunden den Reset Knopf um den Sensor während des anlernens wach zu halten"
+        "de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 Mal blinkt\nHinweis: Drücke alle 2 Sekunden den Reset Knopf um den Sensor während des Anlernens wach zu halten"
       }
     }
   },
@@ -41,11 +41,13 @@
       "type": "number",
       "label": {
         "en": "Button long-press threshold",
-        "nl": "Lang ingedrukt drempelwaarde"
+        "nl": "Lang ingedrukt drempelwaarde",
+        "de": "Schwellenwert lang gedrückt"
       },
       "hint": {
         "en": "This setting will determine the threshold used to determine if a button is held or only single clicked.\nDepending on the distance between the switch and Homey, this threshold, \nneeds to be increased to compensate for latency or\n can be decreased to improve fast response.\nDefault: 1000 ms\nRange: 300 - 5000 ms",
-        "nl": "Deze instelling bepaald de drempelwaarde op basis waarvan bepaald wordt of een knop ingedrukt gehouden wordt of een enkele keer ingedrukt is.\nAfhankelijk van de afstand tussen switch en Homey, zal deze drempelwaarde, \nverhoogd moeten worden om communicatie tijd te compenseren or\n verlaagd worden om de reactietijd te verkorten.\nStandaard: 1000 ms\nBereik: 300 - 5000 ms"
+        "nl": "Deze instelling bepaald de drempelwaarde op basis waarvan bepaald wordt of een knop ingedrukt gehouden wordt of een enkele keer ingedrukt is.\nAfhankelijk van de afstand tussen switch en Homey, zal deze drempelwaarde, \nverhoogd moeten worden om communicatie tijd te compenseren or\n verlaagd worden om de reactietijd te verkorten.\nStandaard: 1000 ms\nBereik: 300 - 5000 ms",
+        "de": "Diese Einstellung setzt den Schwellenwert fest bei dem ein Knopfdruck als lang gedrückt oder als einfach gedrückt gilt.\nAbhängig von Abstand zwischen Homey und dem Schalter muss dieser Schwellenwert \n erhöht werden, um die Latenz zu kompensieren.\nAlternativ kann dieser Schwellenwert herabgesetzt werden, um schnellere Reaktionszeiten zu erreichen.\nStandardeinstellung: 1000ms\nEinstellungsbereich: 300 - 5000 ms"
       },
       "value": 1000,
       "attr": {

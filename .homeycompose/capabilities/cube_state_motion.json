@@ -4,7 +4,8 @@
   "icon": "/assets/capabilities/cube_icon.svg",
   "title": {
     "en": "Motion",
-    "nl": "Beweging"
+    "nl": "Beweging",
+    "de": "Bewegung"
   },
   "getable": true,
   "setable": false,
@@ -13,49 +14,56 @@
       "id": "Shake",
       "title": {
         "en": "Shake",
-        "nl": "Schudden"
+        "nl": "Schudden",
+        "de": "Schütteln"
       }
     },
     {
       "id": "Flip90",
       "title": {
         "en": "Flip 90°",
-        "nl": "Flip 90°"
+        "nl": "Flip 90°",
+        "de": "90° Drehung"
       }
     },
     {
       "id": "Flip180",
       "title": {
         "en": "Flip 180°",
-        "nl": "Flip 180°"
+        "nl": "Flip 180°",
+        "de": "180° Drehung"
       }
     },
     {
       "id": "Slide",
       "title": {
         "en": "Slide",
-        "nl": "Schuiven"
+        "nl": "Schuiven",
+        "de": "Schieben"
       }
     },
     {
       "id": "DoubleTap",
       "title": {
         "en": "Double tap",
-        "nl": "Kloppen"
+        "nl": "Kloppen",
+        "de": "Doppelt tippen"
       }
     },
     {
       "id": "Rotate",
       "title": {
         "en": "Rotate",
-        "nl": "Roteren"
+        "nl": "Roteren",
+        "de": "Drehen"
       }
     },
     {
       "id": "Catch",
       "title": {
         "en": "Catch",
-        "nl": "Vangen"
+        "nl": "Vangen",
+        "de": "Fangen"
       }
     }
   ]

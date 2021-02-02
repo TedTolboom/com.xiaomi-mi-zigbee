@@ -3,7 +3,7 @@
   "name": {
     "en": "Aqara Wall Switch Double (LN)",
     "nl": "Aqara Wall Switch Double (LN)",
-    "de": "Aqara Wall Switch Double (LN)"
+    "de": "Aqara Wandschalter Double (LN)"
   },
   "class": "socket",
   "capabilities": [
@@ -109,7 +109,7 @@
       "instruction": {
         "en": "Press and hold any of the switch button for more than 5 seconds until the blue light flashes three times after release",
         "nl": "Press and hold any of the switch button for more than 5 seconds until the blue light flashes three times after release",
-        "de": "Drücke einen beliebigen Knopf länger als 5 Sekunden. Nach dem los lassen blinkt das blaue Licht 3 Mal."
+        "de": "Drücke einen beliebigen Knopf länger als 5 Sekunden. Nach dem Loslassen sollte das rote Licht 3 Mal blinken"
       }
     }
   },

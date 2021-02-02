@@ -2,7 +2,7 @@
   "name": {
     "en": "Aqara Curtain Controller",
     "nl": "Aqara Curtain Controller",
-    "de": "Aqara Curtain Controller"
+    "de": "Aqara Vorhangsteuerung"
   },
   "class": "curtain",
   "capabilities": [
@@ -13,7 +13,8 @@
   "capabilitiesOptions": {
     "onoff": {
       "title": {
-        "en": "Curtain open"
+        "en": "Curtain open",
+        "de": "Vorhang auf"
       }
     }
   },
@@ -39,7 +40,7 @@
       "instruction": {
         "en": "Long-press the reset key for more than 5 seconds and then release it when the blue light it turned on",
         "nl": "Long-press the reset key for more than 5 seconds and then release it when the blue light it turned on",
-        "de": "Drücke den Reset Knopf mehr als 5 Sekunden und lasse ihn los sobald das blaue Licht an geht."
+        "de": "Halte den Reset Knopf mehr als 5 Sekunden lang gedrückt und lasse diesen los wenn das blaue Licht angeht."
       }
     }
   },

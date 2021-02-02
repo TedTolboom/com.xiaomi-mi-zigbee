@@ -2,7 +2,7 @@
   "name": {
     "en": "Smart socket plug",
     "nl": "Smart socket plug",
-    "de": "Smart socket plug"
+    "de": "Smarte Steckdose"
   },
   "class": "socket",
   "capabilities": [

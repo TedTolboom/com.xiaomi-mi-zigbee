@@ -4,21 +4,25 @@
   "icon": "/assets/capabilities/alarm_drop.svg",
   "title": {
     "en": "Drop Alarm",
-    "nl": "Valalarm"
+    "nl": "Valalarm",
+    "de": "Sturzalarm"
   },
   "desc": {
     "en": "Detected drop motion",
-    "nl": "Gedetecteerde val beweging"
+    "nl": "Gedetecteerde val beweging",
+    "de": "Sturz erkannt"
   },
   "getable": true,
   "setable": false,
   "insights": true,
   "insightsTitleTrue": {
     "en": "Drop alarm turned on",
-    "nl": "Val alarm ging af"
+    "nl": "Val alarm ging af",
+    "de": "Sturzalarm wurde ausgelöst"
   },
   "insightsTitleFalse": {
     "en": "Drop alarm turned off",
-    "nl": "Val alarm ging uit"
+    "nl": "Val alarm ging uit",
+    "de": "Sturzalarm wurde ausgeschaltet"
   }
 }

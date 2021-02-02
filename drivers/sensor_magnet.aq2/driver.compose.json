@@ -1,6 +1,7 @@
 {
   "name": {
-    "en": "Aqara Door and Window Sensor"
+    "en": "Aqara Door and Window Sensor",
+    "de": "Aqara Tür- und Fenstersensor"
   },
   "class": "sensor",
   "capabilities": [
@@ -29,7 +30,7 @@
       "instruction": {
         "en": "Hold the sensor during inclusion in close proximity of Homey\nLong press the reset button for more than 3 seconds until the blue light flashes three times",
         "nl": "Houd tijdens het toevoegen de sensor in de buurt van Homey\nHoud de reset knop ingedrukt voor meer dan 3 seconden totdat de blauwe led drie keer knippert",
-        "de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt"
+        "de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 3 Sekunden lang gedrückt bis das blaue Licht 3 Mal blinkt"
       }
     }
   },

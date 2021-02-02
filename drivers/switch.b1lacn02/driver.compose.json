@@ -2,7 +2,7 @@
   "name": {
     "en": "Aqara D1 Wall Switch Single (L)",
     "nl": "Aqara D1 Wall Switch Single (L)",
-    "de": "Aqara D1 Wall Switch Single (L)"
+    "de": "Aqara D1 Wandschalter Single (L)"
   },
   "class": "socket",
   "capabilities": [
@@ -33,7 +33,7 @@
       "instruction": {
         "en": "Press and hold any of the switch button for more than 8 seconds until the blue light flashes three times after release",
         "nl": "Press and hold any of the switch button for more than 8 seconds until the blue light flashes three times after release",
-        "de": "Drücke einen beliebigen Knopf länger als 8 Sekunden. Nach dem los lassen blinkt das blaue Licht 3 Mal."
+        "de": "Drücke einen beliebigen Knopf länger als 8 Sekunden lang. Nach dem Loslassen sollte das rote Licht 3 Mal blinken."
       }
     }
   },

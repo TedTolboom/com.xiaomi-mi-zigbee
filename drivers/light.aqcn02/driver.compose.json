@@ -2,7 +2,7 @@
   "name": {
     "en": "Aqara LED Bulb",
     "nl": "Aqara LED Bulb",
-    "de": "Aqara LED Bulb"
+    "de": "Aqara LED Lampe"
   },
   "class": "light",
   "capabilities": [
@@ -56,7 +56,7 @@
       "instruction": {
         "en": "Toggle the bulb on/off 5 times until the bulb blinks twice quickly to start pairing.",
         "nl": "Zet, om de lamp toe te voegen, de lamp 5 keer achter elkaar uit en weer aan totdat de lamp twee keer snel knippert.",
-        "de": "Schalte die Lampe 5 mal an und aus bis die Lampe 2 mal schnell hintereinander blinkt"
+        "de": "Schalte die Lampe 5 Mal an und aus bis diese 2 Mal schnell hintereinander blinkt"
       }
     }
   },

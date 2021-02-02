@@ -4,21 +4,25 @@
   "icon": "/assets/capabilities/alarm_gas.svg",
   "title": {
     "en": "Gas Alarm",
-    "nl": "Gas salarm"
+    "nl": "Gas salarm",
+    "de": "Gas-Warner"
   },
   "desc": {
     "en": "True when gas has been detected",
-    "nl": "Gaat af als er gas gedetecteerd wordt"
+    "nl": "Gaat af als er gas gedetecteerd wordt",
+    "de": "Meldet, wenn Gas erkannt wird"
   },
   "getable": true,
   "setable": false,
   "insights": true,
   "insightsTitleTrue": {
     "en": "Gas alarm turned on",
-    "nl": "Gas alarm ging af"
+    "nl": "Gas alarm ging af",
+    "de": "Gasalarm wurde ausgelöst"
   },
   "insightsTitleFalse": {
     "en": "Gas alarm turned off",
-    "nl": "Gas alarm ging uit"
+    "nl": "Gas alarm ging uit",
+    "de": "Gasalarm wurde ausgeschaltet"
   }
 }

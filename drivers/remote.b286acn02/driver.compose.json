@@ -1,6 +1,7 @@
 {
   "name": {
-    "en": "Aqara D1 Wireless Switch Double"
+    "en": "Aqara D1 Wireless Switch Double",
+    "de": "Aqara D1 Wireless Switch Double"
   },
   "class": "sensor",
   "capabilities": ["measure_battery", "alarm_battery"],
@@ -35,7 +36,7 @@
       "instruction": {
         "en": "Long press any of the buttons for more than 10 seconds until the blue light flashes three times after release",
         "nl": "Houd een van de knoppen ingedrukt voor meer dan 10 seconden totdat de blauwe led drie keer knippert",
-        "de": "Drücke den Knopf länger als 10 Sekunden. Nach dem los lassen blinkt das blaue Licht 3 Mal."
+        "de": "Drücke den Knopf länger als 10 Sekunden lang. Nach dem Loslassen sollte das blaue Licht 3 Mal blinken."
       }
     }
   },

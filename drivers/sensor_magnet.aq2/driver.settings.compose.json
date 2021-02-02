@@ -3,7 +3,8 @@
     "type": "group",
     "label": {
       "en": "Expert settings",
-      "nl": "Expert instellingen"
+      "nl": "Expert instellingen",
+      "de": "Experteneinstellungen"
     },
     "collapsed": true,
     "children": [
@@ -16,7 +17,8 @@
         },
         "hint": {
           "en": "Reverse the contact alarm logic: magnet closed = alarm activated, magnet opened = alarm deactivated.",
-          "nl": "Keer de alarm logic om: magneet gesloten = alarm geactiveerd, magneet geopened = alarm gedeactiveerd."
+          "nl": "Keer de alarm logic om: magneet gesloten = alarm geactiveerd, magneet geopened = alarm gedeactiveerd.",
+          "de": "Verändert die Alarmlogik: Magnet geschlossen = Alarm wird aktiviert, Magnet geöffnet = Alarm wird deaktiviert"
         }
       }
     ]

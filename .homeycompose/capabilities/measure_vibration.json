@@ -4,7 +4,8 @@
   "icon": "/assets/capabilities/measure_vibration.svg",
   "title": {
     "en": "Vibration",
-    "nl": "Trilling"
+    "nl": "Trilling",
+    "de": "Vibration"
   },
   "getable": true,
   "setable": false,

@@ -2,7 +2,8 @@
 	"id": "sensor_smoke",
 	"name": {
 		"en": "Xiaomi Honeywell smoke detector",
-		"nl": "Xiaomi Honeywell rookmelder"
+		"nl": "Xiaomi Honeywell rookmelder",
+    "de": "Xiaomi Honeywell Rauchmelder"
 	},
 	"class": "sensor",
 	"capabilities": [
@@ -35,7 +36,8 @@
 			"image": "{{driverAssetsPath}}/learn.svg",
 			"instruction": {
 				"en": "Press the button on your smoke detector three times",
-        "nl": "Druk driemaal op de knop op de rookmelder"
+        "nl": "Druk driemaal op de knop op de rookmelder",
+        "de": "Drücke den Knopf am Rauchmelder 3 Mal"
 			}
 		}
 	},

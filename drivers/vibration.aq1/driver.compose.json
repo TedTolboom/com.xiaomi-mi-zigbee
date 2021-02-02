@@ -1,7 +1,8 @@
 {
   "name": {
     "en": "Aqara Vibration Sensor",
-    "nl": "Aqara Vibration Sensor"
+    "nl": "Aqara Vibration Sensor",
+    "de": "Aqara Vibrationssensor"
   },
   "class": "sensor",
   "capabilities": [
@@ -47,7 +48,7 @@
       "instruction": {
         "en": "Hold the sensor in close proximity of Homey\nLong press the reset button for more than 5 seconds until the blue light flashes three times",
         "nl": "Houd tijdens het toevoegen de sensor in de buurt van Homey\nHoud de reset knop ingedrukt voor meer dan 5 seconden totdat de blauwe led drie keer knippert",
-        "de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 5 Sekunden bis das blaue Licht 3 mal blinkt"
+        "de": "Halte den Sensor nah an Homey während du ihn anlernst\nHalte den Reset Knopf mehr als 5 Sekunden lang gedrückt bis das blaue Licht 3 Mal blinkt"
       }
     }
   },
@@ -166,11 +167,13 @@
       "type": "number",
       "label": {
         "en": "Battery alarm threshold (%)",
-        "nl": "Batterij alarm waarde (%)"
+        "nl": "Batterij alarm waarde (%)",
+        "de": "Batteriewarnung bei (%)"
       },
       "hint": {
         "en": "Battery level (%) below which the battery alarm will be activated.\nRange: 1 - 90, \ndefault: 20 [%]",
-        "nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]"
+        "nl": "Battery niveau (%) waarbij het batterij alarm geactiveerd wordt.\nBereik: 1 - 90, \nstandaard: 20 [%]",
+        "de": "Batteriestand (in %), bei dem eine Warnung erfolgt. \nEinstellungsbereich: 1 - 90, \nStandardeinstellung: 20 [%]"
       },
       "value": 20,
       "attr": {

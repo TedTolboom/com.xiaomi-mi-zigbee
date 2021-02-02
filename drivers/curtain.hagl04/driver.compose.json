@@ -2,7 +2,7 @@
   "name": {
     "en": "Aqara B1 Curtain Controller",
     "nl": "Aqara B1 Curtain Controller",
-    "de": "Aqara B1 Curtain Controller"
+    "de": "Aqara B1 Vorhangsteuerung"
   },
   "class": "curtain",
   "capabilities": [
@@ -50,7 +50,7 @@
       "instruction": {
         "en": "Long-press the reset key for more than 5 seconds and then release it when the blue light it turned on",
         "nl": "Long-press the reset key for more than 5 seconds and then release it when the blue light it turned on",
-        "de": "Drücke den Reset Knopf mehr als 5 Sekunden und lasse ihn los sobald das blaue Licht an geht."
+        "de": "Halte den Reset Knopf mehr als 5 Sekunden lang gedrückt und lasse diesen los wenn das blaue Licht angeht."
       }
     }
   },

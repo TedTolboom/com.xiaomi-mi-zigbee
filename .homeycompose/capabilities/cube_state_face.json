@@ -4,7 +4,8 @@
   "icon": "/assets/capabilities/cube_face.svg",
   "title": {
     "en": "Face up",
-    "nl": "Zijde boven"
+    "nl": "Zijde boven",
+    "de": "Oberseite"
   },
   "getable": true,
   "setable": false,
@@ -13,42 +14,48 @@
       "id": "1",
       "title": {
         "en": "Face 1",
-        "nl": "Zijde 1"
+        "nl": "Zijde 1",
+        "de": "Seite 1"
       }
     },
     {
       "id": "2",
       "title": {
         "en": "Face 2",
-        "nl": "Zijde 2"
+        "nl": "Zijde 2",
+        "de": "Seite 2"
       }
     },
     {
       "id": "3",
       "title": {
         "en": "Face 3",
-        "nl": "Zijde 3"
+        "nl": "Zijde 3",
+        "de": "Seite 3"
       }
     },
     {
       "id": "4",
       "title": {
         "en": "Face 4",
-        "nl": "Zijde 4"
+        "nl": "Zijde 4",
+        "de": "Seite 4"
       }
     },
     {
       "id": "5",
       "title": {
         "en": "Face 5",
-        "nl": "Zijde 5"
+        "nl": "Zijde 5",
+        "de": "Seite 5"
       }
     },
     {
       "id": "6",
       "title": {
         "en": "Face 6",
-        "nl": "Zijde 6"
+        "nl": "Zijde 6",
+        "de": "Seite 6"
       }
     }
   ]

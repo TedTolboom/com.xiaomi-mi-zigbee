@@ -2,7 +2,8 @@
 	"id": "sensor_natgas",
 	"name": {
 		"en": "Xiaomi Honeywell natural gas detector",
-		"nl": "Xiaomi Honeywell gas melder"
+		"nl": "Xiaomi Honeywell gas melder",
+    "de": "Xiaomi Honeywell Gasmelder"
 	},
 	"class": "sensor",
 	"capabilities": [
@@ -34,7 +35,8 @@
 			"image": "{{driverAssetsPath}}/learn.svg",
 			"instruction": {
 				"en": "Press the button on your natural gas detector three times",
-				"nl": "Druk driemaal op de knop op de gasmelder"
+				"nl": "Druk driemaal op de knop op de gasmelder",
+        "de": "Drücke den Knopf am Gasmelder 3 Mal"
 			}
 		}
 	},

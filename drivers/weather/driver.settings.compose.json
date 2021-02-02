@@ -4,7 +4,8 @@
     "type": "number",
     "label": {
       "en": "Temperature offset (°C)",
-      "nl": "Temperatuur compensatie (°C)"
+      "nl": "Temperatuur compensatie (°C)",
+      "de": "Temperatur Offset (°C)"
     },
     "hint": {
       "en": "Set a correction to compensate a temperature offset.\nRange: -10 - 10, step size 0.1, \ndefault: 0 [°C]",
@@ -25,20 +26,23 @@
     "id": "temperature_decimals",
     "type": "radio",
     "label": {
-      "en": "Temperature reporting"
+      "en": "Temperature reporting",
+      "de": "Temperaturanzeige"
     },
     "value": "1",
     "values": [
       {
         "id": "1",
         "label": {
-          "en": "Report temperature value with 1 decimal (22.1 °C)"
+          "en": "Report temperature value with 1 decimal (22.1 °C)",
+          "de": "Temeratur wird mit 1 Nachkommastelle angezeigt (Bsp. 22,1 °C)"
         }
       },
       {
         "id": "2",
         "label": {
-          "en": "Report temperature value with 2 decimals (22.07 °C)"
+          "en": "Report temperature value with 2 decimals (22.07 °C)",
+          "de": "Temeratur wird mit 2 Nachkommastellen angezeigt (Bsp. 22,07 °C)"
         }
       }
     ]
@@ -48,7 +52,8 @@
     "type": "number",
     "label": {
       "en": "Humidity offset (%)",
-      "nl": "Luchtvochtigheids compensatie (%)"
+      "nl": "Luchtvochtigheids compensatie (%)",
+      "de": "Offset Luftfeuchtigkeit (%)"
     },
     "hint": {
       "en": "Set a correction to compensate a humidity offset.\nRange: -10 - 10, step size 1, \ndefault: 0 [%]",
@@ -69,20 +74,23 @@
     "id": "humidity_decimals",
     "type": "radio",
     "label": {
-      "en": "Humidity reporting"
+      "en": "Humidity reporting",
+      "de": "Luftfeuchtigkeitsanzeige"
     },
     "value": "1",
     "values": [
       {
         "id": "1",
         "label": {
-          "en": "Report humidity value with 1 decimal (65.3 %)"
+          "en": "Report humidity value with 1 decimal (65.3 %)",
+          "de": "Luftfeuchtigkeit wird mit 1 Nachkommastelle angezeigt (Bsp. 65,3 °C)"
         }
       },
       {
         "id": "2",
         "label": {
-          "en": "Report humidity value with 2 decimals (65.34 %)"
+          "en": "Report humidity value with 2 decimals (65.34 %)",
+          "de": "Temeratur wird mit 2 Nachkommastellen angezeigt (Bsp. 65,34 °C)"
         }
       }
     ]
@@ -92,7 +100,8 @@
     "type": "number",
     "label": {
       "en": "Pressure offset (mbar)",
-      "nl": "Druk compensatie (mbar)"
+      "nl": "Druk compensatie (mbar)",
+      "de": "Luftdruck Offset (mbar)"
     },
     "hint": {
       "en": "Set a correction to compensate a pressure offset.\nRange: -100 - 100, step size 1, \ndefault: 0 [mbar]",
@@ -106,7 +115,8 @@
     },
     "units": {
        "en": "mbar",
-       "nl": "mbar"
+       "nl": "mbar",
+       "de": "mbar"
     }
   }
 ]

@@ -2,7 +2,7 @@
   "name": {
     "en": "Aqara | Opple Switch - 4 button",
     "nl": "Aqara | Opple Schakelaar - 4 knoppen",
-    "de": "Aqara | Opple Switch - 4 button"
+    "de": "Aqara | Opple Switch - 4 Tasten"
   },
   "class": "sensor",
   "capabilities": [
@@ -70,7 +70,7 @@
       "instruction": {
         "en": "Long press the reset button for more 15 seconds until the blue light flashes the second time (!) three times",
         "nl": "Houd de reset knop ingedrukt voor meer dan 15 seconden totdat de blauwe led voor de tweede keer (!) drie keer knippert",
-        "de": "Drücken Sie die Reset-Taste noch 15 Sekunden lang, bis das blaue Licht das zweite Mal (!) dreimal blinkt"
+        "de": "Halte die Reset-Taste 15 Sekunden lang gedrückt, bis das blaue Licht das zweite Mal (!) dreimal blinkt"
       }
     }
   },

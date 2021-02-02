@@ -53,7 +53,7 @@
       "instruction": {
         "en": "Press and hold the reset button for more than 5 seconds until the blue light flashes three times after release",
         "nl": "Press and hold the reset button for more than 5 seconds until the blue light flashes three times after release",
-        "de": "Drücke einen beliebigen Knopf länger als 5 Sekunden. Nach dem los lassen blinkt das blaue Licht 3 Mal."
+        "de": "Drücke einen beliebigen Knopf länger als 5 Sekunden lang. Nach dem Loslassen sollte das blaue Licht 3 Mal blinken."
       }
     },
     "devices": {

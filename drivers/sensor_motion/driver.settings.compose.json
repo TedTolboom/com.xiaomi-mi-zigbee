@@ -4,11 +4,13 @@
     "type": "number",
     "label": {
       "en": "Disable motion alarm after",
-      "nl": "Schakel bewegingsalarm uit na"
+      "nl": "Schakel bewegingsalarm uit na",
+      "de": "Bewegungsalarm zurücksetzen nach"
     },
     "hint": {
       "en": "This setting will disable the motion alarm after the given time (in seconds) has expired after the last motion has been detected. Every time motion is observed by the device it will reset this timeout.\nRange: 60 - 86400, default: 300 [s]",
-      "nl": "Deze instelling zal het bewegingsalarm uitschakelen na de tijd (in seconden), na de laatste beweging gedetecteerd is, is verstreken. Elke keer dat opnieuw beweging wordt gedetecteerd wordt deze timer herstart.\nBereik: 60 - 86400, Standaard: 300 [s]"
+      "nl": "Deze instelling zal het bewegingsalarm uitschakelen na de tijd (in seconden), na de laatste beweging gedetecteerd is, is verstreken. Elke keer dat opnieuw beweging wordt gedetecteerd wordt deze timer herstart.\nBereik: 60 - 86400, Standaard: 300 [s]",
+      "de": "Diese Einstellung setzt den Bewegungsalarm nach einer gewissen Zeit (in Sekunden) zurück. Jedes Mal, wenn eine Bewegung erkannt wird, wird dieser Timer zurückgesetzt.\nEinstellungsbereich: 60 - 86400, Standardeinstellung: 300 [s]"
     },
     "value": 300,
     "attr": {
@@ -20,7 +22,8 @@
     "type": "group",
     "label": {
       "en": "Expert settings",
-      "nl": "Expert instellingen"
+      "nl": "Expert instellingen",
+      "de": "Experteneinstellungen"
     },
     "collapsed": true,
     "children": [
@@ -29,11 +32,19 @@
         "type": "checkbox",
         "value": false,
         "label": {
-          "en": "Hacked sensor"
+          "en": "Hacked sensor",
+          "de": "modifizierter Sensor"
         },
         "hint": {
           "en": "By soldering two contact points on the PCB it's possible to reduce the motion blind time to 5 seconds instead of the minimum 60 seconds. Enabling this setting will allow you to override the minimum of 60 seconds for cancelling the alarm and will set it to 5 seconds.",
-          "nl": "Door twee contactpunten op de printplaat te solderen is het mogelijk om de blindtijd van de sensor terug te brengen naar 5 seconden. Inschakelen van deze instelling maakt het mogelijk om de instelling voor het annuleren van de bewegingsmelder te overschrijven tot 5 seconden."
+          "nl": "Door twee contactpunten op de printplaat te solderen is het mogelijk om de blindtijd van de sensor terug te brengen naar 5 seconden. Inschakelen van deze instelling maakt het mogelijk om de instelling voor het annuleren van de bewegingsmelder te overschrijven tot 5 seconden.",
+          "de": "Wenn auf der Platine eine Brücke zwischen zwei bestimmtem Lötpunkten gezogen wird, kann der Sensor alle 5 Sekunden eine neue Bewegung registrieren. Ohne Modifikation kann der Sensor nur alle 60 Sekunden eine neue Bewegung registrieren. Diese Einstellung setzt den Timer zum Zurücksetzen des Bewegungsalarms auf 5 Sekunden"
+        }
+      }
+    ]
+  }
+]
+
         }
       }
     ]

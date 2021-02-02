@@ -4,13 +4,15 @@
   "icon": "/assets/capabilities/cube_rotate.svg",
   "title": {
     "en": "Rotation",
-    "nl": "Draaihoek"
+    "nl": "Draaihoek",
+    "de": "Drehung"
   },
   "getable": true,
   "setable": false,
   "insights": true,
   "units": {
-    "en": "°"
+    "en": "°",
+    "de": "°"
   },
   "decimals": 2
 }

@@ -2,7 +2,7 @@
   "name": {
     "en": "Aqara D1 Wall Switch Tripple (LN) - Left",
     "nl": "Aqara D1 Wall Switch Tripple (LN) - Links",
-    "de": "Aqara D1 Wall Switch Tripple (LN) - Links"
+    "de": "Aqara D1 Wandschalter Tripple (LN) - Links"
   },
   "class": "socket",
   "capabilities": [
@@ -67,7 +67,7 @@
       "instruction": {
         "en": "Press and hold any of the switch button for more than 5 seconds until the blue light flashes three times after release",
         "nl": "Press and hold any of the switch button for more than 5 seconds until the blue light flashes three times after release",
-        "de": "Drücke einen beliebigen Knopf länger als 5 Sekunden. Nach dem los lassen blinkt das blaue Licht 3 Mal."
+        "de": "Drücke einen beliebigen Knopf länger als 5 Sekunden lang. Nach dem Loslassen sollte das rote Licht 3 Mal blinken."
       }
     },
     "devices": {
@@ -76,7 +76,7 @@
         "name": {
           "en": "Aqara D1 Wall Switch Tripple (LN) - Middle",
           "nl": "Aqara D1 Wall Switch Tripple (LN) - Middel",
-          "de": "Aqara D1 Wall Switch Tripple (LN) - Mitte"
+          "de": "Aqara D1 WandschalterTripple (LN) - Mitte"
         },
         "settings": []
       },
@@ -85,7 +85,7 @@
         "name": {
           "en": "Aqara D1 Wall Switch Tripple (LN) - Right",
           "nl": "Aqara D1 Wall Switch Tripple (LN) - Rechts",
-          "de": "Aqara D1 Wall Switch Tripple (LN) - Rechts"
+          "de": "Aqara D1 Wandschalter Tripple (LN) - Rechts"
         },
         "settings": []
       }
