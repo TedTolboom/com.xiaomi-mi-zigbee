@@ -1,0 +1,16 @@
+{
+  "id": "alarm_state_changed",
+  "title": {
+    "en": "Alarm state changed",
+    "nl": "Alarm status veranderd",
+    "de": ""
+  },
+  "args": [
+    {
+      "name": "device",
+      "type": "device",
+      "filter": "driver_id=sensor_magnet"
+    }
+  ],
+  "tokens": []
+}

@@ -3,6 +3,7 @@
 module.exports = {
 	get: 'SENSOR_MULTILEVEL_GET',
 	getOpts: {
+		// TODO: We should not assume that `getOnOnline` is necessary/safe for all devices
 		getOnOnline: true,
 		getOnStart: true,
 	},

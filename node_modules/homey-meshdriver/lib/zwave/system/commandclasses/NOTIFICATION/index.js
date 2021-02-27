@@ -22,6 +22,8 @@ module.exports = payload => {
 			name = events[eventNotificationType][eventCode].pull;
 		}
 
+		payload['Event (Parsed)'] = name;
+		// Not sure why this exists, we use "Event (Parsed)" and they are the same
 		payload['Event (Parsed 2)'] = name;
 	}
 

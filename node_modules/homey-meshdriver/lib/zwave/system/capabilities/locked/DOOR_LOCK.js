@@ -3,6 +3,7 @@
 module.exports = {
 	get: 'DOOR_LOCK_OPERATION_GET',
 	getOpts: {
+		// TODO: We should not assume that `getOnOnline` is necessary/safe for all devices
 		getOnOnline: true,
 	},
 	set: 'DOOR_LOCK_OPERATION_SET',

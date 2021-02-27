@@ -7,6 +7,7 @@
 module.exports = {
 	get: 'BATTERY_GET',
 	getOpts: {
+		// TODO: We should not assume that `getOnOnline` is necessary/safe for all devices
 		getOnOnline: true,
 	},
 	report: 'BATTERY_REPORT',

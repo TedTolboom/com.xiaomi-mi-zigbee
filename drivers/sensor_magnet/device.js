@@ -1,6 +1,7 @@
 'use strict';
 
 const { ZigBeeDevice } = require('homey-meshdriver');
+const Homey = require('homey');
 
 class XiaomiDoorWindowSensor extends ZigBeeDevice {
 
@@ -29,6 +30,13 @@ class XiaomiDoorWindowSensor extends ZigBeeDevice {
     const parsedData = !reverseAlarmLogic ? data === 1 : data === 0;
     this.log(`alarm_contact -> ${parsedData}`);
     this.setCapabilityValue('alarm_contact', parsedData);
+
+    let changeStateTrigger = new Homey.FlowCardTriggerDevice('alarm_state_changed');
+    changeStateTrigger
+    .register()
+    .trigger(this)
+    .catch( this.error )
+    .then( this.log )
   }
 
 }
@@ -68,7 +76,6 @@ Node overview
 2017-10-21 00:55:34 [log] [ManagerDrivers] [sensor_magnet] [0] ---- cid : manuSpecificCluster
 2017-10-21 00:55:34 [log] [ManagerDrivers] [sensor_magnet] [0] ---- sid : attrs
 2017-10-21 00:55:34 [log] [ManagerDrivers] [sensor_magnet] [0] ------------------------------------------
-
 65281 - 0xFF01 report:
 Not reported
 */

@@ -5,7 +5,7 @@
 	"main": "app.js",
 	"dependencies": {
 		"git-branch": "^1.0.0",
-		"homey-meshdriver": "^1.3.24"
+		"homey-meshdriver": "^2.0.2"
 	},
 	"devDependencies": {
 		"eslint": "^6.8.0",

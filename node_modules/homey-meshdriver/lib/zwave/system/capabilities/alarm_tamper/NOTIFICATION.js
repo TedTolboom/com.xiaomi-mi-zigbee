@@ -2,9 +2,6 @@
 
 module.exports = {
 	get: 'NOTIFICATION_GET',
-	getOpts: {
-		getOnOnline: true,
-	},
 	getParser: () => ({
 		'V1 Alarm Type': 0,
 		Event: 3,

@@ -26,9 +26,10 @@ class FibaroPlugDevice extends ZwaveDevice {
 		// capability handler
 		this.registerCapability('onoff', 'SWITCH_BINARY', {
 			getOpts: {
+				// Only use these options when a device doesn't automatically report its values
 				getOnStart: true, // get the initial value on app start (only use for non-battery devices)
-				pollInterval: 'poll_interval', // maps to device settings
 				// getOnOnline: true, // use only for battery devices
+				pollInterval: 'poll_interval', // maps to device settings
 			},
 			getParserV3: (value, opts) => ({}),
 		});
